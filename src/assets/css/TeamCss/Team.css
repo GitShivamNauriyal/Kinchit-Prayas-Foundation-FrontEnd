@@ -1,0 +1,234 @@
+.Founder-page-master {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden; /* Prevent any overflow from children */
+}
+
+.Founder-Page-banner {
+    margin-top: 6.6rem;
+    width: 100%;
+    height: 34rem;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(45deg, #3498dbc7, #8d44adad, #3498dbae),
+        url("../../../Image/OurTeam/banner.jpg");
+    background-position: center;
+    align-items: center;
+    overflow: hidden;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Founder-Page-banner h1 {
+    color: #fff;
+    letter-spacing: 0.2px;
+    font-size: 4.5rem;
+}
+.founder1-content-1-wrapper {
+    margin: auto;
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    place-items: center;
+    padding: 4rem 0;
+}
+
+.founder1-content-1-wrapper > .founder-image {
+    max-width: 27rem;
+    aspect-ratio: 27/37;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    overflow: hidden;
+}
+.founder1-content-1-wrapper > .founder-image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Founder-description {
+    max-width: 600px;
+    padding: 20px 40px 20px 0;
+}
+
+.Founder-description p {
+    font-size: 19px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.Founder-description p span.quote {
+    color: #ff6600;
+    font-style: italic;
+    font-size: 30px;
+}
+.name-desg {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.name-desg-Chairman {
+    justify-content: flex-end;
+    align-items: end;
+}
+.name-desg h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.name-desg h3 {
+    font-size: 16px;
+    margin-top: 0;
+    color: #666;
+}
+
+.Director-content2-wrapper {
+    margin: auto;
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    place-items: center;
+    padding: 4rem 0;
+}
+.Director-content2-wrapper > .Director-image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Director-content2-wrapper > .Director-image {
+    max-height: 25rem;
+    aspect-ratio: 37/25;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.Director-description {
+    max-width: 600px;
+    padding: 20px 0 20px 40px;
+}
+
+.Director-description p span.quote {
+    color: #ff00f7;
+}
+.Director-description p {
+    font-size: 19px;
+    line-height: 1.5;
+    text-align: justify;
+}
+/*--------------------------------------------------*/
+@media screen and (max-width: 1050px) {
+    .Founder-page-master {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .founder1-content-1-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .Founder-description {
+        padding: 20px;
+    }
+    .Director-content2-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .Director-image {
+        grid-row: 1;
+    }
+    .Director-description {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .Founder-Page-banner {
+        margin-top: 5.5rem;
+        height: 24rem;
+        background-attachment: local;
+    }
+    .Founder-Page-banner h1 {
+        letter-spacing: 0.2px;
+        font-size: 3.5rem;
+    }
+    .Founder-description p {
+        font-size: 17px;
+        line-height: 1.4;
+        text-align: justify;
+    }
+    .Director-description p {
+        font-size: 17px;
+        line-height: 1.4;
+        text-align: justify;
+    }
+}
+@media screen and (max-width: 500px) {
+    .Founder-Page-banner {
+        height: 14rem;
+    }
+    .Founder-Page-banner h1 {
+        letter-spacing: 0.2px;
+        font-size: 2.4rem;
+    }
+    .Director-content2-wrapper {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+/* @media screen and (max-width: 600px) {
+    .Founder-Page-banner {
+        height: 16rem;
+
+        background-position: left;
+    }
+    .Founder-Page-banner h1 {
+        font-size: 2.5rem;
+    }
+    .founder1-content-1-wrapper {
+        grid-template-columns: 1fr;
+        margin: 0;
+        gap: 20px;
+        place-items: center;
+        padding: 30px 10px;
+    }
+
+    .founder1-content-1-wrapper > .founder-image {
+        width: 20rem;
+        height: 100%;
+    }
+
+    .Founder-description p {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .name-desg-Chairman {
+        padding: 10px;
+    }
+    .Director-content2-wrapper {
+        grid-template-columns: 1fr;
+        margin: 0;
+        gap: 20px;
+        place-items: center;
+        padding: 30px 10px;
+    }
+    .Director-content2-wrapper > .Director-image {
+        grid-row: 1/2;
+        max-width: 22rem;
+        height: 25rem;
+        padding: 0.9rem;
+    }
+    .name-desg-Director {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+} */

@@ -1,0 +1,93 @@
+.Affilation {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.Affilation-Logo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 2.5rem 4rem;
+    margin: 1.5rem 2rem;
+    place-items: center;
+}
+
+.Affilation-Logo-Container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+    gap: 10px;
+    transition: all ease 0.4s;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16rem;
+    height: 16rem;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.Affilation-logo1 {
+    background-color: #d1e7ec;
+}
+
+.Affilation-logo2 {
+    background-color: #d1e7ec;
+}
+
+.Affilation-logo3 {
+    background-color: #d1e7ec;
+}
+.logo-container img {
+    width: 90%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.inner-container {
+    overflow: hidden;
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50%;
+}
+
+.innerLogo1 {
+    background-color: #3d759a;
+}
+
+.innerLogo2 {
+    background-color: #8bc7ee;
+}
+
+.innerLogo3 {
+    background-color: #3d759a;
+}
+
+.Logo-description p {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color: #0b3269;
+    /*#2C5364*/
+}
+
+.Affilation-Logo-Container .Logo-description {
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+    position: relative;
+
+    overflow: visible;
+    display: none;
+}
+
+/* .Affilation-Logo-Container:hover .Logo-description {
+  display: block;
+} */
+/* .logo-container:hover {
+  width: 13.4rem;
+  height: 13.4rem;
+} */

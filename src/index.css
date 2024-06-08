@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* overflow-x: hidden; */
+    font-family: "Nunito", sans-serif;
+}
+/* index.css */
+html,
+body,
+#root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* index.css */
+body {
+    overflow-x: hidden; /* Ensure no horizontal scrolling */
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden; /* Prevent any overflow from children */
+}
+
+/* p {
+    font-weight: 500;
+} */
+a {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+/*****************************************************/
+/* Hide the default scrollbar */
+body::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+    background: #eee; /* Set the background color of the scrollbar track */
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    border: 2px solid #eee;
+    background: #555; /* Set the color of the scrollbar handle */
+    border-radius: 8px; /* Add some border-radius for a rounded handle */
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: #333; /* Set the color of the scrollbar handle on hover */
+}
+
+/* Button (up and down arrows) */
+body::-webkit-scrollbar-button {
+    display: none; /* Hide the scrollbar buttons */
+}
+
+/* Corner */
+body::-webkit-scrollbar-corner {
+    background: #f1f1f1; /* Set the background color of the scrollbar corner */
+}
+/*******************************************************/

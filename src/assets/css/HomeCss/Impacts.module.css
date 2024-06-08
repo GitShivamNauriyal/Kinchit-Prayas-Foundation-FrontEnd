@@ -1,0 +1,212 @@
+.impactsSection {
+    background-color: rgb(80, 80, 80);
+    color: aliceblue;
+    position: relative;
+}
+
+.impactsGrid {
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: visible;
+}
+
+.impactsContent {
+    padding: 40px;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+}
+
+.impactsContent ul {
+    overflow: visible;
+}
+
+.impactsContentHeading {
+    cursor: default;
+    background: linear-gradient(90deg, #20b1f0, #f02fd9);
+    color: transparent;
+    background-clip: text;
+    display: inline-block;
+    /* This is important to make the gradient work */
+    font-size: 4.2em;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px rgba(147, 145, 145, 0.067);
+    margin-bottom: 20px;
+}
+
+.impactList li {
+    overflow: visible;
+}
+
+.impactItem {
+    overflow: visible;
+    cursor: default;
+    line-height: 2.5; /*gap between elements*/
+    /* margin-bottom: 10px; */
+    display: flex;
+    font-weight: 500;
+    font-size: 1.7rem; /*font size of elements*/
+}
+
+.impactItem p {
+    /* font-size: 1.1em; */
+    /* font-weight: 600; */
+    color: rgb(250, 58, 148);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    padding-left: 0.1em;
+    /* overflow-y: hidden; */
+}
+
+.impactItem p:hover {
+    scale: 125%;
+    padding-left: 0.6em;
+}
+
+.impactNumber {
+    overflow: visible;
+}
+
+.mapContainer {
+    position: relative;
+    /* padding: 60px 0; */
+    margin: auto;
+}
+
+.map {
+    display: flex;
+    place-content: center;
+    position: relative;
+    width: 80%;
+    height: auto;
+    /* aspect-ratio: 3/5; */
+    object-fit: contain;
+    margin: auto;
+}
+
+.map img {
+    border: 1px solid white;
+    border-radius: 8px;
+    /* background-color: rgb(184, 184, 184); */
+    width: 100%;
+}
+
+/*---------------------*/
+
+.customshapedividerbottom1715599793 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.customshapedividerbottom1715599793 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 2px);
+    height: 54px;
+}
+
+.customshapedividerbottom1715599793 .shapeFill {
+    fill: hsl(240deg 11.11% 98.24%);
+}
+
+/*/--------------------------------------------------*/
+@media screen and (max-width: 1500px) {
+    .impactsContent {
+        padding: 40px 0 40px 0;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .impactsContentHeading {
+        font-size: 3.5em;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .impactsGrid {
+        grid-template-columns: 1fr;
+    }
+    .impactsContent {
+        padding: 40px;
+    }
+    .impactsContentHeading {
+        font-size: 5em;
+    }
+    .impactItem {
+        font-size: 2em;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .impactsContent {
+        padding: 40px 0 40px 0;
+    }
+    .impactItem {
+        font-size: 1.7em;
+    }
+}
+@media screen and (max-width: 950px) {
+    .impactItem {
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 750px) {
+    .impactsGrid {
+        width: 100vw;
+    }
+    .impactsContent {
+        padding: 20px 40px;
+    }
+    .impactsContentHeading {
+        font-size: 4em;
+    }
+    .impactItem {
+        line-height: 3;
+        font-size: 1.3em;
+    }
+}
+@media screen and (max-width: 650px) {
+    .impactsContentHeading {
+        font-size: 3em;
+    }
+    .impactItem {
+        font-size: 1.2em;
+        /* padding: 40px 20px 0 20px; */
+    }
+}
+@media screen and (max-width: 550px) {
+    .impactsContent {
+        padding: 20px;
+    }
+    .impactsContentHeading {
+        font-size: 2.6em;
+        margin-bottom: 0;
+    }
+    .impactItem {
+        font-size: 1em;
+        line-height: 2.5;
+    }
+    .mapContainer {
+        padding: 20px 0;
+    }
+    .map {
+        width: 100vw;
+    }
+}
+@media screen and (max-width: 450px) {
+    .impactsContentHeading {
+        font-size: 2.2em;
+        letter-spacing: 1px;
+    }
+    .impactItem {
+        font-size: 0.9em;
+    }
+}

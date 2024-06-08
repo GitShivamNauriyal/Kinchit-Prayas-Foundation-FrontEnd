@@ -1,0 +1,21 @@
+.SlidingCard-container-wrapper {
+    padding: 1em;
+    width: 100%;
+    aspect-ratio: 4/3;
+}
+.Sliding-Card {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 2px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+.SlidingCard-container-wrapper img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    object-fit: cover;
+}

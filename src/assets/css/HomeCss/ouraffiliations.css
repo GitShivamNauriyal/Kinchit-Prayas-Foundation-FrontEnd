@@ -1,0 +1,155 @@
+.affiliations-section {
+    padding: 40px 0;
+    background-color: #f1f1f1;
+    position: relative;
+}
+
+.affiliations-heading {
+    padding: 40px 0;
+    text-align: center;
+    background: linear-gradient(90deg, #20b1f0, #ff02e1);
+    color: transparent;
+    background-clip: text;
+    /* This is important to make the gradient work */
+    font-size: 3.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    /* text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.193); */
+}
+
+/* .affiliations-grid { */
+/* margin: auto; */
+/* gap: 40px; */
+/* } */
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+
+.affiliations-grid-item {
+    position: relative;
+    max-width: 200px; /*control size of elements*/
+    aspect-ratio: 1/1;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 4px 16px 8px rgba(43, 43, 43, 0.08);
+    padding: 0.8rem;
+    overflow: hidden;
+}
+
+.affiliations-grid-item img {
+    aspect-ratio: 1/1;
+    width: 100%;
+    border-radius: 2px;
+}
+
+/*-----------------------------------------------*/
+.scroller {
+    margin: auto;
+    max-width: 95vw;
+    padding: 50px 0;
+}
+
+.scroller__inner {
+    padding-block: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.scroller[data-animated="true"] {
+    overflow: hidden;
+    -webkit-mask: linear-gradient(
+        90deg,
+        transparent,
+        white 20%,
+        white 80%,
+        transparent
+    );
+    mask: linear-gradient(
+        90deg,
+        transparent,
+        white 20%,
+        white 80%,
+        transparent
+    );
+}
+
+.scroller[data-animated="true"] .scroller__inner {
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: scroll var(--_animation-duration, 60s)
+        var(--_animation-direction, forwards) linear infinite;
+}
+
+.scroller[data-direction="right"] {
+    --_animation-direction: reverse;
+}
+
+.scroller[data-direction="left"] {
+    --_animation-direction: forwards;
+}
+
+@keyframes scroll {
+    to {
+        transform: translate(calc(-50% - 0.5rem));
+    }
+}
+
+/* general styles */
+
+:root {
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-primary-100: hsl(205, 15%, 58%);
+    --clr-primary-400: hsl(215, 25%, 27%);
+    --clr-primary-800: hsl(217, 33%, 17%);
+    --clr-primary-900: hsl(218, 33%, 9%);
+}
+
+.home-page-tag-list {
+    margin: 0;
+    padding-inline: 0;
+    list-style: none;
+    /* gap: 20px; */
+}
+
+.home-page-tag-list li {
+    /* padding: 1rem; */
+    /* background: var(--clr-primary-400); */
+    border-radius: 0.5rem;
+    /* box-shadow: 0 0.5rem 1rem -0.25rem var(--clr-primary-900); */
+}
+
+/*-----------------------------------------------*/
+
+@media screen and (max-width: 1024px) {
+    .affiliations-heading {
+        font-size: 3em;
+    }
+    .affiliations-section {
+        padding: 80px 0;
+    }
+    .scroller {
+        margin: auto;
+        max-width: 85vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .affiliations-section {
+        padding: 80px 20px;
+    }
+    .scroller {
+        margin: auto;
+        max-width: 100vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .affiliations-section {
+        padding: 20px;
+    }
+    .affiliations-heading {
+        font-size: 2em;
+        padding: 0;
+    }
+}

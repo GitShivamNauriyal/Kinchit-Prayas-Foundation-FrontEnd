@@ -1,0 +1,140 @@
+.covid-relief-section {
+    padding: 60px;
+    position: relative;
+    background-image: linear-gradient(
+            90deg,
+            rgba(0, 0, 0, 0.807),
+            rgba(0, 0, 0, 0.607)
+        ),
+        url("../../../Image/homepage/covid_images/covid_bg_img.jpeg");
+    background-position: center right;
+    background-size: cover;
+}
+
+/*--------------------------------------------------------*/
+.custom-shape-divider-top-1715593959 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1715593959 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 41px;
+}
+
+.custom-shape-divider-top-1715593959 .shape-fill {
+    fill: #f1f1f1;
+}
+/*--------------------------------------------------------*/
+
+.covid-relief-heading {
+    padding: 30px;
+    background: linear-gradient(90deg, #0fadf1, #ff00e1);
+    color: transparent;
+    background-clip: text;
+    /* This is important to make the gradient work */
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 4px 16px 8px rgb(255, 255, 255);
+}
+
+.covid-relief-content {
+    padding: 0 120px;
+}
+
+.covid-relief-certificate {
+    padding: 30px 60px;
+    display: flex;
+    justify-content: center;
+    max-width: 1300px;
+    position: relative;
+}
+
+.covid-relief-certificate img {
+    width: 90%;
+    border-radius: 8px;
+    border: 1px solid black;
+    box-shadow: 0 0 16px 8px rgba(195, 195, 195, 0.2);
+}
+
+.covid-relief-text-content {
+    font-size: 1.2em;
+    padding: 30px 60px;
+    text-align: justify;
+}
+
+.covid-relief-text-content p {
+    font-family: monospace;
+    text-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.207);
+    color: white;
+}
+
+.covid-relief-text-content p::first-letter {
+    padding: 0px;
+    color: #06a500;
+    font-size: 2em;
+}
+@media screen and (max-width: 1024px) {
+    .covid-relief-section {
+        padding: 80px 0;
+    }
+
+    .covid-relief-heading {
+        font-size: 1.5em;
+    }
+
+    .covid-relief-content {
+        padding: 0px;
+    }
+
+    .covid-relief-text-content {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .covid-relief-section {
+        padding: 80px 0px;
+    }
+
+    .covid-relief-heading {
+        font-size: 1.2em;
+    }
+    .covid-relief-content {
+        padding: 0px;
+    }
+
+    .covid-relief-certificate {
+        padding: 0 30px;
+    }
+    .covid-relief-certificate img {
+        border: 1px solid black;
+        box-shadow: 0 0 16px 8px rgba(195, 195, 195, 0.207);
+    }
+
+    .covid-relief-text-content {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .covid-relief-section {
+        padding: 40px 0px;
+    }
+
+    .covid-relief-heading {
+        font-size: 1em;
+    }
+    .covid-relief-text-content {
+        padding: 10px;
+    }
+}

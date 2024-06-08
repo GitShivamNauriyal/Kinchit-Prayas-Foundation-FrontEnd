@@ -1,0 +1,195 @@
+.UK-mahotsav-master {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.Flagship-Page1-banner {
+    margin-top: 6.6rem;
+    width: 100%;
+    height: 34rem;
+    background-image: linear-gradient(45deg, #3498dbc7, #8d44adad, #3498dbae),
+        url("../../../Image/Flagship/UttarakhandMahotsav/UttrakhandMahotsav_Banner.jpg");
+    background-position: center center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    overflow: hidden;
+}
+.Flagship-Page1-banner h1 {
+    text-align: center;
+    color: #fff;
+    letter-spacing: 0.2px;
+    font-size: 4.5em;
+}
+.image-overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-grid {
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    place-items: center;
+    margin: 0 auto;
+    padding: 60px 2rem;
+}
+.Flagship-grid-element {
+    display: grid;
+    place-items: center;
+    grid-template-rows: 1fr 1fr;
+    /* aspect-ratio: 1/1; */
+    width: 90%;
+}
+.Flagship-grid-para-element {
+    display: grid;
+    place-items: center;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 90%;
+}
+.grid-col1-image img {
+    width: 80%;
+    aspect-ratio: 16/9;
+    display: grid;
+    object-fit: cover;
+    background-color: #fff;
+    padding: 0.5rem;
+    border: solid 1px rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+        rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    margin: 0px 0;
+}
+.grid-col1-image {
+    gap: 20px;
+}
+.grid-col2-image img {
+    width: 80%;
+    aspect-ratio: 16/9;
+    display: grid;
+    object-fit: cover;
+    background-color: #fff;
+    padding: 0.5rem;
+    border: solid 1px rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+        rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    margin: 0px 0;
+}
+.grid-col2-image {
+    gap: 20px;
+}
+.Flagship-grid-para-element p {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    color: #444;
+    overflow: hidden;
+    text-align: justify;
+}
+.paragraph {
+    padding: 10px;
+}
+.grid-col2-paragraph2 {
+    padding: 20px 20;
+}
+.carsouel-wrapper {
+    margin: 30px 0;
+}
+.Carsouel-heading {
+    display: flex;
+    place-content: center;
+}
+.Carsouel-heading h2 {
+    font-size: 4em;
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+    background: linear-gradient(90deg, #fcb045, #fd1d1d, #833ab4);
+    color: transparent;
+    background-clip: text;
+    /* display: inline-block; */
+}
+
+@media screen and (max-width: 1200px) {
+    .content-grid {
+        max-width: 1300px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 24px;
+        place-items: center;
+        margin: 0 auto;
+        padding: 60px 2rem;
+    }
+    .grid-col2-image {
+        grid-row: 3;
+    }
+}
+@media screen and (max-width: 850px) {
+    .Flagship-Page1-banner {
+        height: 28rem;
+    }
+    .Flagship-Page1-banner h1 {
+        font-size: 3.8em;
+    }
+}
+@media screen and (max-width: 700px) {
+    .Flagship-Page1-banner {
+        height: 24rem;
+    }
+    .Flagship-Page1-banner h1 {
+        font-size: 3.2em;
+    }
+}
+@media screen and (max-width: 600px) {
+    .Flagship-Page1-banner {
+        margin-top: 5.5rem;
+        height: 20rem;
+    }
+    .Flagship-Page1-banner {
+        height: 20rem;
+    }
+    .Flagship-Page1-banner h1 {
+        font-size: 2.5em;
+    }
+    .content-grid {
+        gap: 16px;
+        padding: 60px 1rem;
+    }
+    .grid-col1-image img {
+        width: 90%;
+    }
+    .grid-col2-image img {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .Flagship-Page1-banner {
+        height: 16rem;
+    }
+    .Flagship-Page1-banner h1 {
+        font-size: 2.2em;
+    }
+    .content-grid {
+        gap: 16px;
+        padding: 60px 0rem;
+        padding-bottom: 0;
+    }
+    .grid-col1-image img {
+        width: 100%;
+    }
+    .grid-col2-image img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Flagship-Page1-banner {
+        height: 16rem;
+    }
+    .Flagship-Page1-banner h1 {
+        font-size: 2em;
+    }
+}

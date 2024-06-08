@@ -1,0 +1,551 @@
+.UK-Development-Exibition {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.Flagship-Page2-banner {
+    margin-top: 6.6rem;
+    width: 100%;
+    height: 34rem;
+    background-image: linear-gradient(45deg, #3498dbc7, #8d44adad, #3498dbae),
+        url("../../../Image/Flagship/UttrakhandDevelopmentExibition/Development3.jpg");
+    background-position: top center;
+    background-size: cover;
+    overflow: hidden;
+    /* background-attachment: fixed; */
+}
+.Flagship-Page2-banner h1 {
+    color: #fff;
+    letter-spacing: 0.2px;
+    font-size: 3.9em;
+    text-align: center;
+}
+.image-overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-section1 {
+    max-width: 1300px;
+    margin: auto;
+    display: grid;
+    padding: 4rem 20px;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.grid-section1 > .grid-section1-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-shadow: 0 0 4px 2px rgb(0, 0, 0, 0.1);
+}
+.grid-section1 > .grid-section1-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.grid-section1 > .grid-section1-description > p {
+    font-size: 1.3em;
+    font-weight: 400;
+    text-align: justify;
+    padding: 10px;
+    overflow: hidden;
+    line-height: 1.5;
+    color: #282828;
+    background-color: #fff;
+    border: none;
+    transition: all 0.2s ease;
+    padding-right: 2px;
+    padding-left: 0px;
+    border-left: 1px solid #fff;
+}
+.grid-section1 > .grid-section1-description > p:hover {
+    border-left: 4px solid #56c6c2;
+    background-color: #f6f6f6;
+    padding-left: 2px;
+    padding-right: 0px;
+}
+
+.flex-section2 {
+    /* display: grid; */
+    background-color: #222;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 2rem;
+    /* display: flex; */
+    flex-direction: column;
+    place-content: center;
+}
+
+.ude-dates-container {
+    margin: auto;
+}
+
+.flex-section2 > div {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    margin: 2rem auto;
+}
+.flex-section2 > div > .date {
+    margin: 0 3rem;
+    padding: 1rem 4rem;
+    border-radius: 2rem;
+    letter-spacing: 1.5px;
+    font-weight: 900;
+}
+
+.flex-section2 > div h2 {
+    font-size: 1.7em;
+    font-weight: 800;
+    color: #fff;
+}
+.flex-section2 > div > .info {
+    padding: 10px;
+}
+#date-num-1 {
+    background-color: #56c6c2;
+}
+#date-num-1 h2 {
+    color: #000;
+}
+#date-num-2 {
+    background-color: hotpink;
+}
+#date-num-3 {
+    background-color: #f9a629;
+}
+#date-num-3 h2 {
+    color: #000;
+}
+#date-num-4 {
+    background-color: #3d4ba7;
+}
+#date-num-5 {
+    background-color: #56c6c2;
+}
+.uk-development-grid-section2-content {
+    background-color: #282828;
+}
+.grid-section2 {
+    max-width: 1300px;
+    margin: auto;
+    display: grid;
+    padding: 3rem 20px;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.grid-section2-description {
+    display: flex;
+}
+.grid-section2-description > p {
+    margin: auto;
+    padding: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: justify;
+    color: #fff;
+}
+.grid-section2-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.grid-section2-image > img {
+    border-radius: 4px;
+    background-color: #ddd;
+    padding: 10px;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    /* aspect-ratio: 16/9; */
+    filter: saturate(130%) brightness(110%);
+}
+
+.parllex-banner {
+    width: 100%;
+    min-height: 12rem;
+    background-image: linear-gradient(45deg, #20b2f0c5, #ff02e1c5),
+        url("../../../Image/Flagship/UttarakhandMahotsav/UttrakhandMahotsav_Banner.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    place-content: center;
+}
+.parllex-overlay {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    gap: 30px;
+}
+.parllex-overlay h2 {
+    color: #fff;
+    letter-spacing: 0.2px;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+.parllex-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    border: none;
+}
+.parllex-overlay p {
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: 700;
+    text-align: center;
+}
+.countdown {
+    width: 100%;
+    margin: 20px auto;
+}
+/* .grid-section-2 {
+    background-color: #1f1f1f;
+    margin-top: 2rem;
+    padding: 20px 20px;
+} */
+.UDE-activities-heading {
+    color: #fff;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.grid-section-3 {
+    background-color: #282828;
+    display: flex;
+    flex-direction: column;
+}
+
+.UDE-grid-3col {
+    margin: auto;
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    /* overflow: hidden; */
+    place-items: center;
+    padding: 0 6rem;
+    padding-bottom: 4rem;
+}
+.UDE-grid-3col > .grid-content {
+    aspect-ratio: 3/5;
+    display: grid;
+    grid-template-rows: 0.7fr 0.3fr;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start3;
+    margin: 30px 20px;
+}
+.UDE-grid-3col > .grid-content > p {
+    color: #fff;
+    margin-top: 30px;
+    text-align: justify;
+    padding: 10px 10px;
+    font-size: 1.3em;
+    line-height: 1.2em;
+}
+.UDE-grid-3col > .grid-content img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.grid-section2 > .grid-section3-image > img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.grid-section3-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-section2 > .grid-section3-description > p {
+    font-size: 1.3em;
+    text-align: justify;
+}
+.UDE-glance {
+    background-color: #1f1f1f;
+    padding: 30px 20px;
+    text-align: center;
+}
+.UDE-glance h2 {
+    margin: 10px;
+    color: #fff;
+    padding: 10px;
+    font-size: 4em;
+}
+.grid-glance {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.grid-glance img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    padding: 4px;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 1150px) {
+    .grid-section1 {
+        padding: 4rem 20px;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .grid-section2 {
+        padding: 4rem 20px;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .grid-section2-image {
+        grid-row: 1;
+    }
+    .parllex-overlay {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .flex-section2 {
+        /* display: grid; */
+        background-color: #000;
+        align-items: center;
+        justify-content: center;
+        padding: 60px 2rem;
+        /* display: flex; */
+        flex-direction: column;
+        place-content: center;
+    }
+
+    .ude-dates-container {
+        margin: auto;
+    }
+
+    .flex-section2 > div {
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        /* justify-content: space-between; */
+        width: 100%;
+        margin: 2rem auto;
+    }
+    .flex-section2 > div > .date {
+        margin: 0 3rem;
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+        letter-spacing: 1.5px;
+        font-weight: 800;
+    }
+
+    .flex-section2 > div h2 {
+        font-size: 1.5em;
+        font-weight: 800;
+        color: #fff;
+    }
+    .flex-section2 > div > .info {
+        padding: 10px;
+    }
+    .UDE-grid-3col {
+        padding: 0 3rem;
+        padding-bottom: 2rem;
+    }
+    .UDE-grid-3col > .grid-content > p {
+        margin-top: 20px;
+        padding: 10px;
+        font-size: 1.1em;
+        line-height: 1.1em;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .UDE-grid-3col {
+        grid-template-columns: 1fr;
+        place-items: center;
+        padding: 0 1rem;
+        padding-bottom: 2rem;
+    }
+    .UDE-grid-3col > .grid-content {
+        aspect-ratio: 3/5;
+        display: grid;
+        grid-template-rows: 0.7fr 0.3fr;
+    }
+    .UDE-grid-3col > .grid-content > p {
+        margin-top: 20px;
+        padding: 10px;
+        font-size: 1.3em;
+        line-height: 1.1em;
+    }
+    .grid-content img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .grid-glance {
+        grid-template-columns: 1fr 1fr;
+    }
+    .parllex-description {
+        border: 1px solid white;
+        width: 100%;
+    }
+    .parllex-overlay h2 {
+        font-size: 2.5em;
+        font-weight: 700;
+    }
+    .parllex-overlay p {
+        font-size: 2.5em;
+    }
+    .flex-section2 {
+        /* display: grid; */
+        background-color: #000;
+        align-items: center;
+        justify-content: center;
+        padding: 60px 1rem;
+        /* display: flex; */
+        flex-direction: column;
+        place-content: center;
+    }
+
+    .flex-section2 > div {
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        /* justify-content: space-between; */
+        width: 100%;
+        margin: 2rem auto;
+    }
+    .flex-section2 > div > .date {
+        margin: 0 3rem;
+        padding: 1rem 4rem;
+        border-radius: 2rem;
+        letter-spacing: 1.5px;
+        font-weight: 900;
+    }
+
+    .flex-section2 > div h2 {
+        font-size: 1.2em;
+        font-weight: 800;
+        color: #fff;
+    }
+    .flex-section2 > div > .info {
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .Flagship-Page2-banner {
+        margin-top: 5.5rem;
+        height: 18rem;
+    }
+    .Flagship-Page2-banner h1 {
+        letter-spacing: 0.2px;
+        font-size: 2em;
+        text-align: center;
+    }
+    .grid-section1 {
+        padding: 2rem 10px;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .grid-section1 > .grid-section1-description > p {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+    .parllex-overlay h2 {
+        font-size: 2em;
+        font-weight: 600;
+    }
+    .parllex-overlay p {
+        font-size: 2em;
+    }
+    .grid-section2-description > p {
+        padding: 0rem;
+        font-size: 1rem;
+    }
+    .UDE-grid-3col > .grid-content > p {
+        padding: 10px 0;
+        font-size: 1.1em;
+        line-height: 1.2em;
+        margin-top: 4px;
+    }
+    .glance h2 {
+        font-size: 2em;
+        margin-top: 0;
+    }
+    .grid-glance {
+        grid-template-columns: 1fr;
+    }
+    .flex-section2 {
+        /* display: grid; */
+        background-color: #000;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 0;
+        /* display: flex; */
+        flex-direction: column;
+        place-content: center;
+    }
+
+    .ude-dates-container {
+        margin: auto;
+    }
+
+    .flex-section2 > div {
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        /* justify-content: space-between; */
+        width: 100%;
+        margin: 2rem auto;
+    }
+    .flex-section2 > div > .date {
+        margin: 0 1rem;
+        padding: 1rem;
+        border-radius: 2rem;
+        letter-spacing: 1.5px;
+        font-weight: 900;
+    }
+
+    .flex-section2 > div h2 {
+        font-size: 1em;
+        font-weight: 600;
+        color: #fff;
+    }
+    .flex-section2 > div > .info {
+        padding: 0px;
+        margin: auto 0;
+    }
+    .UDE-grid-3col {
+        padding: 0 1rem;
+        padding-bottom: 1rem;
+    }
+}

@@ -1,0 +1,184 @@
+.intro-section {
+    box-shadow: rgba(50, 50, 100, 0.1) 0px 0px 80px -5px;
+}
+
+.intro-base-grid {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px 0 80px 0;
+    margin: 0 auto;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 0.7fr;
+    overflow: visible;
+}
+
+.intro-text-content-heading {
+    background: linear-gradient(90deg, #068ac2, #c610b0);
+    color: transparent;
+    background-clip: text;
+    display: inline-block;
+    /* This is important to make the gradient work */
+    font-size: 2.3em;
+    font-weight: 450;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    user-select: none;
+}
+
+.intro-heading-desktop {
+    display: block;
+}
+
+.intro-heading-mobile{
+    display: none;
+}
+
+.intro-text-content {
+    padding: 40px 0;
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+.intro-text-content p::selection {
+    background-color: #0ec3ff;
+}
+
+.intro-text-content p::first-letter {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: hotpink;
+}
+
+.intro-text-content-para{
+    text-align: justify;
+}
+
+.intro-image-content {
+    position: relative;
+    padding: 60px;
+}
+
+.home-about-images-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+/*images in home-about*/
+.home-about-img {
+    aspect-ratio: 5/3;
+    object-fit: cover;
+    border-radius: 10px;
+    position: absolute;
+    /* margin-left: 4vw; */
+    width: 75%;
+    /* overflow-clip-margin: content-box; */
+    z-index: 1;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 8px 2px #3636362e;
+}
+
+.home-about-img:hover {
+    transform: scale(1.07);
+    z-index: 2;
+    box-shadow: 0 4px 10px 2px #3636366b;
+}
+
+#about-image-2 {
+    translate: -30px 45px;
+}
+
+#about-image-3 {
+    translate: 30px 90px;
+}
+
+@media screen and (max-width: 1400px) {
+    .intro-text-content-heading {
+        font-size: 2em;
+    }
+}
+@media screen and (max-width: 1350px) {
+    #about-image-2 {
+        translate: -30px 75px;
+    }
+
+    #about-image-3 {
+        translate: 30px 150px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .intro-text-content-heading {
+        font-size: 1.9em;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .intro-base-grid {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        place-items: center;
+        padding: 20px;
+    }
+    .intro-heading-desktop {
+        display: none;
+    }
+    .intro-heading-mobile {
+        display: inline-block;
+    }
+    .intro-text-content-heading {
+        font-size: 2.3em;
+    }
+    .intro-image-content {
+        display: none;
+    }
+    /* 
+    .home-about-images-container {
+        overflow: scroll;
+    }
+
+    .home-about-img {
+        aspect-ratio: 5/3;
+        object-fit: cover;
+        border-radius: 10px;
+        position: absolute;
+        width: 75%;
+        z-index: 1;
+        transition: all 0.3s ease;
+        box-shadow: 0 0 8px 2px #3636362e;
+    } */
+}
+@media screen and (max-width: 900px) {
+    .intro-base-grid {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 20px;
+        width: 100vw;
+    }
+    .intro-text-content-heading {
+        font-size: 2em;
+    }
+    .intro-text-content {
+        padding: 20px 0 40px 0;
+        line-height: 1.3;
+    }
+    .intro-text-content-para{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 720px) {
+    .intro-text-content-heading {
+        font-size: 1.7em;
+        font-weight: 500;
+    }
+}
+/* @media screen and (max-width: 570px) {
+    .intro-text-content-heading {
+        font-size: 1.5em;
+    }
+} */

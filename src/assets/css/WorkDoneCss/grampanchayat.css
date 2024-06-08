@@ -1,0 +1,586 @@
+.grampanchayat-page-master {
+    overflow: hidden;
+}
+
+.gp-heading {
+    margin-top: 6.6rem;
+    width: 100%;
+    height: 22rem;
+    background-image: linear-gradient(45deg, #3498dbc7, #8d44adad, #3498dbae),
+        url("../../../Image/grampanchayat/gp_banner.jpg");
+    background-position: center center;
+    background-size: cover;
+    cursor: default;
+}
+
+.image-overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-overlay h1 {
+    color: #fff;
+    letter-spacing: 0.2px;
+    font-size: 3.8em;
+    text-align: center;
+}
+
+.gp-content {
+    max-width: 1400px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.gp-description-container {
+    padding: 0 20px;
+    margin: auto;
+    max-width: 1200px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    letter-spacing: 0.2px;
+}
+
+.gp-description {
+    /* margin: auto; */
+    padding: 0 0 0 40px;
+    display: flex;
+    align-items: center;
+}
+
+.gp-description p {
+    font-weight: 300;
+    font-size: 1.3rem;
+    text-align: justify;
+    line-height: 1.8rem;
+}
+
+.gp-description p::first-letter {
+    color: rgb(255, 112, 136);
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+/*-----------------------------------*/
+.scroller_1 {
+    margin: 40px auto;
+    max-width: 100%;
+}
+
+.scroller_2 {
+    margin: auto;
+    max-width: 1200px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.scroller__inner {
+    /* padding-block: 1rem; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.scroller_1[data-animated="true"] {
+    overflow: hidden;
+}
+
+.scroller_2[data-animated="true"] {
+    overflow: hidden;
+}
+
+.scroller_1[data-animated="true"] .scroller__inner {
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: scroll var(--_animation-duration, 120s)
+        var(--_animation-direction, forwards) linear infinite;
+}
+
+.scroller_2[data-animated="true"] .scroller__inner {
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: scroll var(--_animation-duration, 120s)
+        var(--_animation-direction, reverse) linear infinite;
+}
+
+/* .scroller_1[data-animated="true"] .scroller__inner:hover {
+    animation-play-state: paused;
+}
+.scroller_2[data-animated="true"] .scroller__inner:hover {
+    animation-play-state: paused;
+} */
+
+@keyframes scroll {
+    to {
+        transform: translate(calc(-50% - 0.5rem));
+    }
+}
+
+/* general styles */
+
+:root {
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-primary-100: hsl(205, 15%, 58%);
+    --clr-primary-400: hsl(215, 25%, 27%);
+    --clr-primary-800: hsl(217, 33%, 17%);
+    --clr-primary-900: hsl(218, 33%, 9%);
+}
+
+.gp-tag-list {
+    margin: 0;
+    padding-inline: 0;
+    list-style: none;
+    /* gap: 20px; */
+}
+
+.gp-tag-list li {
+    /* padding: 1rem; */
+    /* background: var(--clr-primary-400); */
+    border-radius: 0.5rem;
+    /* box-shadow: 0 0.5rem 1rem -0.25rem var(--clr-primary-900); */
+}
+
+.gp-scroller-item {
+    position: relative;
+    max-width: 400px; /*control size of elements*/
+    width: 100%;
+    aspect-ratio: 4/3;
+    box-shadow: 0 0 8px 4px rgba(43, 43, 43, 0.1);
+}
+
+.gp-scroller-item img {
+    padding: 0.5rem;
+    aspect-ratio: 4/3;
+    width: 100%;
+    border-radius: 4px;
+}
+
+/*-------------------------------------------*/
+.gp-what-we-do {
+    position: relative;
+    display: flex;
+    padding: 160px 0;
+    background: linear-gradient(45deg, #000000aa, #000000aa),
+        url(../../../Image/grampanchayat/scroller_image_1.jpg);
+    background-position: center right;
+    background-size: cover;
+    justify-content: center;
+    /* filter: brightness(0.5); */
+}
+/*-------------------------------------------*/
+.custom-shape-divider-top-1715780653 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1715780653 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 67px;
+}
+
+.custom-shape-divider-top-1715780653 .shape-fill {
+    fill: #ffffff;
+}
+/*-------------------------------------------*/
+
+.gp-what-we-do-text-container {
+    cursor: default;
+    border-radius: 8px;
+    justify-items: flex-start;
+    max-width: 1060px;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 20px 60px 20px 20px;
+}
+.gp-what-we-do-text-container h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    text-transform: uppercase;
+    padding: 1rem 0 0 0;
+    font-size: 2.7rem;
+    font-weight: 800;
+    color: hotpink;
+    text-decoration: underline;
+    text-decoration-color: aliceblue;
+    letter-spacing: 2px;
+}
+
+.gp-what-we-do-para-content {
+    padding: 1rem 0;
+}
+
+.gp-what-we-do-para-content p {
+    font-size: 1.1rem;
+    color: aliceblue;
+}
+.gp-what-we-do-para-content p::first-letter {
+    font-size: 1.5rem;
+    color: hotpink;
+}
+/*--------------------------------------------------*/
+
+.gp-assists {
+    position: relative;
+    padding: 40px 0;
+    background: #f9f9f9;
+    border-radius: 15px;
+    /* max-width: 1100px; */
+    margin: 40px auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.gp-assists-heading {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.gp-assists-heading h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    text-transform: uppercase;
+    padding: 1rem 0 0 0;
+    font-size: 3rem;
+    font-weight: 800;
+    color: hotpink;
+    text-decoration: underline;
+    text-decoration-color: #2c3e50;
+    letter-spacing: 2px;
+}
+
+.gp-assists-content {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.gp-assists-sections {
+    overflow: hidden;
+    position: relative;
+    height: 20rem;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    /* border-radius: 15px; */
+    overflow: hidden;
+    border-radius: 0px;
+}
+
+.gp-assists-sections:hover .gp-assists-para p {
+    transform: scale(1.04);
+    z-index: 2;
+}
+
+.gp-assists-para p {
+    transition: all 0.3s ease;
+    font-size: 1.3rem;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.section-1 {
+    background: linear-gradient(45deg, #00000088, #000000aa),
+        url(../../../Image/grampanchayat/scroller_image_10.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section-2 {
+    background: linear-gradient(45deg, #21543da0, #000000a0),
+        url(../../../Image/grampanchayat/scroller_image_8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section-3 {
+    background: linear-gradient(45deg, #000000a0, #21543da0),
+        url(../../../Image/grampanchayat/scroller_image_12.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section-4 {
+    background: linear-gradient(45deg, #000000aa, #00000099),
+        url(../../../Image/grampanchayat/scroller_image_3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*---------------------------------------------------------------*/
+.gp-impact-section {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 20px 60px;
+    /* background: linear-gradient(135deg, #f3f4f6, #f9f9f9); */
+    border-radius: 15px;
+    max-width: 1100px;
+    margin: 40px auto;
+    box-shadow: none;
+    transition: all 0.3s ease-in-out;
+    cursor: default;
+}
+
+.gp-impact-section:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.gp-impact-section h2 {
+    background: linear-gradient(90deg, #22bbfc, #ff04e2);
+    color: transparent;
+    background-clip: text;
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    font-weight: bold;
+    border-bottom: 1px solid #2c3e5065;
+    padding-bottom: 10px;
+}
+
+#gp-impact-heading {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.gp-impact-section ul {
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 20px;
+    padding-left: 0;
+    counter-reset: list-counter;
+}
+
+.gp-impact-section ul li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    position: relative;
+    padding-left: 30px;
+    transition: all 0.3s ease-in-out;
+    font-size: 1.1rem;
+}
+
+.gp-impact-section ul li::before {
+    content: counter(list-counter);
+    counter-increment: list-counter;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    background: #3498db;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.gp-impact-section ul li:hover::before {
+    background: #e74c3c;
+}
+
+.gp-impact-section ul li:hover {
+    color: #2c3e50;
+    background-color: rgba(52, 152, 219, 0.1);
+    border-radius: 4px;
+    padding-left: 35px;
+}
+
+.gp-impact-section ul ul {
+    margin-left: 40px;
+}
+
+.gp-impact-section ul li ul li::before {
+    background: #e74c3c;
+    color: white;
+}
+
+.gp-impact-section ul li:hover ul li::before {
+    background: #3498db;
+}
+
+/*------------------------------------------------------*/
+
+.gp-affiliations {
+    padding: 40px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    /* background: linear-gradient(135deg, #f3f4f6, #f9f9f9); */
+    border-radius: 15px;
+    max-width: 1100px;
+    margin: 40px auto;
+    /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); */
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+.gp-affiliations-heading {
+    margin-bottom: 30px;
+}
+
+.gp-affiliations-heading h1 {
+    /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+    font-size: 2.5em;
+    color: #ff04e2;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0;
+    background: linear-gradient(90deg, #22bbfc, #ff04e2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.gp-affiliations-logos-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gp-affiliations-logo {
+    flex: 1 1 150px;
+    max-width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.gp-affiliations-logo img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: scale 0.3s ease;
+}
+.gp-affiliations-logo img:hover {
+    scale: 105%;
+}
+
+.gp-affiliations-logo:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive design for smaller screens */
+
+@media screen and (max-width: 1500px) {
+    .image-overlay h1 {
+        font-size: 2.8em;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .image-overlay h1 {
+        font-size: 2.4em;
+    }
+    .gp-description-container {
+        padding: 20px;
+        grid-template-columns: 1fr;
+    }
+    .gp-description {
+        padding: 0 20px;
+    }
+    .scroller__inner {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .gp-heading {
+        height: 15rem;
+    }
+    .image-overlay h1 {
+        font-size: 2em;
+    }
+    .gp-assists-content {
+        grid-template-columns: 1fr;
+    }
+    .gp-impact-section {
+        padding: 20px;
+    }
+    #gp-impact-heading {
+        font-size: 2rem;
+    }
+    .gp-impact-section h2 {
+        font-size: 1.8rem;
+    }
+    .gp-affiliations-heading h1 {
+        font-size: 2em;
+    }
+    .gp-affiliations-logos-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .gp-affiliations-logo {
+        max-width: 80%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .gp-heading {
+        height: 12rem;
+    }
+    .image-overlay h1 {
+        font-size: 1.5em;
+    }
+    .gp-description p {
+        font-size: 1rem;
+    }
+    .custom-shape-divider-top-1715780653 svg {
+        height: 30px;
+    }
+    .gp-what-we-do-text-container {
+        padding: 20px;
+    }
+    .gp-what-we-do-para-content p {
+        font-size: 0.8rem;
+    }
+    .gp-assists-para p {
+        font-size: 1rem;
+    }
+    .gp-impact-section ul li {
+        font-size: 0.8rem;
+    }
+    .gp-impact-section ul li::before {
+        font-size: 10px;
+    }
+    .gp-affiliations-heading h1 {
+        font-size: 1.5em;
+    }
+    .gp-affiliations-logo {
+        max-width: 70%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .image-overlay h1 {
+        font-size: 1.2em;
+    }
+    .gp-what-we-do-text-container h1 {
+        font-size: 1.8rem;
+    }
+    #gp-impact-heading {
+        font-size: 1.4rem;
+    }
+    .gp-impact-section h2 {
+        font-size: 1.1rem;
+    }
+    .gp-impact-section ul li {
+        font-size: 0.7rem;
+    }
+    .gp-affiliations-logo {
+        max-width: 60%;
+    }
+}

@@ -1,0 +1,181 @@
+.CSR-page-master {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.CSR-Page-banner {
+	margin-top: 6.6rem;
+	width: 100%;
+	height: 34rem;
+	background-image: linear-gradient(45deg, #3498dbe5, #8d44add2, #3498dbae),
+		url("../../../Image/CSR/CSR_banner.jpg");
+	background-position: center;
+	background-size: cover;
+	overflow: hidden;
+	background-attachment: fixed;
+}
+.CSR-Page-banner h1 {
+	color: #fff;
+	letter-spacing: 0.2px;
+	font-size: 5em;
+	text-align: center;
+}
+.image-overlay {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.CRS-content-1-wrapper {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: auto;
+	max-width: 1300px;
+	gap: 2rem;
+	place-items: center;
+	padding: 3rem 1rem;
+}
+
+.CRS-content-1-wrapper > .CRS-image {
+	padding: 1rem;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+	background-color: #fff;
+	overflow: hidden;
+}
+.CRS-content-1-wrapper > .CRS-image > img {
+	width: 100%;
+	/* height: 100%; */
+	object-fit: cover;
+	filter: saturate(130%);
+}
+.description {
+	padding: 20px;
+}
+.description h2 {
+	font-size: 2.5em;
+	margin: 1rem 0;
+	background: linear-gradient(90deg, #1cb5e0, #ff0dc7);
+	background-clip: text;
+	color: transparent;
+	display: inline-block;
+}
+.description p {
+	font-size: 1.2em;
+	padding: 10px;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+.grid-Image-wrapper {
+	display: grid;
+	place-items: center;
+	gap: 20px;
+	padding: 1rem 10px;
+	padding-bottom: 25px;
+	grid-template-columns: repeat(4, 1fr);
+}
+.grid-element-image {
+	display: grid;
+	place-items: center;
+	object-fit: cover;
+	overflow: hidden;
+	padding: 10px 10px;
+	width: 100%;
+	aspect-ratio: 16/9;
+	border-radius: 8px;
+	box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+}
+
+.SEWA-wrapper {
+	margin: 40px 0;
+}
+.SEWA-Logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 30px auto;
+}
+.SEWA-Logo h2 {
+	font-size: 2.2em;
+	margin: 50px 0;
+	font-weight: 700;
+	color: rgb(206, 107, 41);
+}
+.SEWA-Logo img {
+	width: 120px;
+}
+.SEWA-description {
+	margin: 0 auto;
+	width: 70%;
+	padding: 0 10px;
+}
+.SEWA-description p {
+	font-size: 1.1rem;
+	line-height: 1.2;
+	color: #777;
+	overflow: hidden;
+	text-align: justify;
+}
+.SEWA-description .para2 {
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 1050px) {
+    .CSR-Page-banner {
+        height: 24rem;
+    }
+    .CSR-Page-banner h1 {
+        font-size: 3em;
+    }
+	.CRS-content-1-wrapper {
+		grid-template-columns: 1fr;
+		gap: 2rem;
+		padding: 3rem 1rem;
+	}
+    .grid-Image-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+    .SEWA-description {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .CSR-Page-banner {
+        margin-top: 5.5rem;
+        height: 16rem;
+    }
+    .CSR-Page-banner h1 {
+        font-size: 2em;
+    }
+	.CRS-content-1-wrapper {
+		grid-template-columns: 1fr;
+		gap: 2rem;
+		padding: 2rem 1rem;
+	}
+    .description {
+        padding: 0;
+    }
+	.description p {
+		font-size: 1.2em;
+		padding: 0;
+		line-height: 1.2;
+		text-align: justify;
+	}
+    .grid-Image-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .SEWA-Logo h2 {
+        font-size: 2em;
+        font-weight: 600;
+    }
+    .SEWA-description {
+        width:95%;
+    }
+}

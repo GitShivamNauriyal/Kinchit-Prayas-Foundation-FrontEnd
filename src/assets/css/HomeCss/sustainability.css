@@ -1,0 +1,268 @@
+.sustainability-section {
+    padding: 80px 0;
+    background-color: rgb(80, 80, 80);
+    color: aliceblue;
+    justify-content: center;
+    position: relative;
+}
+
+.sustainability-heading {
+    padding: 30px;
+    background: linear-gradient(90deg, #20b1f0, #f02fd9);
+    color: transparent;
+    background-clip: text;
+    /* This is important to make the gradient work */
+    text-align: center;
+    font-size: 2em;
+    font-weight: 450;
+    text-transform: uppercase;
+    /* letter-spacing: 2px; */
+    /* text-shadow: 4px 4px 8px 8px rgb(255 , 255, 255); */
+}
+/*---------------------------------------------*/
+.custom-shape-divider-top-1715592973 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1715592973 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 101px;
+}
+
+.custom-shape-divider-top-1715592973 .shape-fill {
+    fill: #ffffff;
+}
+.custom-shape-divider-bottom-1715593363 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1715593363 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 56px;
+}
+
+.custom-shape-divider-bottom-1715593363 .shape-fill {
+    fill: #f1f1f1;
+}
+/*---------------------------------------------------------*/
+.sustainability-grid {
+    margin: auto;
+    max-width: 1000px;
+    padding: 30px 0;
+    place-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    gap: 4px;
+    overflow: hidden;
+}
+
+.sustainability-grid-item {
+    position: relative;
+    aspect-ratio: 7/9;
+    width: 100%;
+}
+
+/*---------------------------------------------------------*/
+.sustainability-1 > .front {
+    background-image: url(../../../Image/homepage/sustainability/NoPoverty.jpeg);
+}
+.sustainability-2 > .front {
+    background-image: url(../../../Image/homepage/sustainability/ZeroHunger.jpg);
+}
+.sustainability-3 > .front {
+    background-image: url(../../../Image/homepage/sustainability/QualityEducation.jpg);
+}
+.sustainability-4 > .front {
+    background-image: url(../../../Image/homepage/sustainability/GenderEquality.jpeg);
+}
+.sustainability-5 > .front {
+    background-image: url(../../../Image/homepage/sustainability/IMG_20210815_101701.jpg);
+}
+.sustainability-6 > .front {
+    background-image: url(../../../Image/homepage/sustainability/earth17.jpg);
+}
+.sustainability-7 > .front {
+    background-image: url(../../../Image/homepage/sustainability/IMG_1272.jpg);
+}
+.sustainability-8 > .front {
+    background-image: url(../../../Image/homepage/sustainability/Climateaction.jpeg);
+}
+.sustainability-9 > .front {
+    background-image: url(../../../Image/homepage/sustainability/IMG-20231227-WA0044.jpg);
+}
+/*---------------------------------------------------------*/
+
+.front {
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../../assets/images/IMG_1272.jpg);
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+}
+.front h2 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    /* background-color: #24a7ff; */
+    letter-spacing: 0.05rem;
+    font-weight: 400;
+    width: 100%;
+    padding: 20px;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.sustainability-1 > .back {
+    background-color: #6dc5d1;
+}
+.sustainability-2 > .back {
+    background-color: #ffc7c7;
+}
+.sustainability-3 > .back {
+    background-color: #8785a2;
+}
+.sustainability-4 > .back {
+    background-color: #d20062;
+}
+.sustainability-5 > .back {
+    background-color: #d6589f;
+}
+.sustainability-6 > .back {
+    background-color: #d895da;
+}
+.sustainability-7 > .back {
+    background-color: #83c3f8;
+}
+.sustainability-8 > .back {
+    background-color: #e18c8c;
+}
+.sustainability-9 > .back {
+    background-color: #cce578;
+}
+
+/*-------------------------------------*/
+
+.sustainability-1 > .front h2 {
+    background-color: #6dc5d1;
+}
+.sustainability-2 > .front h2 {
+    background-color: #ffc7c7;
+}
+.sustainability-3 > .front h2 {
+    background-color: #8785a2;
+}
+.sustainability-4 > .front h2 {
+    background-color: #d20062;
+}
+.sustainability-5 > .front h2 {
+    background-color: #d6589f;
+}
+.sustainability-6 > .front h2 {
+    background-color: #d895da;
+}
+.sustainability-7 > .front h2 {
+    background-color: #83c3f8;
+}
+.sustainability-8 > .front h2 {
+    background-color: #e18c8c;
+}
+.sustainability-9 > .front h2 {
+    background-color: #cce578;
+}
+
+.back {
+    /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", */
+    /* sans-serif; */
+    z-index: 1;
+    padding: 90px 30px;
+    font-size: 1.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: aliceblue;
+    /* background-color: #24a7ff; */
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.back-content {
+    font-size: 0.6em;
+}
+
+.back hr {
+    margin: auto;
+    width: 100%;
+    border: none;
+    height: 3px;
+    background-color: #fff;
+}
+.back .quote {
+    color: #fff;
+    font-style: italic;
+    font-size: 1em;
+}
+.sustainability-grid-item:hover .front {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 1224px) {
+    .sustainability-section {
+        padding: 80px 0;
+    }
+    .sustainability-heading {
+        font-size: 1.5em;
+    }
+    .sustainability-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 40px;
+        place-items: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .custom-shape-divider-top-1715592973 svg {
+        height: 50px;
+    }
+    .sustainability-heading {
+        font-size: 1.2em;
+        padding: 30px 0;
+    }
+    .sustainability-section {
+        padding: 80px 20px;
+    }
+    .sustainability-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px;
+        place-items: center;
+    }
+}

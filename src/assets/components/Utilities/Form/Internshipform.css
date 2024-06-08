@@ -1,0 +1,217 @@
+/* General styles for the form and headings */
+.internship-form-master {
+    background: linear-gradient(to right, #2980b9, #6dd5fa, #f02fd9);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #2c3e50;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.heading-container {
+    text-align: center;
+    margin: 2rem 0;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.heading-container h1 {
+    font-size: 3rem;
+    margin: 0.5rem 0;
+    font-weight: 900;
+}
+
+.heading-container h2 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+    font-weight: 700;
+}
+
+.heading-container p {
+    font-size: 1.2rem;
+    color: #ecf0f1;
+}
+
+.internship-form {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 3rem;
+    border-radius: 16px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+    max-width: 700px;
+    margin: auto;
+    transition: all 0.3s ease;
+}
+
+.internship-form:hover {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+.internship-form div {
+    margin-bottom: 1.5rem;
+}
+
+.internship-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.25rem;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+select:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+}
+
+input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.internship-button {
+    background-color: #3498db;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.internship-button:hover {
+    background-color: #2980b9;
+    transform: translateY(-4px);
+}
+
+.internship-submission {
+    background: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    padding: 60px 40px;
+    margin: 220px auto;
+    width: 60%;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 20;
+    transition: all 0.3s ease;
+}
+
+.internship-submission h1 {
+    font-size: 2.5em;
+    font-weight: 300;
+    color: #2c3e50;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .heading-container h1 {
+        font-size: 2.5rem;
+    }
+
+    .heading-container h2 {
+        font-size: 1.75rem;
+    }
+
+    .internship-form {
+        padding: 2rem;
+    }
+
+    .internship-button {
+        padding: 0.75rem;
+    }
+    .internship-submission {
+        width: 80%;
+        padding: 4rem 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading-container h1 {
+        font-size: 2rem;
+    }
+
+    .heading-container h2 {
+        font-size: 1.5rem;
+    }
+
+    .internship-form {
+        padding: 1.5rem;
+    }
+
+    .internship-button {
+        padding: 0.75rem;
+    }
+}
+
+.error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+    display: block;
+}
+
+.submission-success-message {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.submission-success-message h2 {
+    font-size: 2.5em;
+    font-weight: 500;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.submission-success-message p {
+    font-size: 1.5em;
+    color: #2c3e50;
+}
+
+/* Specific styling for buttons to center the loader */
+.button-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.internship-button p {
+    margin: 0;
+}
+
+.internship-button .loader {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

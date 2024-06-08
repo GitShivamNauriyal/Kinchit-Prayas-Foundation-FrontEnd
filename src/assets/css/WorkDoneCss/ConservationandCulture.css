@@ -1,0 +1,174 @@
+.culture-page-master {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+/* .culture-environment-protection {
+    line-height: 1.6;
+    color: #333;
+} */
+
+.culture-environment-protection .culture-background-image {
+	margin: 6.6rem 0 3rem 0;
+	position: relative;
+	height: 300px;
+	background-image: linear-gradient(45deg, #3498dbc7, #8d44adad, #3498dbae),
+		url(../../../Image/culture/culture8.jpg);
+	background-position: center center;
+	background-size: cover;
+	cursor: default;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.culture-environment-protection .culture-background-image .culture-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.culture-environment-protection .culture-background-image h1 {
+	color: #fff;
+	font-size: 2.5em;
+	text-align: center;
+	z-index: 1;
+}
+
+.culture-content-wrapper {
+	max-width: 1200px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px auto;
+	padding: 20px;
+}
+
+.culture-content-image {
+    display: flex;
+	flex: 1;
+	padding: 20px;
+}
+
+.culture-content-image img {
+    margin: auto;
+	max-width: 100%;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.culture-content-description {
+	flex: 2;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	place-content: center;
+}
+
+.culture-content-description h2 {
+	color: #3498db;
+}
+
+.culture-content-description p {
+	margin-bottom: 15px;
+}
+
+.culture-description-section .culture-content-description p {
+	margin-bottom: 15px;
+	transition: all 0.3s ease-in-out;
+	cursor: default;
+	padding: 0 2px 0 5px;
+	border-left: 2px solid #3498db;
+}
+.culture-description-section .culture-content-description p:hover {
+	background-color: #f5f5f5;
+	padding: 0 0 0 10px;
+}
+
+.culture-aim {
+	background-color: #f9f9f9;
+	border-left: 5px solid #3498db;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.culture-aim h3 {
+	margin-top: 0;
+	color: #3498db;
+}
+
+.culture-exhibition-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+	padding: 20px;
+}
+
+.culture-exhibition-grid img {
+	width: 100%;
+	object-fit: cover;
+	aspect-ratio: 4/3;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.culture-content-description img {
+	float: right;
+	margin-left: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover Effects */
+.culture-content-image img,
+.culture-exhibition-grid img {
+	transition: all 0.3s ease;
+}
+.culture-content-image img:hover,
+.culture-exhibition-grid img:hover {
+	scale: 104%;
+	transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 800px) {
+	.culture-content-wrapper {
+		margin: 0 auto;
+		flex-direction: column;
+		padding: 10px 20px;
+	}
+    .culture-exhibition-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .culture-environment-protection .culture-background-image {
+        margin-top: 5.5rem;
+        position: relative;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .culture-environment-protection .culture-background-image h1 {
+        font-size: 1.8em;
+    }
+	.culture-content-wrapper {
+		padding: 10px;
+	}
+    .culture-exhibition-grid {
+        gap: 5px;
+        padding: 0;
+    }
+    .culture-content-description {
+        padding: 20px 5px;
+    }
+}

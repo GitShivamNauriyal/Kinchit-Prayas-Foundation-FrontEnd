@@ -1,0 +1,352 @@
+/* General Page Styling */
+.seminars-page-master {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Carousel Banner Container */
+.Seminar-Carousel-banner {
+    margin-top: 6.6rem;
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    background-color: #f8f9fa; /* Light background color */
+}
+
+/* Carousel Description */
+.Seminar-Carousel-description {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    z-index: 10;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.Seminar-Carousel-description h1 {
+    font-size: 3.5rem; /* Larger font size for heading */
+    margin-bottom: 0.5rem;
+}
+
+.Seminar-Carousel-description p {
+    font-size: 1.8rem; /* Font size for paragraph */
+}
+
+.Seminars-banner {
+    position: relative;
+}
+.Seminars-banner img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .Carousel-description h1 {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+
+    .Carousel-description p {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+}
+
+/* Equality Section 2 */
+.seminars-page-Equality-section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem; /* Reduced padding for better spacing */
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.seminars-page-Equality-section2 > p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #505050;
+    font-weight: 500;
+    text-align: justify;
+    max-width: 1200px; /* Max width for better readability */
+}
+
+/* Equality Section 3 */
+.seminars-page-Equality-section3 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem;
+    background-color: #f8f8f8; /* Subtle background color */
+    gap: 20px;
+}
+
+.seminars-page-section3-image {
+    aspect-ratio: 7/4;
+    padding: 1rem;
+}
+
+.seminars-page-section3-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: saturate(150%);
+    border-radius: 12px;
+    padding: 4px;
+    background-color: #505050;
+}
+
+/* Section Description */
+.seminars-page-section-description h2 {
+    text-align: left;
+    font-size: 2.3rem;
+    font-weight: 800;
+    color: #1a4d4f;
+    padding: 1rem;
+}
+
+.seminars-page-section-description > .seminars-page-paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.seminars-page-paragraph > p {
+    font-size: 1.3rem;
+    text-align: justify;
+    color: #505050;
+    font-weight: 500;
+    max-width: 800px; /* Max width for better readability */
+}
+
+/* Logo Image */
+.seminars-page-Section3-LogoImage {
+    padding: 1rem;
+    display: flex;
+}
+
+.seminars-page-Section3-LogoImage img {
+    margin: auto;
+    object-fit: contain;
+    width: 80%;
+    height: 80%;
+}
+
+/* Equality Section 4 */
+.seminars-page-Equality-section4 {
+    padding: 4rem; /* Reduced padding */
+    background-color: #ffffff; /* White background */
+}
+
+.seminars-page-Equality-section4 > .seminars-page-section-description h2 {
+    text-align: start;
+}
+
+.seminars-page-Equality-section4 p {
+    font-size: 1.5rem;
+    color: #123031e6;
+    font-weight: 500;
+}
+
+/* Section 5 Image */
+.seminars-page-section5-image {
+    width: 100%; /* Full width */
+    margin: 0 auto; /* Centering the image */
+    display: flex;
+}
+
+.seminars-page-section5-image img {
+    aspect-ratio: 16/9;
+    margin: auto;
+    object-fit: cover;
+    width: 80%;
+    height: auto;
+    border-radius: 12px;
+}
+
+/* Equality Section 6 */
+/* General Section Styling */
+.seminars-page-section {
+    padding: 4rem 2rem; /* General padding for sections */
+    background-color: #e3f2fd; /* Subtle background color */
+}
+
+.seminars-page-heading h2 {
+    padding: 1rem 0;
+    font-size: 2rem; /* Larger font size for headings */
+    color: #1a4d4f;
+    text-align: center; /* Centered text */
+}
+
+/* Grid Layout */
+.seminars-page-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three columns layout */
+    gap: 2rem; /* Space between grid items */
+    padding: 2rem 0; /* Padding for the grid */
+}
+
+.seminars-page-grid-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #fff; /* White background for content */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 1.5rem; /* Padding inside content box */
+}
+
+.seminars-page-grid-content img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border-radius: 12px; /* Rounded corners for images */
+    margin-bottom: 1rem; /* Space between image and text */
+}
+
+.seminars-page-grid-content p {
+    color: #123031e6;
+    font-weight: 500;
+    line-height: 1.6;
+    font-size: 1.2rem; /* Slightly smaller font size for paragraphs */
+}
+
+/* Responsive Design */
+@media (max-width: 950px) {
+    .seminars-page-grid {
+        grid-template-columns: 1fr; /* Single column layout on smaller screens */
+    }
+}
+
+/* Last Section */
+.seminars-page-Equality-lastSection {
+    background-color: #e3f2fd;
+    overflow: hidden;
+    padding: 4rem 2rem; /* General padding for the section */
+    text-align: center; /* Center align text */
+    padding-top: 0;
+}
+
+.seminars-page-custom-shape-divider-top-1715535169 {
+    position: relative;
+    top: -1px; /* Slight adjustment to align shape */
+}
+
+.seminars-page-custom-shape-divider-top-1715535169 .shape-fill {
+    fill: #fff;
+}
+
+.seminars-page-Equality-lastSection h2 {
+    color: #1a4d4f;
+    margin-bottom: 2rem; /* Space below heading */
+    font-size: 3rem; /* Larger font size for heading */
+}
+
+/* Grid Gallery */
+.seminars-page-grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns layout */
+    gap: 1.5rem; /* Space between grid items */
+}
+
+.seminars-page-grid-gallery img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    padding: 4px;
+    background-color: #fff;
+    object-fit: cover;
+    height: auto;
+    border-radius: 12px; /* Rounded corners for images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+    .Seminar-Carousel-description h1 {
+        font-size: 3rem;
+    }
+    .Seminar-Carousel-description p {
+        font-size: 1.5rem;
+    }
+    .seminars-page-grid-gallery {
+        grid-template-columns: repeat(
+            2,
+            1fr
+        ); /* Two columns layout on medium screens */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Seminar-Carousel-description h1 {
+        font-size: 2.3rem;
+    }
+    .Seminar-Carousel-description p {
+        font-size: 1.2rem;
+    }
+    .seminars-page-grid-gallery {
+        grid-template-columns: 1fr; /* Single column layout on small screens */
+    }
+    .seminars-page-Equality-section3 {
+        grid-template-columns: 1fr; /* Single column layout on smaller screens */
+    }
+}
+
+@media (max-width: 550px) {
+    .Seminar-Carousel-banner {
+        margin-top: 5.5rem;
+    }
+    .Seminar-Carousel-description h1 {
+        font-size: 1.8rem;
+    }
+    .Seminar-Carousel-description p {
+        font-size: 1rem;
+    }
+    .seminars-page-Equality-section2 {
+        padding: 3rem 1rem;
+    }
+    .seminars-page-Equality-section2 > p {
+        font-size: 1.2rem;
+        line-height: 1.2;
+    }
+    .seminars-page-Equality-section3 {
+        padding: 2rem 1rem;
+    }
+    .seminars-page-section-description h2 {
+        font-size: 1.7rem;
+        font-weight: 700;
+        padding: 1rem 0;
+        text-align: center;
+    }
+    .seminars-page-section-description > .seminars-page-paragraph {
+        padding: 1rem 0;
+    }
+    .seminars-page-section {
+        padding: 3rem 1rem;
+    }
+    .seminars-page-heading h2 {
+        padding: 0;
+        font-size: 1.5rem;
+    }
+    .seminars-page-Equality-section4 {
+        padding: 2rem 1rem;
+    }
+    .seminars-page-Equality-lastSection {
+        padding: 2rem 1rem;
+        padding-top: 0;
+    }
+    .seminars-page-Equality-lastSection h2 {
+        margin-bottom: 2rem;
+        font-size: 2.5rem; /* Larger font size for heading */
+    }
+}

@@ -1,0 +1,160 @@
+.interventions-section {
+    padding: 80px;
+}
+
+.interventions-heading {
+    justify-content: center;
+}
+
+.interventions-heading h1 {
+    text-align: center;
+    background: linear-gradient(90deg, #22bbfc, #ff04e2);
+    color: transparent;
+    background-clip: text;
+    /* This is important to make the gradient work */
+    font-size: 3.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px rgba(147, 145, 145, 0.067);
+}
+
+.interventions-line-break {
+    margin: auto;
+    width: 80%;
+    height: 2px;
+    background-color: #fff;
+}
+
+.interventions-grid {
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 60px 0;
+    place-items: center;
+    gap: 20px;
+}
+.interventions-grid-item {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 20px;
+    aspect-ratio: 5/6;
+    width: 90%;
+    border-radius: 8px;
+    transition: all 0.2 ease;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+    max-width: 350px;
+}
+
+.interventions-grid-item h3 {
+    background: linear-gradient(90deg, #c610b0, #068ac2);
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 170, 255, 0.297);
+}
+
+.interventions-grid-item p {
+    font-size: 0.8em;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.interventions-grid-item:hover {
+    /* scale: 101%; */
+    box-shadow: 0 0 40px #2e2e2e41;
+}
+
+.interventions-grid-item img {
+    filter: brightness(1);
+    transition: all 0.3s ease;
+}
+
+.interventions-grid-item img:hover {
+    filter: brightness(0.8);
+    scale: 102%;
+}
+
+.interventions-image {
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.interventions-grid-item h3 {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.interventions-know-more-container {
+    margin: auto;
+}
+.interventions-know-more {
+    margin: auto;
+    max-width: 180px;
+    display: flex;
+    justify-content: center;
+    border-radius: 1.5rem;
+    align-items: center;
+    padding: 10px 40px;
+    transition: all 0.2s ease;
+    cursor: default;
+    color: #fff;
+    background-color: hotpink;
+}
+
+.interventions-know-more:hover {
+    scale: 110%;
+}
+
+@media screen and (max-width: 1400px) {
+    .interventions-section {
+        padding: 80px 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .interventions-section {
+        padding: 80px 0;
+    }
+    .interventions-heading h1 {
+        font-size: 3em;
+    }
+    .interventions-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 40px;
+        place-items: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .interventions-section {
+        padding: 80px 20px;
+    }
+    .interventions-heading h1 {
+        font-size: 2.2em;
+        letter-spacing: 1px;
+    }
+    .interventions-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px;
+        place-items: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .interventions-grid {
+        padding: 20px 0;
+    }
+}

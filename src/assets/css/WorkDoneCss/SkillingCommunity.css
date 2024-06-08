@@ -1,0 +1,428 @@
+body {
+    width: 10vw;
+}
+
+.SkillingCommunity-PageMaster {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.SkillingCommunity-Heading {
+    margin-top: 6.6rem;
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    background: #833ab4;
+    background: -webkit-linear-gradient(
+        to right,
+        #fcb045,
+        #fd1d1d,
+        #833ab4
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #fcb045,
+        #fd1d1d,
+        #833ab4
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    align-items: center;
+}
+.SkillingCommunity-Heading h1 {
+    color: #fff;
+    letter-spacing: 0.2px;
+    font-size: 3.5rem;
+}
+.content1 {
+    /* margin: 20px 0; */
+    /* gap: 25px; */
+    padding: 4rem 0;
+}
+
+.grid-section-column {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: auto;
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Content1-col1 {
+    position: relative;
+    /* width: 45rem; */
+    /* height: 40rem; */
+    /* overflow: hidden; */
+}
+
+.Content1-image {
+    position: absolute;
+    width: 22rem;
+    aspect-ratio: 11/6;
+    box-shadow: 0 0rem 2rem rgba(0, 0, 0, 0.3);
+    transition: all ease 0.3s;
+}
+.Content1-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#Content1-image1 {
+    top: 2rem;
+    left: 3rem;
+}
+
+#Content1-image2 {
+    top: 5rem;
+    right: 3rem;
+    z-index: 1;
+}
+#Content1-image3 {
+    top: 12rem;
+    left: 6rem;
+}
+#Content1-image1 img {
+    filter: brightness(150%) saturate(200%);
+}
+#Content1-image2 img {
+    filter: brightness(120%) saturate(150%);
+}
+#Content1-image3 img {
+    filter: brightness(115%);
+}
+.Content1-image:hover {
+    padding: 5px;
+    transform: scale(1.2);
+    border: 10px solid #fd1d1d;
+    z-index: 5;
+}
+
+/*--- description of content1 page ----*/
+
+/* .content1-description-section {
+    margin-left: 10px;
+} */
+.content1-description-section p {
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+.content1-description-section p::first-letter {
+    font-size: 1.5em;
+    color: #fd1d1d;
+}
+
+.content1-description-section h2 {
+    background: linear-gradient(90deg, #fcb045, #fd1d1d, #833ab4);
+    color: transparent;
+    background-clip: text;
+    display: inline-block;
+    margin: 16px 0;
+    font-weight: bolder;
+    font-size: 2.9rem;
+}
+
+/*--- content2 --*/
+.content2 {
+    padding: 4rem 2rem;
+    gap: 2rem;
+}
+.content2-col1 {
+    place-items: center;
+}
+.content2-col1 h2 {
+    font-weight: bolder;
+    font-size: 2.7rem;
+    background: linear-gradient(90deg, #fcb045, #fd1d1d, #833ab4);
+    color: transparent;
+    background-clip: text;
+    display: inline-block;
+}
+
+.content2-col1 p::first-letter {
+    font-size: 1.5em;
+    color: #fd1d1d;
+}
+.content2-col1 p {
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+.content2-col2 {
+    display: flex;
+    place-content: center;
+    overflow: hidden;
+    width: 100%;
+    aspect-ratio: 8/5;
+    padding: 20px;
+    box-shadow: 0 0rem 1rem rgba(0, 0, 0, 0.2);
+}
+.content2-col2 img {
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(110%) saturate(110%);
+}
+
+/*----    -------        content3      -------     ----- ---*/
+.content3 {
+    text-align: center;
+    padding: 1vw 2vw;
+    background: #7f7fd5; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #fcb045,
+        #fd1d1d,
+        #833ab4
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #fcb045,
+        #fd1d1d,
+        #833ab4
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.content3 h2 {
+    margin: 2rem 0;
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+}
+
+.Skilling-Community-Affilation {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 0;
+    gap: 4rem;
+}
+
+.Skilling-Community-Affilation-grid-content {
+    height: 250px;
+    width: 250px; /* Make the container a square to help create a circle */
+    display: flex; /* Center the image inside */
+    align-items: center; /* Center the image vertically */
+    justify-content: center; /* Center the image horizontally */
+    margin: auto;
+    position: relative;
+}
+
+.SC-Aff-img-container {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 8px; /* Make the container circular */
+    width: 100%; /* Adjust size as needed */
+    height: 100%; /* Ensure the image container fits within the circular container */
+    display: flex; /* Center the image inside */
+    align-items: center; /* Center the image vertically */
+    justify-content: center; /* Center the image horizontally */
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+.SC-Aff-img-container:hover {
+    border-radius: 50%; /* Make the container circular */
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.Skilling-Community-Affilation-grid-content img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Ensure the image scales correctly */
+}
+
+.collage-skilling-Community {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1050px) {
+    .grid-section-column {
+        grid-template-columns: 1fr;
+    }
+    .content1 {
+        padding-bottom: 0;
+    }
+    .Content1-col1 {
+        min-height: 28rem;
+    }
+    .content2-col2 {
+        grid-row: 1;
+    }
+    .Skilling-Community-Affilation {
+        gap: 2rem;
+    }
+    .content1-description-section h2 {
+        font-size: 2.5rem;
+    }
+    .content2-col1 h2 {
+        font-size: 2.5em;
+    }
+    #Content1-image1 {
+        top: 2rem;
+        left: 10rem;
+    }
+
+    #Content1-image2 {
+        top: 8rem;
+        right: 10rem;
+        z-index: 1;
+    }
+    #Content1-image3 {
+        top: 14rem;
+        left: 20rem;
+    }
+}
+@media screen and (max-width: 850px) {
+    .SkillingCommunity-Heading h1 {
+        font-size: 3rem;
+    }
+    .grid-section-column {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .content1-description-section h2 {
+        font-size: 2rem;
+    }
+    #Content1-image1 {
+        top: 2rem;
+        left: 10%;
+    }
+
+    #Content1-image2 {
+        top: 8rem;
+        left: 30%;
+        z-index: 1;
+    }
+    #Content1-image3 {
+        top: 14rem;
+        left: 20%;
+    }
+    .content2-col1 h2 {
+        font-size: 2em;
+    }
+    .content3 h2 {
+        font-size: 2.5rem;
+    }
+    .Skilling-Community-Affilation-grid-content {
+        height: 200px;
+        width: 200px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .SkillingCommunity-Heading {
+        height: 12rem;
+    }
+    .SkillingCommunity-Heading h1 {
+        font-size: 2.5rem;
+    }
+    .grid-section-column {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .content1-description-section h2 {
+        font-size: 1.8rem;
+    }
+    .content1-description-section p {
+        font-size: 1.2rem;
+    }
+    .content1-description-section p::first-letter {
+        font-size: 1.4em;
+    }
+    .content2-col1 h2 {
+        font-size: 1.8em;
+    }
+    .content2-col1 p::first-letter {
+        font-size: 1.4em;
+    }
+    .content2-col1 p {
+        font-size: 1.2rem;
+    }
+    .Skilling-Community-Affilation-grid-content {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .SkillingCommunity-Heading {
+        margin-top: 5.5rem;
+    }
+    .SkillingCommunity-Heading h1 {
+        font-size: 2rem;
+    }
+    .content1 {
+        padding-top: 0;
+    }
+    .Content1-col1 {
+        min-height: 18rem;
+    }
+    .Content1-image {
+        width: 70%;
+    }
+    #Content1-image1 {
+        top: 2rem;
+        left: 2rem;
+    }
+    #Content1-image2 {
+        top: 4rem;
+        left: 4rem;
+        z-index: 1;
+    }
+    #Content1-image3 {
+        top: 6rem;
+        left: 6rem;
+    }
+    .content1-description-section p {
+        font-size: 1.1rem;
+        line-height: 1.4;
+    }
+    .content1-description-section p::first-letter {
+        font-size: 1.3em;
+    }
+    .content2 {
+        padding: 2rem 1rem;
+        gap: 2rem;
+    }
+    .content2-col1 h2 {
+        font-size: 1.5em;
+    }
+    .content2-col1 p::first-letter {
+        font-size: 1.3em;
+    }
+    .content2-col1 p {
+        font-size: 1.1rem;
+        line-height: 1.4;
+    }
+    .content3 h2 {
+        font-size: 2rem;
+    }
+    .Skilling-Community-Affilation {
+        grid-template-columns: 1fr;
+    }
+    .Skilling-Community-Affilation-grid-content {
+        height: 250px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #Content1-image1 {
+        top: 2rem;
+        left: 0rem;
+    }
+    #Content1-image2 {
+        top: 4rem;
+        left: 2.5rem;
+        z-index: 1;
+    }
+    #Content1-image3 {
+        top: 6rem;
+        left: 5rem;
+    }
+}

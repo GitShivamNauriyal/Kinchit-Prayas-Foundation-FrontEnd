@@ -1,0 +1,185 @@
+/* Centering content */
+.center {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9; /* Light background color for contrast */
+}
+
+/* Form visibility classes */
+.non-visible-Form-Container {
+    visibility: hidden;
+}
+
+.visible-Form-Container {
+    z-index: 1000;
+    visibility: visible;
+    height: 80%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    padding-top: 0;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15); /* Add shadow for depth */
+    position: fixed;
+    top: 7.5rem;
+    overflow-y: auto; /* Ensure the form is scrollable if content overflows */
+    width: 90%;
+    max-width: 700px;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+
+/* Heading styles */
+.visible-Form-Container .heading-container h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #068ac2;
+    margin-bottom: 0.5rem;
+}
+
+.visible-Form-Container .heading-container p {
+    font-size: 1rem;
+    color: #707070;
+}
+
+/* General form item styles */
+.input-item {
+    margin-bottom: 1.5rem;
+}
+
+.input-item p {
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.input-item input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    color: #333;
+    font-size: 1rem;
+    padding: 0 15px;
+    transition: border-color 0.3s ease;
+    background: #ecf0f1;
+}
+
+.input-item input:focus {
+    border-color: #068ac2;
+    box-shadow: 0 0 10px rgba(6, 138, 194, 0.5);
+    background: #ffffff;
+}
+
+/* Remove number input spin buttons */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Button styles */
+.visible-Form-Container .donate-btn {
+    margin: 1rem 0;
+    width: 100%;
+    height: 3rem;
+}
+
+.visible-Form-Container .donate-btn button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #068ac2;
+    cursor: pointer;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.visible-Form-Container .donate-btn button p {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.visible-Form-Container .donate-btn:hover button {
+    background-color: #005b99;
+    transform: translateY(-4px);
+}
+
+.blue {
+    color: #068ac2;
+    cursor: pointer;
+}
+
+/* Modal overlay */
+.modal-wraper {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9;
+}
+
+/* Error message */
+.error-message {
+    color: red;
+    font-size: 0.875em;
+    margin-top: 0.5em;
+}
+
+/* Thank you message */
+.Thanku-messg {
+    background-color: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    padding: 60px 40px;
+    margin: 220px auto;
+    width: 60%;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 20;
+    animation: fadeInUp 2s ease-in-out;
+}
+
+.Thanku-messg h1 {
+    font-size: 2.5em;
+    font-weight: 300;
+    color: #2c3e50;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .visible-Form-Container {
+        border: 2px solid rgb(0, 0, 0);
+        padding: 1.5rem;
+        padding-top: 0;
+        top: 15%;
+        height: 80%;
+    }
+
+    .Thanku-messg {
+        width: 80%;
+        padding: 40px 20px;
+    }
+}
+
+/* Keyframes for animations */
+@keyframes fadeInUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

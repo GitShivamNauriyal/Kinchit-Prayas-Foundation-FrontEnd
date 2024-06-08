@@ -1,0 +1,285 @@
+.Affliliation-page-master {
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.Affilation-Page-banner {
+    margin-top: 6.6rem;
+    width: 100%;
+    height: 28rem;
+    background-image: linear-gradient(45deg, #3498dbc7, #8d44adad, #3498dbae),
+        url("../../../Image/Affilation/Affilation_banner.jpg");
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    /* background-attachment: fixed; */
+}
+.Affilation-Page-banner h1 {
+    color: #fff;
+    letter-spacing: 0.2px;
+    font-size: 3.9em;
+    text-align: center;
+}
+.aff-image-overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-description {
+    max-width: 1300px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 10px 15px 10px,
+        rgba(0, 0, 0, 0.05) 0 5px 5px 5px;
+    margin: 70px auto 0 auto;
+    padding: 30px 2rem;
+    display: flex;
+    position: relative;
+    place-content: center;
+    gap: 20px;
+    border-radius: 4px;
+}
+
+.content-description img {
+    width: 30%;
+    /* height: auto; */
+    aspect-ratio: 4/3;
+    padding: 10px;
+    margin: auto;
+    /* float: right; */
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    object-fit: cover;
+    filter: saturate(150%) brightness(130%);
+}
+.content-description p {
+    margin: auto;
+    font-size: 1.15em;
+    line-height: 1.6;
+    color: #555;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.content-description .para1::first-letter {
+    color: #ff5733;
+    font-size: 2em;
+}
+
+.Affilation-logo-banner {
+    margin: 0 auto;
+    margin-top: 5rem;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #bc4e9c;
+    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);
+    background: linear-gradient(to right, #f80759, #bc4e9c);
+    color: #fff;
+    font-size: 1.2em;
+    overflow: hidden;
+}
+.Affilation-grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 60px 120px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 2rem;
+}
+.Affilation-grid-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding: 20px 10px;
+    gap: 10px;
+    aspect-ratio: 5/6;
+    /* width: 85%; */
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+}
+#USDC-logo img {
+    padding: 40px;
+}
+.Affilation-grid-item .logo-image {
+    height: 60%;
+    width: 60%;
+    display: flex;
+    place-content: center;
+    position: relative;
+    aspect-ratio: 1;
+    /* padding: 1rem; */
+}
+.Affilation-grid-item img {
+    /* width: 60%; */
+    object-fit: cover;
+}
+.Affilation-grid-item p {
+    text-align: center;
+}
+.Affilation-grid-item h3 {
+    /* height: 50%; */
+    background: linear-gradient(90deg, #f80759, #bc4e9c);
+    color: transparent;
+    background-clip: text;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 1rem;
+    padding: 0 10px;
+    /* overflow: hidden; */
+}
+
+/* .last-grid-element-1 {
+    grid-column: 2;
+} */
+
+@media screen and (max-width: 1300px) {
+    .Affilation-grid-item p {
+        font-size: 0.8rem;
+    }
+    .Affilation-grid-item h3 {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .content-description img {
+        width: 40%;
+    }
+    .Affilation-grid {
+        padding: 60px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .Affilation-Page-banner h1 {
+        font-size: 3.2em;
+    }
+    .content-description {
+        flex-direction: column;
+    }
+    .content-description img {
+        width: 80%;
+        aspect-ratio: 2;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .Affilation-grid-item .logo-image {
+        height: 50%;
+        aspect-ratio: 1;
+    }
+    #USDC-logo img {
+        padding: 20px;
+    }
+    .Affilation-grid-item {
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .Affilation-Page-banner h1 {
+        font-size: 2.6em;
+    }
+    .content-description img {
+        width: 100%;
+    }
+    .Affilation-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    /* .last-grid-element-1 {
+        grid-column: auto;
+    }
+    .last-grid-elements-2 {
+        grid-column: 2;
+    } */
+}
+@media screen and (max-width: 750px) {
+    .Affilation-Page-banner h1 {
+        font-size: 2.2em;
+    }
+    .content-description {
+        padding: 30px 20px;
+    }
+    .Affilation-grid-item p {
+        font-size: 0.7rem;
+    }
+    .Affilation-grid-item h3 {
+        font-size: 0.7rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .Affilation-Page-banner {
+        height: 18rem;
+    }
+    .Affilation-Page-banner h1 {
+        font-size: 2.2em;
+    }
+    .Affilation-grid {
+        padding: 30px;
+        gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .Affilation-grid-item p {
+        font-size: 0.8rem;
+    }
+    .Affilation-grid-item h3 {
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 550px) {
+    .Affilation-Page-banner {
+        margin-top: 5.5rem;
+    }
+    .Affilation-Page-banner h1 {
+        font-size: 2em;
+    }
+    .content-description img {
+        aspect-ratio: 16/9;
+    }
+    .content-description p {
+        font-size: 1rem;
+        line-height: 1.6;
+        text-align: justify;
+    }
+    .content-description .para1::first-letter {
+        font-size: 1.6rem;
+    }
+    .Affilation-grid-item p {
+        font-size: 0.7rem;
+    }
+    .Affilation-grid-item h3 {
+        font-size: 0.7rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .Affilation-Page-banner {
+        height: 12rem;
+    }
+    .Affilation-grid {
+        padding: 20px;
+        gap: 20px;
+        grid-template-columns: 1fr;
+    }
+    .Affilation-grid-item {
+        aspect-ratio: 1;
+    }
+    #USDC-logo img {
+        padding: 30px;
+    }
+    .last-grid-elements-2 {
+        grid-column: auto;
+    }
+    .Affilation-grid-item p {
+        font-size: 1.2rem;
+    }
+    .Affilation-grid-item h3 {
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,306 @@
+.earth-day-page-master {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: #eefbf3;
+}
+
+.Flagship-Page4-banner {
+    margin-top: 6.6rem;
+    width: 100%;
+    height: 34rem;
+    background-image: linear-gradient(45deg, #407d2696, #125e29cb, #407d2696),
+        url("../../../Image/Flagship/EarthDay/earth2.jpg");
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+}
+.Page4-image-overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Flagship-Page4-banner h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 4.5em;
+    font-weight: 800;
+    margin: 20px;
+}
+.Flagship-Page4-banner p {
+    padding: 0 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.55em;
+    font-weight: 700;
+}
+
+.Flagship-page4-section1 {
+    display: grid;
+    max-width: 1300px;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 40px;
+}
+.Flagship-page4-section1-image {
+    position: relative;
+    display: flex;
+}
+.Flagship-page4-section1-image > img {
+    width: 80%;
+    margin: auto;
+    object-fit: cover;
+    filter: saturate(120%) brightness(110%);
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.Flagship-page4-section1 > .description {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Flagship-page4-section1 > .description > p {
+    font-size: 1.3em;
+    padding: 20px;
+    line-height: 1.5em;
+    color: green;
+}
+.Flagship-page4-section2 {
+    padding: 20px 60px 40px 60px;
+    background-color: #054f0ed0;
+    overflow: hidden;
+}
+.Flagship-page4-section2 h2 {
+    text-align: center;
+    font-size: 3em;
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+}
+.Flagship-page4-section2 > .grid-3col {
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 1rem;
+
+}
+.Flagship-page4-section2 > .grid-3col > .grid-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.Flagship-page4-section2 > .grid-3col > .grid-content img {
+    align-items: flex-start;
+    border-radius: 8px;
+    aspect-ratio: 8/9;
+    object-fit: cover;
+}
+.Flagship-page4-section2 > .grid-3col > .grid-content > .grid-description > h3 {
+    font-size: 1.8rem;
+    margin: 10px 0;
+    color: #fff;
+    text-align: center;
+}
+.Flagship-page4-section2 > .grid-3col > .grid-content > .grid-description > p {
+    font-size: 1.3rem;
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.Flagship-page4-section3 {
+    padding: 40px 10px;
+    background-color: #eefbf3;
+    overflow: hidden;
+}
+.Flagship-page4-section3 h2 {
+    text-align: center;
+    font-size: 3em;
+    padding: 30px;
+    font-weight: 800;
+    color: rgba(29, 121, 29, 0.568);
+}
+
+.grid-3col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.Flagship-page4-section3 > .grid-3col > .grid-content > .grid-description > h3 {
+    font-size: 1.8rem;
+    margin: 10px 0;
+    color: rgba(29, 121, 29, 0.568);
+    text-align: center;
+}
+.Flagship-page4-section3 > .grid-3col > .grid-content > .grid-description > p {
+    font-size: 1.3rem;
+    margin-top: 10px;
+    color: green;
+    text-align: center;
+}
+.Flagship-page4-section3 > .grid-3col > .grid-content > img {
+    border-radius: 8px;
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+.grid-content {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    overflow: hidden;
+}
+
+.Flagship-page4-lastSection {
+    position: relative;
+    padding-top: 8.5rem;
+    background-color: #21513b;
+}
+.Flagship-page4-lastSection h2 {
+    font-size: 3em;
+    text-align: center;
+    color: #fff;
+    font-weight: 800;
+    padding: 5px;
+}
+.custom-shape-divider-top-1715535169 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1715535169 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 80px;
+}
+
+.custom-shape-divider-top-1715535169 .shape-fill {
+    fill: #eefbf3;
+}
+.grid-glance {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    gap: 30px;
+    padding: 40px;
+}
+
+.grid-gallery img {
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 5/4;
+    border-radius: 12px;
+    padding: 4px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+@media screen and (max-width: 1050px) {
+    .Flagship-Page4-banner h1 {
+        font-size: 4em;
+    }
+    .Flagship-Page4-banner p {
+        font-size: 1.4em;
+    }
+    .Flagship-page4-section1 {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .grid-3col {
+        grid-template-columns: 1fr;
+    }
+    .grid-glance {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 750px) {
+    .Flagship-Page4-banner {
+        height: 24rem;
+    }
+    .Flagship-Page4-banner h1 {
+        font-size: 2.5em;
+        font-weight: 700;
+    }
+    .Flagship-Page4-banner p {
+        font-size: 1.2em;
+    }
+    .Flagship-page4-section2 h2 {
+        font-size: 2.5em;
+        padding: 2rem 0;
+    }
+    .grid-glance {
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 550px) {
+    .Flagship-Page4-banner {
+        height: 18rem;
+        margin-top: 5.5rem;
+    }
+    .Flagship-Page4-banner h1 {
+        font-size: 2em;
+        margin: 0;
+    }
+    .Flagship-Page4-banner p {
+        font-size: 0.9em;
+    }
+    .Flagship-page4-section1 > .description > p {
+        font-size: 1.1em;
+        padding: 10px 0px;
+        line-height: 1.3em;
+        color: green;
+    }
+    .Flagship-page4-section1-image > img {
+        width: 95%;
+    }
+    .Flagship-page4-section2 {
+        padding: 10px;
+        padding-bottom: 3rem;
+    }
+    .Flagship-page4-section2 h2 {
+        font-size: 2em;
+        padding: 2rem 0;
+    }
+    .Flagship-page4-section2 > .grid-3col > .grid-content > .grid-description > h3 {
+        font-size: 1.5rem;
+    }
+    .Flagship-page4-section2 > .grid-3col > .grid-content > .grid-description > p {
+        font-size: 1rem;
+    }
+    .Flagship-page4-lastSection {
+        padding-top: 5.5rem;
+    }
+    .grid-glance {
+        padding: 1rem;
+    }
+}
+@media screen and (max-width: 450px) {
+    .Flagship-Page4-banner {
+        height: 14rem;
+    }
+    .Flagship-Page4-banner h1 {
+        font-size: 1.8em;
+    }
+    .Flagship-Page4-banner p {
+        font-size: 0.7em;
+    }
+}

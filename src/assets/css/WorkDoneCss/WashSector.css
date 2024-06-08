@@ -1,0 +1,495 @@
+.WashSector-Section {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.WashSector-Heading {
+    margin-top: 6.6rem;
+    width: 100%;
+    height: 18rem;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    background: #c610b0; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #068ac2,
+        #c610b0
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #068ac2,
+        #c610b0
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    align-items: center;
+}
+.WashSector-Heading h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 3.5rem;
+    font-family: "Nunito", sans-serif;
+}
+
+/* --- content page ---*/
+
+.Content-Page {
+    display: grid;
+    margin: 0 auto;
+    margin-top: 2rem;
+    max-width: 1300px;
+    padding: 2rem 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    box-shadow: 0 0 8px 4px rgb(0, 0, 0, 0.1);
+}
+
+.Content-Image-Container {
+    position: relative;
+    width: 100%;
+    height: 110%;
+}
+
+.Content-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Content-image {
+    padding: 5px;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.2s ease;
+    box-shadow: 0 0 8px 4px rgba(51, 51, 51, 0.118);
+}
+
+#Content-image1 {
+    max-width: 26rem;
+    aspect-ratio: 16/9;
+    top: 0rem;
+    left: 2rem;
+}
+#Content-image2 {
+    max-width: 26rem;
+    aspect-ratio: 16/9;
+    top: 4rem;
+    left: 6rem;
+}
+#Content-image3 {
+    max-width: 26rem;
+    aspect-ratio: 16/9;
+    top: 8rem;
+    left: 10rem;
+}
+
+.Content-image:hover {
+    z-index: 4;
+    /* border: #65C7F7 solid 10px; */
+    scale: 104%;
+    box-shadow: 0 0 8px 4px rgba(51, 51, 51, 0.267);
+}
+
+.content-Description {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+}
+.content-Description p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+.content-Description h1 {
+    font-size: 2.5rem;
+    background: linear-gradient(90deg, #ff0dc7, #1cb5e0);
+    background-clip: text;
+    color: transparent;
+}
+
+.content-Description p::first-letter {
+    font-size: 1.5em;
+    color: #ff0dc7;
+}
+
+/* ---- impact content ---*/
+.WashSector-impacts {
+    padding: 4rem 0;
+    max-width: 1300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+.impact-Map-description {
+    display: flex;
+    align-items: center;
+}
+.impact-Map-description h2 {
+    font-family: "Nunito", sans-serif;
+    background: linear-gradient(90deg, #20b1f0, #f02fd9);
+    color: transparent;
+    background-clip: text;
+    display: inline-block;
+    font-size: 3rem;
+    letter-spacing: 0.9px;
+    padding: 0;
+}
+.impact-Map {
+    display: flex;
+    place-content: center;
+}
+
+.impact-Map img {
+    margin: auto;
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* ----- Affliation  -----  */
+.WashSector-Affilation {
+    margin-top: 12rem;
+    text-align: center;
+    background-color: #0b3269;
+}
+
+.WashSector-Affilation h1 {
+    font-family: "Nunito", sans-serif;
+    margin: 3rem 0;
+    font-size: 3.5rem;
+    text-align: center;
+    background: linear-gradient(90deg, #068ac2, #ff0dc7);
+    background-clip: text;
+    color: transparent;
+}
+.Affilation-Logo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 3rem 2rem;
+    margin: 2rem 5rem;
+    place-items: center;
+}
+
+.Affilation-Logo-Container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+    gap: 10px;
+    transition: all ease 0.4s;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13rem;
+    height: 13rem;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.Affilation-logo1 {
+    background-color: #d1e7ec;
+}
+
+.Affilation-logo2 {
+    background-color: #d1e7ec;
+}
+
+.Affilation-logo3 {
+    background-color: #d1e7ec;
+}
+
+.logo-container img {
+    width: 80%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.inner-container {
+    overflow: hidden;
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+}
+
+.innerLogo1 {
+    background-color: #3d759a;
+}
+
+.innerLogo2 {
+    background-color: #8bc7ee;
+}
+
+.innerLogo3 {
+    background-color: #3d759a;
+}
+
+/* .pointed-shape
+{
+    position:absolute;
+    width:3rem;
+    height: 3rem;
+    border: 3px solid white;#c471ed
+    transform: rotate(45deg);
+    top:-1.61rem;
+    left:11.5rem;
+    background-color: #fff;
+    border-right:none ;
+    border-bottom: none;
+} */
+
+.Logo-description p {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color: white; /*#2C5364*/
+}
+
+.Affilation-Logo-Container .Logo-description {
+    width: 100%;
+    height: 100%;
+    /* padding:25px;
+    padding-top: 28px; */
+    text-align: center;
+    position: relative;
+    /* border: 3px solid white;#c471ed */
+    /* border-radius: 4px; */
+    overflow: visible;
+    display: none;
+    /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+}
+
+.Affilation-Logo-Container:hover .Logo-description {
+    display: block;
+}
+.logo-container:hover {
+    width: 13.4rem;
+    height: 13.4rem;
+}
+
+/* ---- Glimpse Section  ---- */
+
+.ws-Glimpse-Container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    margin: 1rem auto;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(22, 22, 22, 0.133);
+}
+.ws-Glimpse-Container h1 {
+    margin: 30px 0;
+    font-size: 3.5rem;
+    text-align: center;
+    background: linear-gradient(90deg, #068ac2, #c610b0);
+    background-clip: text;
+    color: transparent;
+}
+
+.ws-image-collage-container {
+    margin: auto;
+    max-width: 1300px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+.ws-image-collage-container-inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.image-container {
+    border: #8360c3 solid 10px;
+    padding: 5px;
+    overflow: hidden;
+}
+.image-container img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    transition: all ease 200ms;
+}
+.image-container:hover img {
+    position: relative;
+    scale: 102%;
+}
+
+@media screen and (max-width: 1250px) {
+    .Content-Page {
+        grid-template-columns: 0.9fr 1.1fr;
+    }
+    #Content-image1 {
+        max-width: 26rem;
+        aspect-ratio: 16/9;
+        top: 0rem;
+        left: 1rem;
+    }
+    #Content-image2 {
+        max-width: 26rem;
+        aspect-ratio: 16/9;
+        top: 4rem;
+        left: 3rem;
+    }
+    #Content-image3 {
+        max-width: 26rem;
+        aspect-ratio: 16/9;
+        top: 8rem;
+        left: 5rem;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .WashSector-Heading h1 {
+        font-size: 3rem;
+    }
+    .Content-Page {
+        grid-template-columns: 1fr;
+    }
+    .Content-Image-Container {
+        height: 26rem;
+    }
+    #Content-image1 {
+        max-width: 26rem;
+        aspect-ratio: 16/9;
+        top: 0rem;
+        left: 10%;
+    }
+    #Content-image2 {
+        max-width: 26rem;
+        aspect-ratio: 16/9;
+        top: 4rem;
+        left: 20%;
+    }
+    #Content-image3 {
+        max-width: 26rem;
+        aspect-ratio: 16/9;
+        top: 8rem;
+        left: 30%;
+    }
+    .content-Description h1 {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 850px) {
+    .WashSector-Heading h1 {
+        font-size: 2.5rem;
+    }
+    .WashSector-impacts {
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 700px) {
+    .WashSector-Heading {
+        margin-top: 5.5rem;
+        height: 14rem;
+    }
+    .WashSector-Heading h1 {
+        font-size: 2rem;
+    }
+    #Content-image1 {
+        max-width: 26rem;
+        aspect-ratio: 16/9;
+        top: 0rem;
+        left: 8%;
+    }
+    #Content-image2 {
+        max-width: 26rem;
+        aspect-ratio: 16/9;
+        top: 4rem;
+        left: 14%;
+    }
+    #Content-image3 {
+        max-width: 26rem;
+        aspect-ratio: 16/9;
+        top: 8rem;
+        left: 20%;
+    }
+    .content-Description h1 {
+        font-size: 2rem;
+    }
+
+    .content-Description p {
+        font-size: 1.2rem;
+        line-height: 1.4;
+    }
+    .ws-image-collage-container {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .WashSector-Heading h1 {
+        font-size: 1.6rem;
+    }
+    .Content-Page {
+        padding: 2rem 0rem;
+    }
+    .Content-Image-Container {
+        height: 20rem;
+    }
+    #Content-image1 {
+        max-width: 20rem;
+        aspect-ratio: 16/9;
+        top: 0rem;
+        left: 4%;
+    }
+    #Content-image2 {
+        max-width: 20rem;
+        aspect-ratio: 16/9;
+        top: 4rem;
+        left: 12%;
+    }
+    #Content-image3 {
+        max-width: 20rem;
+        aspect-ratio: 16/9;
+        top: 8rem;
+        left: 22%;
+    }
+    .impact-Map-description h2 {
+        font-size: 2rem;
+        letter-spacing: 0.6px;
+        padding: 0 1rem;
+    }
+    .image-container {
+        border: #8360c3 solid 5px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .WashSector-Heading {
+        height: 12rem;
+    }
+    .WashSector-Heading h1 {
+        font-size: 1.5rem;
+    }
+    .Content-Image-Container {
+        height: 16rem;
+    }
+    #Content-image1 {
+        max-width: 16rem;
+        aspect-ratio: 16/9;
+        top: 0rem;
+        left: 8%;
+    }
+    #Content-image2 {
+        max-width: 16rem;
+        aspect-ratio: 16/9;
+        top: 3rem;
+        left: 18%;
+    }
+    #Content-image3 {
+        max-width: 16rem;
+        aspect-ratio: 16/9;
+        top: 6rem;
+        left: 28%;
+    }
+}
