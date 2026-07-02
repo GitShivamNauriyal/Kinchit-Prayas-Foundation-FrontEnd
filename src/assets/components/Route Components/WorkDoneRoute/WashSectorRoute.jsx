@@ -4,8 +4,8 @@ import WashSector from '../../Utilities/WorkDone/WashSector/WashSector';
 const WashSectorRoute = () => {
   return (
     <div>
-                 <WashSector/>
-             </div>
+      <WashSector />
+    </div>
   )
 }
 

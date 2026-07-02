@@ -5,8 +5,8 @@ import GetInvolved from "../../Utilities/GetInvolved/GetInvolved";
 const GalleryRoute = () => {
     return (
         <div>
-                        <GetInvolved />
-                    </div>
+            <GetInvolved />
+        </div>
     );
 };
 

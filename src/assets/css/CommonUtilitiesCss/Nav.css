@@ -78,8 +78,9 @@ a:hover {
     transition: all ease 0.3s;
     transform: rotateX(-180deg);
 }
-.nav-link-item:hover > a > .arrow-button-icon {
-    transform: rotateX(0deg);
+.nav-link-item:hover > a > .arrow-button-icon,
+.rotate-btn-icon {
+    transform: rotateX(0deg) !important;
 }
 
 .mobile-menu-link {

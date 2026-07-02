@@ -108,6 +108,10 @@
 
 .icons-footer {
     margin: 2% 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .icons-footer :hover {

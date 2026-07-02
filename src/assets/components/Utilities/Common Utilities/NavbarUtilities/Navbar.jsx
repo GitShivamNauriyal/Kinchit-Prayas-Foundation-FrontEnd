@@ -124,11 +124,9 @@ const Navbar = () => {
                             <Link to="">
                                 Our Works
                                 <MdExpandMore
-                                    className={
-                                        dropdowns.ourWorks
-                                            ? "rotate-btn-icon"
-                                            : "arrow-button-icon"
-                                    }
+                                    className={`arrow-button-icon ${
+                                        dropdowns.ourWorks ? "rotate-btn-icon" : ""
+                                    }`}
                                 />
                             </Link>
                             {dropdowns.ourWorks && (
@@ -176,11 +174,9 @@ const Navbar = () => {
                             <Link to="">
                                 Flagship Events
                                 <MdExpandMore
-                                    className={
-                                        dropdowns.flagshipEvents
-                                            ? "rotate-btn-icon"
-                                            : "arrow-button-icon"
-                                    }
+                                    className={`arrow-button-icon ${
+                                        dropdowns.flagshipEvents ? "rotate-btn-icon" : ""
+                                    }`}
                                 />
                             </Link>
                             {dropdowns.flagshipEvents && (

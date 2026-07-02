@@ -4,8 +4,8 @@ import Gallery from "../../Utilities/GalleryUtilities/Gallery";
 const GalleryRoute = () => {
   return (
     <div>
-                <Gallery/>
-            </div>
+      <Gallery />
+    </div>
   )
 }
 
