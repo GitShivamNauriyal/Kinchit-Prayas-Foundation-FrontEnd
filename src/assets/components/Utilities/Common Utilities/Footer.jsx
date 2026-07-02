@@ -188,7 +188,7 @@ export default function Footer() {
                             src={KinchitLogo}
                         />
                         <p className="footer-copyright-text">
-                            &#169; 2024 Kinchit Prayas Foundation. All rights
+                            &#169; {new Date().getFullYear()} Kinchit Prayas Foundation. All rights
                             reserved. Privacy Policy Terms of Use
                         </p>
                     </div>
