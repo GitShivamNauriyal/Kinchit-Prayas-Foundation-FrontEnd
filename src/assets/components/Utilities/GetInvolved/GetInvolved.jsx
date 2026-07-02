@@ -148,7 +148,7 @@ const GetInvolved = () => {
                 <div className="get-involved-internship-button-container">
                     <Link to="/GetInvolved/Internship">
                         <div className="get-involved-internship-button">
-                            <h2>Volunter Form</h2>
+                            <h2>Volunteer Form</h2>
                         </div>
                     </Link>
                 </div>

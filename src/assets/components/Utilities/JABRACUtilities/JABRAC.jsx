@@ -1,9 +1,9 @@
 import React from "react";
 import "../../../css/JABRACCss/JABRAC.css";
-import ContentImage2 from "../../../../Image/JABRAC/JBARC_2.jpg";
-import ContentImage1 from "../../../../Image/JABRAC/JBARC_3.jpg";
-import ContentImage3 from "../../../../Image/JABRAC/JABRAC_banner1.jpg";
-import ContentImage4 from "../../../../Image/JABRAC/JABRAC_banner.jpg";
+import ContentImage2 from "../../../../assets/images/JABRAC/JBARC_2.jpg";
+import ContentImage1 from "../../../../assets/images/JABRAC/JBARC_3.jpg";
+import ContentImage3 from "../../../../assets/images/JABRAC/JABRAC_banner1.jpg";
+import ContentImage4 from "../../../../assets/images/JABRAC/JABRAC_banner.jpg";
 
 const JABRAC = () => {
     return (
@@ -15,22 +15,22 @@ const JABRAC = () => {
             </div>
 
             <div className="JBARC-content-1-wrapper">
-                <img
+                <img loading="lazy"
                     src={ContentImage1}
                     alt="not loaded"
                     className="JBARC-content-image"
                 />
-                <img
+                <img loading="lazy"
                     src={ContentImage2}
                     alt="not loaded"
                     className="JBARC-content-image"
                 />
-                <img
+                <img loading="lazy"
                     src={ContentImage3}
                     alt="not loaded"
                     className="JBARC-content-image"
                 />
-                <img
+                <img loading="lazy"
                     src={ContentImage4}
                     alt="not loaded"
                     className="JBARC-content-image"

@@ -2,14 +2,14 @@ import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../../../../css/WorkDoneCss/ConservationandCulture.css";
-import cimage1 from "../../../../../Image/culture/culture1.jpg";
-import cimage2 from "../../../../../Image/culture/culture2.jpg";
-import cimage3 from "../../../../../Image/culture/culture3.jpg";
-import cimage4 from "../../../../../Image/culture/culture4.jpg";
-import cimage5 from "../../../../../Image/culture/culture5.jpg";
-import cimage6 from "../../../../../Image/culture/culture6.jpg";
-import cimage7 from "../../../../../Image/culture/culture7.jpg";
-import clogo from "../../../../../Image/culture/logo.jpg";
+import cimage1 from "../../../../../assets/images/culture/culture1.jpg";
+import cimage2 from "../../../../../assets/images/culture/culture2.jpg";
+import cimage3 from "../../../../../assets/images/culture/culture3.jpg";
+import cimage4 from "../../../../../assets/images/culture/culture4.jpg";
+import cimage5 from "../../../../../assets/images/culture/culture5.jpg";
+import cimage6 from "../../../../../assets/images/culture/culture6.jpg";
+import cimage7 from "../../../../../assets/images/culture/culture7.jpg";
+import clogo from "../../../../../assets/images/culture/logo.jpg";
 
 const ConservationandCulture = () => {
     AOS.init({ duration: 2000 });
@@ -26,7 +26,7 @@ const ConservationandCulture = () => {
                         className="culture-content-image"
                         data-aos="fade-right"
                     >
-                        <img
+                        <img loading="lazy"
                             src={cimage1}
                             alt="Environmental Conservation"
                         />
@@ -79,14 +79,14 @@ const ConservationandCulture = () => {
                         </p>
                     </div>
                     <div className="culture-content-image" data-aos="fade-left">
-                        <img src={cimage2} alt="Community Engagement" />
+                        <img loading="lazy" src={cimage2} alt="Community Engagement" />
                     </div>
                 </div>
             </section>
             <section className="culture-preserving-tradition">
                 <div className="culture-content-wrapper">
                     <div className="culture-content-image" data-aos="fade-up">
-                        <img src={cimage3}alt="Traditional Handicrafts" />
+                        <img loading="lazy" src={cimage3}alt="Traditional Handicrafts" />
                     </div>
                     <div
                         className="culture-content-description"
@@ -146,7 +146,7 @@ const ConservationandCulture = () => {
                         </p>
                     </div>
                     <div className="culture-content-image" data-aos="fade-left">
-                        <img src={clogo} alt="DC Handicrafts Logo" />
+                        <img loading="lazy" src={clogo} alt="DC Handicrafts Logo" />
                     </div>
                 </div>
                 <div className="culture-content-wrapper  culture-description-section">
@@ -154,19 +154,19 @@ const ConservationandCulture = () => {
                         className="culture-exhibition-grid"
                         data-aos="fade-right"
                     >
-                        <img
+                        <img loading="lazy"
                             src={cimage4}
                             alt="Exhibition in Uttarakhand"
                         />
-                        <img
+                        <img loading="lazy"
                             src={cimage5}
                             alt="Exhibition in Uttarakhand"
                         />
-                        <img
+                        <img loading="lazy"
                             src={cimage6}
                             alt="Exhibition in Uttarakhand"
                         />
-                        <img
+                        <img loading="lazy"
                             src={cimage7}
                             alt="Exhibition in Uttarakhand"
                         />

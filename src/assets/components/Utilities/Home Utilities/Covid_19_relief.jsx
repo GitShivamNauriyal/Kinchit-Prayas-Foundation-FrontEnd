@@ -1,7 +1,7 @@
 import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import covidImage from "../../../../Image/homepage/covid_images/Covid_Image.jpg";
+import covidImage from "../../../../assets/images/homepage/covid_images/Covid_Image.jpg";
 // /images/covid_relief_certificate.jpg";
 import "../../../css/HomeCss/covid_19_relief.css";
 
@@ -28,7 +28,7 @@ const CovidRelief = () => {
             </div>
             <div className="covid-relief-content">
                 <div className="covid-relief-certificate">
-                    <img
+                    <img loading="lazy"
                         src={covidImage}
                         alt="Covid Relief Certificate"
                     />

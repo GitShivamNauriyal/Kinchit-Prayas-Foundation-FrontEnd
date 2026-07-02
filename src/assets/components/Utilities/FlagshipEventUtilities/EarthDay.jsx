@@ -2,19 +2,19 @@ import React from "react";
 import "../../../css/FlagshipEventCss/EarthDay.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Image4 from "../../../../Image/Flagship/EarthDay/earth3.jpg";
-import Image5 from "../../../../Image/Flagship/EarthDay/earth1.jpg";
-import Image7 from "../../../../Image/Flagship/EarthDay/earth8.jpg";
-import Image8 from "../../../../Image/Flagship/EarthDay/earth5.jpg";
-import Image9 from "../../../../Image/Flagship/EarthDay/earth9.jpg";
-import Image10 from "../../../../Image/Flagship/EarthDay/earth4.jpg";
-import Image11 from "../../../../Image/Flagship/EarthDay/earth6.jpg";
-import Image13 from "../../../../Image/Flagship/EarthDay/earth13.jpg";
-import Image14 from "../../../../Image/Flagship/EarthDay/earth14.jpg";
-import Image15 from "../../../../Image/Flagship/EarthDay/earth15.jpg";
-import Image16 from "../../../../Image/Flagship/EarthDay/earth16.jpg";
-import Image17 from "../../../../Image/Flagship/EarthDay/earth17.jpg";
-import Image18 from "../../../../Image/Flagship/EarthDay/earth18.jpg";
+import Image4 from "../../../../assets/images/Flagship/EarthDay/earth3.jpg";
+import Image5 from "../../../../assets/images/Flagship/EarthDay/earth1.jpg";
+import Image7 from "../../../../assets/images/Flagship/EarthDay/earth8.jpg";
+import Image8 from "../../../../assets/images/Flagship/EarthDay/earth5.jpg";
+import Image9 from "../../../../assets/images/Flagship/EarthDay/earth9.jpg";
+import Image10 from "../../../../assets/images/Flagship/EarthDay/earth4.jpg";
+import Image11 from "../../../../assets/images/Flagship/EarthDay/earth6.jpg";
+import Image13 from "../../../../assets/images/Flagship/EarthDay/earth13.jpg";
+import Image14 from "../../../../assets/images/Flagship/EarthDay/earth14.jpg";
+import Image15 from "../../../../assets/images/Flagship/EarthDay/earth15.jpg";
+import Image16 from "../../../../assets/images/Flagship/EarthDay/earth16.jpg";
+import Image17 from "../../../../assets/images/Flagship/EarthDay/earth17.jpg";
+import Image18 from "../../../../assets/images/Flagship/EarthDay/earth18.jpg";
 
 const EarthDay = () => {
     AOS.init({ duration: 1500 });
@@ -60,7 +60,7 @@ const EarthDay = () => {
                     </p>
                 </div>
                 <div className="Flagship-page4-section1-image">
-                    <img src={Image13} alt="not loaded" data-aos="fade-left" />
+                    <img loading="lazy" src={Image13} alt="not loaded" data-aos="fade-left" />
                 </div>
             </div>
             <div className="Flagship-page4-section2">
@@ -71,7 +71,7 @@ const EarthDay = () => {
                     // data-aos-duration="3000"
                 >
                     <div className="grid-content">
-                        <img src={Image14} alt="not loaded" />
+                        <img loading="lazy" src={Image14} alt="not loaded" />
                         <div className="grid-description">
                             <h3>Tree Planting</h3>
                             <p>
@@ -81,7 +81,7 @@ const EarthDay = () => {
                         </div>
                     </div>
                     <div className="grid-content">
-                        <img src={Image5} alt="not loaded" />
+                        <img loading="lazy" src={Image5} alt="not loaded" />
                         <div className="grid-description">
                             <h3>Environmental Education Sessions</h3>
                             <p>
@@ -92,7 +92,7 @@ const EarthDay = () => {
                         </div>
                     </div>
                     <div className="grid-content">
-                        <img src={Image8} alt="not loaded" />
+                        <img loading="lazy" src={Image8} alt="not loaded" />
                         <div className="grid-description">
                             <h3>Art And Craft Workshops</h3>
                             <p>
@@ -114,7 +114,7 @@ const EarthDay = () => {
                     data-aos-duration="2500"
                 >
                     <div className="grid-content">
-                        <img src={Image9} alt="not loaded" />
+                        <img loading="lazy" src={Image9} alt="not loaded" />
                         <div className="grid-description">
                             <h3>Panel Discussions</h3>
                             <p>
@@ -126,7 +126,7 @@ const EarthDay = () => {
                         </div>
                     </div>
                     <div className="grid-content">
-                        <img src={Image15} alt="not loaded" />
+                        <img loading="lazy" src={Image15} alt="not loaded" />
                         <div className="grid-description">
                             <h3>Tree Plantation Drives</h3>
                             <p>
@@ -137,7 +137,7 @@ const EarthDay = () => {
                         </div>
                     </div>
                     <div className=" grid-content ">
-                        <img src={Image4} alt="not loaded" />
+                        <img loading="lazy" src={Image4} alt="not loaded" />
                         <div className="grid-description">
                             <h3>Workshops on Sustainable Living</h3>
                             <p>
@@ -172,12 +172,12 @@ const EarthDay = () => {
                     data-aos="fade-up"
                     data-aos-duration="2500"
                 >
-                    <img src={Image16} alt="not loaded" />
-                    <img src={Image17} alt="not loaded" />
-                    <img src={Image18} alt="not loaded" />
-                    <img src={Image11} alt="not loaded" />
-                    <img src={Image7} alt="not loaded" />
-                    <img src={Image10} alt="not loaded" />
+                    <img loading="lazy" src={Image16} alt="not loaded" />
+                    <img loading="lazy" src={Image17} alt="not loaded" />
+                    <img loading="lazy" src={Image18} alt="not loaded" />
+                    <img loading="lazy" src={Image11} alt="not loaded" />
+                    <img loading="lazy" src={Image7} alt="not loaded" />
+                    <img loading="lazy" src={Image10} alt="not loaded" />
                 </div>
             </div>
         </div>

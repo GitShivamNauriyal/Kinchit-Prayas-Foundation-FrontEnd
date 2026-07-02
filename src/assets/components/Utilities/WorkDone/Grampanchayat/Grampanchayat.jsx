@@ -3,21 +3,21 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "../../../../css/WorkDoneCss/grampanchayat.css";
 
-import gp_image1 from "../../../../../Image/grampanchayat/scroller_image_1.jpg";
-import gp_image2 from "../../../../../Image/grampanchayat/scroller_image_2.jpg";
-import gp_image3 from "../../../../../Image/grampanchayat/scroller_image_3.jpg";
-import gp_image4 from "../../../../../Image/grampanchayat/scroller_image_4.jpg";
-import gp_image5 from "../../../../../Image/grampanchayat/scroller_image_5.jpg";
-import gp_image6 from "../../../../../Image/grampanchayat/scroller_image_6.jpg";
-import gp_image7 from "../../../../../Image/grampanchayat/scroller_image_7.jpg";
-import gp_image8 from "../../../../../Image/grampanchayat/scroller_image_8.jpg";
-import gp_image9 from "../../../../../Image/grampanchayat/scroller_image_9.jpg";
-import gp_image10 from "../../../../../Image/grampanchayat/scroller_image_10.jpg";
-import gp_image11 from "../../../../../Image/grampanchayat/scroller_image_11.jpg";
-import gp_image12 from "../../../../../Image/grampanchayat/scroller_image_12.jpg";
+import gp_image1 from "../../../../../assets/images/grampanchayat/scroller_image_1.jpg";
+import gp_image2 from "../../../../../assets/images/grampanchayat/scroller_image_2.jpg";
+import gp_image3 from "../../../../../assets/images/grampanchayat/scroller_image_3.jpg";
+import gp_image4 from "../../../../../assets/images/grampanchayat/scroller_image_4.jpg";
+import gp_image5 from "../../../../../assets/images/grampanchayat/scroller_image_5.jpg";
+import gp_image6 from "../../../../../assets/images/grampanchayat/scroller_image_6.jpg";
+import gp_image7 from "../../../../../assets/images/grampanchayat/scroller_image_7.jpg";
+import gp_image8 from "../../../../../assets/images/grampanchayat/scroller_image_8.jpg";
+import gp_image9 from "../../../../../assets/images/grampanchayat/scroller_image_9.jpg";
+import gp_image10 from "../../../../../assets/images/grampanchayat/scroller_image_10.jpg";
+import gp_image11 from "../../../../../assets/images/grampanchayat/scroller_image_11.jpg";
+import gp_image12 from "../../../../../assets/images/grampanchayat/scroller_image_12.jpg";
 
-import gp_aff_image1 from "../../../../../Image/grampanchayat/aff_logo_1.jpg";
-import gp_aff_image2 from "../../../../../Image/grampanchayat/aff_logo_2.jpg";
+import gp_aff_image1 from "../../../../../assets/images/grampanchayat/aff_logo_1.jpg";
+import gp_aff_image2 from "../../../../../assets/images/grampanchayat/aff_logo_2.jpg";
 
 const Grampanchayat = () => {
     AOS.init({ duration: 2000 });
@@ -102,33 +102,33 @@ const Grampanchayat = () => {
                         <div className="gp-tag-list scroller__inner">
                             <li>
                                 <div className="gp-scroller-item">
-                                    <img src={gp_image1} alt="failed to load" />
+                                    <img loading="lazy" src={gp_image1} alt="failed to load" />
                                 </div>
                             </li>
                             <li>
                                 {" "}
                                 <div className="gp-scroller-item">
-                                    <img src={gp_image2} alt="failed to load" />
+                                    <img loading="lazy" src={gp_image2} alt="failed to load" />
                                 </div>
                             </li>
                             <li>
                                 <div className="gp-scroller-item">
-                                    <img src={gp_image3} alt="failed to load" />
+                                    <img loading="lazy" src={gp_image3} alt="failed to load" />
                                 </div>
                             </li>
                             <li>
                                 <div className="gp-scroller-item">
-                                    <img src={gp_image4} alt="failed to load" />
+                                    <img loading="lazy" src={gp_image4} alt="failed to load" />
                                 </div>
                             </li>
                             <li>
                                 <div className="gp-scroller-item">
-                                    <img src={gp_image5} alt="failed to load" />
+                                    <img loading="lazy" src={gp_image5} alt="failed to load" />
                                 </div>
                             </li>
                             <li>
                                 <div className="gp-scroller-item">
-                                    <img src={gp_image6} alt="failed to load" />
+                                    <img loading="lazy" src={gp_image6} alt="failed to load" />
                                 </div>
                             </li>
                         </div>
@@ -157,33 +157,33 @@ const Grampanchayat = () => {
                 <div className="gp-tag-list scroller__inner">
                     <li>
                         <div className="gp-scroller-item">
-                            <img src={gp_image7} alt="failed to load" />
+                            <img loading="lazy" src={gp_image7} alt="failed to load" />
                         </div>
                     </li>
                     <li>
                         {" "}
                         <div className="gp-scroller-item">
-                            <img src={gp_image8} alt="failed to load" />
+                            <img loading="lazy" src={gp_image8} alt="failed to load" />
                         </div>
                     </li>
                     <li>
                         <div className="gp-scroller-item">
-                            <img src={gp_image9} alt="failed to load" />
+                            <img loading="lazy" src={gp_image9} alt="failed to load" />
                         </div>
                     </li>
                     <li>
                         <div className="gp-scroller-item">
-                            <img src={gp_image10} alt="failed to load" />
+                            <img loading="lazy" src={gp_image10} alt="failed to load" />
                         </div>
                     </li>
                     <li>
                         <div className="gp-scroller-item">
-                            <img src={gp_image11} alt="failed to load" />
+                            <img loading="lazy" src={gp_image11} alt="failed to load" />
                         </div>
                     </li>
                     <li>
                         <div className="gp-scroller-item">
-                            <img src={gp_image12} alt="failed to load" />
+                            <img loading="lazy" src={gp_image12} alt="failed to load" />
                         </div>
                     </li>
                 </div>
@@ -376,7 +376,7 @@ const Grampanchayat = () => {
                         data-aos="fade-up"
                         data-aos-duration="2500"
                     >
-                        <img
+                        <img loading="lazy"
                             src={gp_aff_image1}
                             alt="Affiliation Logo Loading..."
                         />
@@ -386,7 +386,7 @@ const Grampanchayat = () => {
                         data-aos="fade-up"
                         data-aos-duration="2500"
                     >
-                        <img
+                        <img loading="lazy"
                             src={gp_aff_image2}
                             alt="Affiliation Logo Loading..."
                         />

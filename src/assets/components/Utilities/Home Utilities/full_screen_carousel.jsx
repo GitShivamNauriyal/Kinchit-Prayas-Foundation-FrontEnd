@@ -67,16 +67,16 @@ const FullscreenCarousel = (props) => {
                 // itemClass="carousel-item-padding-40-px"
             >
                 <div className="fs-carousel-image">
-                    <img src={props.image1} alt="Image_1 Loading..." />
+                    <img loading="lazy" src={props.image1} alt="Image_1 Loading..." />
                 </div>
                 <div className="fs-carousel-image">
-                    <img src={props.image2} alt="Image_2 Loading..." />
+                    <img loading="lazy" src={props.image2} alt="Image_2 Loading..." />
                 </div>
                 <div className="fs-carousel-image">
-                    <img src={props.image3} alt="Image_3 Loading..." />
+                    <img loading="lazy" src={props.image3} alt="Image_3 Loading..." />
                 </div>
                 <div className="fs-carousel-image">
-                    <img src={props.image4} alt="Image_4 Loading..." />
+                    <img loading="lazy" src={props.image4} alt="Image_4 Loading..." />
                 </div>
             </Carousel>
             ;

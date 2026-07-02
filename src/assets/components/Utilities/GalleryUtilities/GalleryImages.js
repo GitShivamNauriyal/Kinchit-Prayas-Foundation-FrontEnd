@@ -1,148 +1,148 @@
 const image=[
 {
     key:1,
-   src:"./src/Image/GalleryImage/gal1.jpg"
+   src:"./src/assets/images/GalleryImage/gal1.jpg"
 },
 {
     key:2,
-    src:"./src/Image/GalleryImage/gal2.jpg"
+    src:"./src/assets/images/GalleryImage/gal2.jpg"
  },
  {
     key:3,
-    src:"./src/Image/GalleryImage/gal3.jpg"
+    src:"./src/assets/images/GalleryImage/gal3.jpg"
  },
  {
     key:4,
-    src:"./src/Image/GalleryImage/gal4.jpg"
+    src:"./src/assets/images/GalleryImage/gal4.jpg"
  },
  {
     key:5,
-    src:"./src/Image/GalleryImage/gal5.jpg"
+    src:"./src/assets/images/GalleryImage/gal5.jpg"
  },
  {
     key:6,
-    src:"./src/Image/GalleryImage/gal6.jpg"
+    src:"./src/assets/images/GalleryImage/gal6.jpg"
  },
  {
     key:7,
-    src:"./src/Image/GalleryImage/gal7.jpg"
+    src:"./src/assets/images/GalleryImage/gal7.jpg"
  },
  {
     key:8,
-    src:"./src/Image/GalleryImage/gal8.jpg"
+    src:"./src/assets/images/GalleryImage/gal8.jpg"
  },
  {
     key:9,
-    src:"./src/Image/GalleryImage/gal9.jpg"
+    src:"./src/assets/images/GalleryImage/gal9.jpg"
  },
  {
     key:10,
-    src:"./src/Image/GalleryImage/gal10.jpg"
+    src:"./src/assets/images/GalleryImage/gal10.jpg"
  },
  {
     key:11,
-    src:"./src/Image/GalleryImage/gal11.jpg"
+    src:"./src/assets/images/GalleryImage/gal11.jpg"
  },
  {
     key:12,
-    src:"./src/Image/GalleryImage/gal12.jpg"
+    src:"./src/assets/images/GalleryImage/gal12.jpg"
  },
  
  {
     key:13,
-    src:"./src/Image/GalleryImage/gal13.jpg"
+    src:"./src/assets/images/GalleryImage/gal13.jpg"
  },
  {
     key:14,
-    src:"./src/Image/GalleryImage/gal14.jpg"
+    src:"./src/assets/images/GalleryImage/gal14.jpg"
  },
  {
     key:15,
-    src:"./src/Image/GalleryImage/gal15.jpg"
+    src:"./src/assets/images/GalleryImage/gal15.jpg"
  },
  {
     key:16,
-    src:"./src/Image/GalleryImage/gal16.jpg"
+    src:"./src/assets/images/GalleryImage/gal16.jpg"
  },
  {
     key:17,
-    src:"./src/Image/GalleryImage/gal17.jpg"
+    src:"./src/assets/images/GalleryImage/gal17.jpg"
  },
  {
     key:18,
-    src:"./src/Image/GalleryImage/gal18.jpg"
+    src:"./src/assets/images/GalleryImage/gal18.jpg"
  },
  {
     key:19,
-    src:"./src/Image/GalleryImage/gal19.jpg"
+    src:"./src/assets/images/GalleryImage/gal19.jpg"
  },
  {
     key:20,
-    src:"./src/Image/GalleryImage/gal20.jpg"
+    src:"./src/assets/images/GalleryImage/gal20.jpg"
  },
  {
     key:21,
-    src:"./src/Image/GalleryImage/gal21.jpg"
+    src:"./src/assets/images/GalleryImage/gal21.jpg"
  },
  {
     key:22,
-    src:"./src/Image/GalleryImage/gal22.jpg"
+    src:"./src/assets/images/GalleryImage/gal22.jpg"
  },
  {
     key:23,
-    src:"./src/Image/GalleryImage/gal23.jpg"
+    src:"./src/assets/images/GalleryImage/gal23.jpg"
  },
  {
     key:24,
-    src:"./src/Image/GalleryImage/gal24.jpg"
+    src:"./src/assets/images/GalleryImage/gal24.jpg"
  },
  {
     key:25,
-    src:"./src/Image/GalleryImage/gal25.jpg"
+    src:"./src/assets/images/GalleryImage/gal25.jpg"
  },
  {
     key:26,
-    src:"./src/Image/GalleryImage/gal26.jpg"
+    src:"./src/assets/images/GalleryImage/gal26.jpg"
  },
  {
     key:27,
-    src:"./src/Image/GalleryImage/gal27.jpg"
+    src:"./src/assets/images/GalleryImage/gal27.jpg"
  },
  {
     key:28,
-    src:"./src/Image/GalleryImage/gal28.jpg"
+    src:"./src/assets/images/GalleryImage/gal28.jpg"
  },
  {
     key:29,
-    src:"./src/Image/GalleryImage/gal29.jpg"
+    src:"./src/assets/images/GalleryImage/gal29.jpg"
  },
  {
     key:30,
-    src:"./src/Image/GalleryImage/gal30.jpg"
+    src:"./src/assets/images/GalleryImage/gal30.jpg"
  },
  {
     key:31,
-    src:"./src/Image/GalleryImage/gal31.jpg"
+    src:"./src/assets/images/GalleryImage/gal31.jpg"
  },
  {
     key:32,
-    src:"./src/Image/GalleryImage/gal32.jpg"
+    src:"./src/assets/images/GalleryImage/gal32.jpg"
  },
  {
     key:33,
-    src:"./src/Image/GalleryImage/gal33.jpg"
+    src:"./src/assets/images/GalleryImage/gal33.jpg"
  },
  {
     key:34,
-    src:"./src/Image/GalleryImage/gal34.jpg"
+    src:"./src/assets/images/GalleryImage/gal34.jpg"
  },
  {
     key:35,
-    src:"./src/Image/GalleryImage/gal35.jpg"
+    src:"./src/assets/images/GalleryImage/gal35.jpg"
  },
  {
    key:36,
-   src:"./src/Image/GalleryImage/gal36.jpg"
+   src:"./src/assets/images/GalleryImage/gal36.jpg"
 },
 ]
 export default image;

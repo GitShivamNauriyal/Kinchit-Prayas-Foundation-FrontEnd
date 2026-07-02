@@ -12,10 +12,10 @@ import Testimonials from "./testimonials";
 // import Horizontal_scroller from "../common_utilities/horizontal_scroller";
 
 /*Main Carousel Images*/
-import Carousel_image1 from "../../../../Image/homepage/image_carousel/image1.jpg";
-import Carousel_image2 from "../../../../Image/homepage/image_carousel/image2.jpg";
-import Carousel_image3 from "../../../../Image/homepage/image_carousel/image3.jpg";
-import Carousel_image4 from "../../../../Image/homepage/image_carousel/image4.jpg";
+import Carousel_image1 from "../../../../assets/images/homepage/image_carousel/image1.jpg";
+import Carousel_image2 from "../../../../assets/images/homepage/image_carousel/image2.jpg";
+import Carousel_image3 from "../../../../assets/images/homepage/image_carousel/image3.jpg";
+import Carousel_image4 from "../../../../assets/images/homepage/image_carousel/image4.jpg";
 /*Testimonials Images*/
 
 const home = () => {

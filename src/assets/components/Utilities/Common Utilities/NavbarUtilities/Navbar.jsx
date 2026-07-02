@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import MenuIcon from "@mui/icons-material/Menu";
-import KinchitLogo from "../../../../../Image/kinchitLogo.png";
+import { MdExpandMore, MdMenu } from "react-icons/md";
+import KinchitLogo from "../../../../../assets/images/kinchitLogo.png";
 import DonationForm from "../../DonationForm Utilities/DonationForm";
 import "../../../../css/CommonUtilitiesCss/Nav.css";
 
@@ -82,7 +81,7 @@ const Navbar = () => {
             <nav className={showMediaIcons ? "onhamClick" : "main-nav"}>
                 <div className="logo-hamburger">
                     <div className="nav-logo">
-                        <img src={KinchitLogo} alt="Logo image" />
+                        <img loading="lazy" src={KinchitLogo} alt="Logo image" />
                     </div>
                     <div className="Navbar-heading">
                         <h2>KINCHIT PRAYAS FOUNDATION</h2>
@@ -90,7 +89,7 @@ const Navbar = () => {
 
                     <div className="hamburger-menu">
                         <a href="#" onClick={toggleMobileMenu}>
-                            <MenuIcon
+                            <MdMenu
                                 style={{
                                     height: "2em",
                                     width: "3em",
@@ -124,7 +123,7 @@ const Navbar = () => {
                         >
                             <Link to="">
                                 Our Works
-                                <ExpandMoreIcon
+                                <MdExpandMore
                                     className={
                                         dropdowns.ourWorks
                                             ? "rotate-btn-icon"
@@ -176,7 +175,7 @@ const Navbar = () => {
                         >
                             <Link to="">
                                 Flagship Events
-                                <ExpandMoreIcon
+                                <MdExpandMore
                                     className={
                                         dropdowns.flagshipEvents
                                             ? "rotate-btn-icon"

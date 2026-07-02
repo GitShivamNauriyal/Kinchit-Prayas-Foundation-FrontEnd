@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 import "aos/dist/aos.css";
 import "../../../css/HomeCss/interventions.css";
 /**/
-import soi_image1 from "../../../../Image/homepage/interventions/interventions_image_1.jpg";
-import soi_image2 from "../../../../Image/homepage/interventions/interventions_image_2.jpg";
-import soi_image3 from "../../../../Image/homepage/interventions/interventions_image_3.jpg";
-import soi_image4 from "../../../../Image/homepage/interventions/interventions_image_4.jpg";
-import soi_image5 from "../../../../Image/homepage/interventions/interventions_image_5.jpg";
-import soi_image6 from "../../../../Image/homepage/interventions/interventions_image_6.jpg";
+import soi_image1 from "../../../../assets/images/homepage/interventions/interventions_image_1.jpg";
+import soi_image2 from "../../../../assets/images/homepage/interventions/interventions_image_2.jpg";
+import soi_image3 from "../../../../assets/images/homepage/interventions/interventions_image_3.jpg";
+import soi_image4 from "../../../../assets/images/homepage/interventions/interventions_image_4.jpg";
+import soi_image5 from "../../../../assets/images/homepage/interventions/interventions_image_5.jpg";
+import soi_image6 from "../../../../assets/images/homepage/interventions/interventions_image_6.jpg";
 /**/
 const Interventions = () => {
     AOS.init({ duration: 1500 });
@@ -28,7 +28,7 @@ const Interventions = () => {
                         data-aos="fade-right"
                     >
                         <Link to="/workdone/washSector">
-                            <img
+                            <img loading="lazy"
                                 className="interventions-image"
                                 src={soi_image1}
                                 alt="Interventions Image"
@@ -55,7 +55,7 @@ const Interventions = () => {
                         data-aos-anchor-placement="top-bottom"
                     >
                         <Link to="/FlagShipEvents/UttrakhandDevelopmentExibition">
-                            <img
+                            <img loading="lazy"
                                 className="interventions-image"
                                 src={soi_image2}
                                 alt="Interventions Image"
@@ -80,7 +80,7 @@ const Interventions = () => {
                         data-aos="fade-left"
                     >
                         <Link to="/FlagShipEvents/EqualityAwareness">
-                            <img
+                            <img loading="lazy"
                                 className="interventions-image"
                                 src={soi_image3}
                                 alt="Interventions Image"
@@ -106,7 +106,7 @@ const Interventions = () => {
                         data-aos="fade-right"
                     >
                         <Link to="/work/Grampanchayat">
-                            <img
+                            <img loading="lazy"
                                 className="interventions-image"
                                 src={soi_image4}
                                 alt="Interventions Image"
@@ -137,7 +137,7 @@ const Interventions = () => {
                         data-aos-anchor-placement="top-bottom"
                     >
                         <Link to="/work/ConservationandCulture">
-                            <img
+                            <img loading="lazy"
                                 className="interventions-image"
                                 src={soi_image5}
                                 alt="Interventions Image"
@@ -164,7 +164,7 @@ const Interventions = () => {
                         data-aos="fade-left"
                     >
                         <Link to="/workdone/skillingCommunity">
-                            <img
+                            <img loading="lazy"
                                 className="interventions-image"
                                 src={soi_image6}
                                 alt="Interventions Image"

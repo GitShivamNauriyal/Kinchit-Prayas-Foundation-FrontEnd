@@ -34,7 +34,7 @@ const Carsoules = (props) => {
         <SwiperSlide>
           <div className="swiper-slide-col">
           <div className="swiper-slide-col1">
-          <img src={props.src} alt="Not loaded" />
+          <img loading="lazy" src={props.src} alt="Not loaded" />
           </div>
           <div className="swiper-slide-col2">
            <h3>JABRAC</h3>
@@ -46,7 +46,7 @@ const Carsoules = (props) => {
         <SwiperSlide>
           <div className="swiper-slide-col">
           <div className="swiper-slide-col1">
-          <img src={props.src1} alt="Not loaded" /> 
+          <img loading="lazy" src={props.src1} alt="Not loaded" /> 
           </div>
           <div className="swiper-slide-col2">
            <h3>RAC</h3>
@@ -60,7 +60,7 @@ const Carsoules = (props) => {
         <SwiperSlide>
         <div className="swiper-slide-col">
           <div className="swiper-slide-col1">
-          <img src={props.src2} alt="Not loaded" /> 
+          <img loading="lazy" src={props.src2} alt="Not loaded" /> 
           </div>
           <div className="swiper-slide-col2">
            <h3>JBRAC</h3>

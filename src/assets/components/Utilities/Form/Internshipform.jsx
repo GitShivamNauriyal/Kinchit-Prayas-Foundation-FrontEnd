@@ -163,7 +163,7 @@ const StudentRegistrationForm = () => {
                     </div>
                     <div>
                         <label className="internship-label">
-                            Phone number | फोन नंबर:
+                            Phone number
                             <input
                                 type="text"
                                 name="phoneNumber"
@@ -211,7 +211,7 @@ const StudentRegistrationForm = () => {
                     </div>
                     <div>
                         <label className="internship-label">
-                            State | राज्य:
+                            State
                             <select
                                 name="state"
                                 value={formData.state}

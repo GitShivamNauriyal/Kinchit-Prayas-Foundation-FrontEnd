@@ -4,9 +4,9 @@ import "aos/dist/aos.css";
 // import Slider from "../common_utilities/four_image_single_swipe_carousel";
 import "../../../css/HomeCss/Intro.css";
 
-import image1 from "../../../../Image/homepage/introImages/image1.jpg";
-import image2 from "../../../../Image/homepage/introImages/image2.jpg";
-import image3 from "../../../../Image/homepage/introImages/image3.jpg";
+import image1 from "../../../../assets/images/homepage/introImages/image1.jpg";
+import image2 from "../../../../assets/images/homepage/introImages/image2.jpg";
+import image3 from "../../../../assets/images/homepage/introImages/image3.jpg";
 
 const Intro = () => {
 	AOS.init({ duration: 1500 });
@@ -41,19 +41,19 @@ const Intro = () => {
 				</div>
 				<div className="intro-image-content" data-aos="fade-left">
 					<div className="home-intro-images-container">
-						<img
+						<img loading="lazy"
 							src={image1}
 							alt="about-image-1"
 							className="home-about-img"
 							id="about-image-1"
 						/>
-						<img
+						<img loading="lazy"
 							src={image2}
 							alt="about-image-2"
 							className="home-about-img"
 							id="about-image-2"
 						/>
-						<img
+						<img loading="lazy"
 							src={image3}
 							alt="about-image-3"
 							className="home-about-img"

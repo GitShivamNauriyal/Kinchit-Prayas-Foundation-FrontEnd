@@ -11,7 +11,7 @@
 	width: 100%;
 	height: 34rem;
 	background-image: linear-gradient(45deg, #3498dbe5, #8d44add2, #3498dbae),
-		url("../../../Image/CSR/CSR_banner.jpg");
+		url("../../../assets/images/CSR/CSR_banner.jpg");
 	background-position: center;
 	background-size: cover;
 	overflow: hidden;

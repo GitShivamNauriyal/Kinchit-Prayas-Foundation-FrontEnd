@@ -1,16 +1,16 @@
 import React, { useEffect } from "react";
 import "../../../css/FlagshipEventCss/slidingLogos.css";
-import Image1 from "../../../../Image/Flagship/UttrakhandDevelopmentExibition/Logo/logo1.png";
-// import Image2 from "../../../../Image/Flagship/UttrakhandDevelopmentExibition/Logo/logo2.png";
-import Image3 from "../../../../Image/Flagship/UttrakhandDevelopmentExibition/Logo/logo3.png";
-import Image4 from "../../../../Image/Flagship/UttrakhandDevelopmentExibition/Logo/logo4.jpg";
-import Image5 from "../../../../Image/Flagship/UttrakhandDevelopmentExibition/Logo/logo5.jpg";
-import Image6 from "../../../../Image/Flagship/UttrakhandDevelopmentExibition/Logo/logo6.jpg";
-import Image7 from "../../../../Image/Flagship/UttrakhandDevelopmentExibition/Logo/logo7.jpg";
-import Image8 from "../../../../Image/Flagship/UttrakhandDevelopmentExibition/Logo/logo8.png";
-import Image9 from "../../../../Image/Flagship/UttrakhandDevelopmentExibition/Logo/logo9.jpg";
-import Image10 from "../../../../Image/Flagship/UttrakhandDevelopmentExibition/Logo/logo10.png";
-import Image11 from "../../../../Image/Flagship/UttrakhandDevelopmentExibition/Logo/logo11.png";
+import Image1 from "../../../../assets/images/Flagship/UttrakhandDevelopmentExibition/Logo/logo1.png";
+// import Image2 from "../../../../assets/images/Flagship/UttrakhandDevelopmentExibition/Logo/logo2.png";
+import Image3 from "../../../../assets/images/Flagship/UttrakhandDevelopmentExibition/Logo/logo3.png";
+import Image4 from "../../../../assets/images/Flagship/UttrakhandDevelopmentExibition/Logo/logo4.jpg";
+import Image5 from "../../../../assets/images/Flagship/UttrakhandDevelopmentExibition/Logo/logo5.jpg";
+import Image6 from "../../../../assets/images/Flagship/UttrakhandDevelopmentExibition/Logo/logo6.jpg";
+import Image7 from "../../../../assets/images/Flagship/UttrakhandDevelopmentExibition/Logo/logo7.jpg";
+import Image8 from "../../../../assets/images/Flagship/UttrakhandDevelopmentExibition/Logo/logo8.png";
+import Image9 from "../../../../assets/images/Flagship/UttrakhandDevelopmentExibition/Logo/logo9.jpg";
+import Image10 from "../../../../assets/images/Flagship/UttrakhandDevelopmentExibition/Logo/logo10.png";
+import Image11 from "../../../../assets/images/Flagship/UttrakhandDevelopmentExibition/Logo/logo11.png";
 
 const SlidingLogos = () => {
 
@@ -64,37 +64,37 @@ const SlidingLogos = () => {
             <div className="scroller" data-animated="true">
                 <div className="tag-list scroller__inner">
                     <div className="affiliations-grid-item">
-                        <img src={Image1} alt="failed to load" />
+                        <img loading="lazy" src={Image1} alt="failed to load" />
                     </div>
                     {/* <div className="affiliations-grid-item">
-                        <img src={Image2} alt="failed to load" />
+                        <img loading="lazy" src={Image2} alt="failed to load" />
                     </div> */}
                     <div className="affiliations-grid-item">
-                        <img src={Image3} alt="failed to load" />
+                        <img loading="lazy" src={Image3} alt="failed to load" />
                     </div>
                     <div className="affiliations-grid-item">
-                        <img src={Image4} alt="failed to load" />
+                        <img loading="lazy" src={Image4} alt="failed to load" />
                     </div>
                     <div className="affiliations-grid-item">
-                        <img src={Image5} alt="failed to load" />
+                        <img loading="lazy" src={Image5} alt="failed to load" />
                     </div>
                     <div className="affiliations-grid-item">
-                        <img src={Image6} alt="failed to load" />
+                        <img loading="lazy" src={Image6} alt="failed to load" />
                     </div>
                     <div className="affiliations-grid-item">
-                        <img src={Image7} alt="failed to load" />
+                        <img loading="lazy" src={Image7} alt="failed to load" />
                     </div>
                     <div className="affiliations-grid-item">
-                        <img src={Image8} alt="failed to load" />
+                        <img loading="lazy" src={Image8} alt="failed to load" />
                     </div>
                     {/* <div className="affiliations-grid-item">
-                        <img src={Image9} alt="failed to load" />
+                        <img loading="lazy" src={Image9} alt="failed to load" />
                     </div> */}
                     <div className="affiliations-grid-item">
-                        <img src={Image10} alt="failed to load" />
+                        <img loading="lazy" src={Image10} alt="failed to load" />
                     </div>
                     <div className="affiliations-grid-item">
-                        <img src={Image11} alt="failed to load" />
+                        <img loading="lazy" src={Image11} alt="failed to load" />
                     </div>
                 </div>
             </div>

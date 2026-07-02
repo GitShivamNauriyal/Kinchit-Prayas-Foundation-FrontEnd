@@ -7,21 +7,21 @@ import SlidingLogos from "../FlagshipEventUtilities/SlidingLogos";
 
 import ScrollTrigger from "react-scroll-trigger";
 
-import Image1 from "../../../../Image/Flagship/UttrakhandDevelopmentExibition/Development1.jpg";
-import Image2 from "../../../../Image/Flagship/UttrakhandDevelopmentExibition/Development2.jpg";
-// import Image3 from "../../../../Image/Flagship/UttrakhandDevelopmentExibition/Development3.jpg";
-import Image4 from "../../../../Image/Flagship/UttrakhandDevelopmentExibition/Development4.jpg";
-import Image5 from "../../../../Image/Flagship/UttrakhandDevelopmentExibition/Development5.jpg";
-import Image6 from "../../../../Image/Flagship/UttrakhandDevelopmentExibition/Development6.jpg";
-import Image7 from "../../../../Image/Flagship/UttrakhandDevelopmentExibition/Development7.jpg";
-import Image8 from "../../../../Image/Flagship/UttrakhandDevelopmentExibition/Development8.jpg";
-import Image9 from "../../../../Image/Flagship/UttrakhandDevelopmentExibition/Development9.jpg";
-import Image10 from "../../../../Image/Flagship/UttrakhandDevelopmentExibition/Development10.jpg";
-import Image11 from "../../../../Image/Flagship/UttrakhandDevelopmentExibition/Development11.jpg";
-import Image12 from "../../../../Image/Flagship/UttrakhandDevelopmentExibition/Development12.jpg";
-import Image13 from "../../../../Image/Flagship/UttrakhandDevelopmentExibition/Development13.jpg";
-import Image14 from "../../../../Image/Flagship/UttrakhandDevelopmentExibition/banner.jpg";
-import Image15 from "../../../../Image/Flagship/UttrakhandDevelopmentExibition/Development14.jpg";
+import Image1 from "../../../../assets/images/Flagship/UttrakhandDevelopmentExibition/Development1.jpg";
+import Image2 from "../../../../assets/images/Flagship/UttrakhandDevelopmentExibition/Development2.jpg";
+// import Image3 from "../../../../assets/images/Flagship/UttrakhandDevelopmentExibition/Development3.jpg";
+import Image4 from "../../../../assets/images/Flagship/UttrakhandDevelopmentExibition/Development4.jpg";
+import Image5 from "../../../../assets/images/Flagship/UttrakhandDevelopmentExibition/Development5.jpg";
+import Image6 from "../../../../assets/images/Flagship/UttrakhandDevelopmentExibition/Development6.jpg";
+import Image7 from "../../../../assets/images/Flagship/UttrakhandDevelopmentExibition/Development7.jpg";
+import Image8 from "../../../../assets/images/Flagship/UttrakhandDevelopmentExibition/Development8.jpg";
+import Image9 from "../../../../assets/images/Flagship/UttrakhandDevelopmentExibition/Development9.jpg";
+import Image10 from "../../../../assets/images/Flagship/UttrakhandDevelopmentExibition/Development10.jpg";
+import Image11 from "../../../../assets/images/Flagship/UttrakhandDevelopmentExibition/Development11.jpg";
+import Image12 from "../../../../assets/images/Flagship/UttrakhandDevelopmentExibition/Development12.jpg";
+import Image13 from "../../../../assets/images/Flagship/UttrakhandDevelopmentExibition/Development13.jpg";
+import Image14 from "../../../../assets/images/Flagship/UttrakhandDevelopmentExibition/banner.jpg";
+import Image15 from "../../../../assets/images/Flagship/UttrakhandDevelopmentExibition/Development14.jpg";
 
 import "../../../css/FlagshipEventCss/UttrakhandDevelopmentExibition.css";
 
@@ -39,7 +39,7 @@ const UttrakhandDevelopmentExibition = () => {
             </div>
             <div className="grid-section1">
                 <div className="grid-section1-image" data-aos="fade-right">
-                    <img src={Image1} alt="not loaded" />
+                    <img loading="lazy" src={Image1} alt="not loaded" />
                 </div>
 
                 <div className="grid-section1-description" data-aos="fade-left">
@@ -154,7 +154,7 @@ const UttrakhandDevelopmentExibition = () => {
                         </p>
                     </div>
                     <div className="grid-section2-image">
-                        <img
+                        <img loading="lazy"
                             src={Image2}
                             alt="not loaded"
                             data-aos="fade-left"
@@ -245,7 +245,7 @@ const UttrakhandDevelopmentExibition = () => {
                 </div>
                 <div className="UDE-grid-3col">
                     <div className="grid-content" data-aos="fade-right">
-                        <img src={Image15} alt="not loaded" />
+                        <img loading="lazy" src={Image15} alt="not loaded" />
                         <p>
                             Commencement of the 5-Day event marking the everyday
                             increasing self reliance of India. Students from
@@ -254,7 +254,7 @@ const UttrakhandDevelopmentExibition = () => {
                         </p>
                     </div>
                     <div className="grid-content" data-aos="fade-up">
-                        <img src={Image4} alt="not loaded" />
+                        <img loading="lazy" src={Image4} alt="not loaded" />
                         <p>
                             In collaboration with the Department of Social Work,
                             Doon University, KPF curated diverse stalls
@@ -264,7 +264,7 @@ const UttrakhandDevelopmentExibition = () => {
                         </p>
                     </div>
                     <div className="grid-content" data-aos="fade-left">
-                        <img src={Image5} alt="not loaded" />
+                        <img loading="lazy" src={Image5} alt="not loaded" />
                         <p>
                             A highlight of the exhibition was the Cultural
                             Night, where students dazzled audiences with their
@@ -282,7 +282,7 @@ const UttrakhandDevelopmentExibition = () => {
                     data-aos="fade-right"
                     data-aos-offset="100"
                 >
-                    <img src={Image6} alt="not loaded" />
+                    <img loading="lazy" src={Image6} alt="not loaded" />
                 </div>
                 <div
                     className=" grid-section3-description grid-section1-description"
@@ -307,30 +307,30 @@ const UttrakhandDevelopmentExibition = () => {
                     GLIMPSE
                 </h2>
                 <div className="grid-glance">
-                    <img src={Image7} alt="not loaded" data-aos="fade-left" />
-                    <img src={Image8} alt="not loaded" data-aos="fade-left" />
-                    <img src={Image9} alt="not loaded" data-aos="fade-left" />
-                    <img
+                    <img loading="lazy" src={Image7} alt="not loaded" data-aos="fade-left" />
+                    <img loading="lazy" src={Image8} alt="not loaded" data-aos="fade-left" />
+                    <img loading="lazy" src={Image9} alt="not loaded" data-aos="fade-left" />
+                    <img loading="lazy"
                         src={Image10}
                         alt="not loaded"
                         data-aos="fade-right"
                         data-aos-offset="100"
                     />
-                    <img
+                    <img loading="lazy"
                         src={Image11}
                         alt="not loaded"
                         data-aos="fade-right"
                         data-aos-offset="100"
                     />
-                    <img
+                    <img loading="lazy"
                         src={Image12}
                         alt="not loaded"
                         data-aos="fade-right"
                         data-aos-offset="100"
                     />
-                    <img src={Image13} alt="not loaded" data-aos="fade-left" />
-                    <img src={Image14} alt="not loaded" data-aos="fade-left" />
-                    <img src={Image5} alt="not loaded" data-aos="fade-left" />
+                    <img loading="lazy" src={Image13} alt="not loaded" data-aos="fade-left" />
+                    <img loading="lazy" src={Image14} alt="not loaded" data-aos="fade-left" />
+                    <img loading="lazy" src={Image5} alt="not loaded" data-aos="fade-left" />
                 </div>
             </div>
         </div>

@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import instagramLogo from "../../../../Image/facebook.jpg";
-import facebookLogo from "../../../../Image/instagram.jpg";
-import youtubeLogo from "../../../../Image/youtube.png";
-import twitterLogo from "../../../../Image/twitter.png";
-import linkedInLogo from "../../../../Image/linkedIn.jpg";
-import KinchitLogo from "../../../../Image/kinchitLogo.png";
+import instagramLogo from "../../../../assets/images/facebook.jpg";
+import facebookLogo from "../../../../assets/images/instagram.jpg";
+import youtubeLogo from "../../../../assets/images/youtube.png";
+import twitterLogo from "../../../../assets/images/twitter.png";
+import linkedInLogo from "../../../../assets/images/linkedIn.jpg";
+import KinchitLogo from "../../../../assets/images/kinchitLogo.png";
 import termsAndConditions from "../../../pdfs/Term&ConditionsKPF.pdf";
 import privacyPolicy from "../../../pdfs/PRIVACYPOLICYKPFWebsite.pdf";
+import refundPolicy from "../../../pdfs/CancellationandRefundPolicyKPF.pdf";
 import "../../../css/CommonUtilitiesCss/Footer.css";
 
 export default function Footer() {
@@ -97,6 +98,15 @@ export default function Footer() {
                                 Privacy Policy
                             </a>
                         </li>
+                        <li className=" li-items-footer">
+                            <a
+                                className="anchor-tag-items-footer"
+                                target="blank"
+                                href={refundPolicy}
+                            >
+                                Cancelation and Refund Policy
+                            </a>
+                        </li>
                     </div>
                     <div className="footer-div-grid div3">
                         <p className="heading-footer">Connect With Us</p>
@@ -106,7 +116,7 @@ export default function Footer() {
                                 target="blank"
                                 href="https://youtube.com/@kinchitprayasfoundation?si=oFR9JfJCMkouqVS_"
                             >
-                                <img
+                                <img loading="lazy"
                                     src={youtubeLogo}
                                     className="youtube-link link-social-media-footer"
                                     alt="..."
@@ -117,7 +127,7 @@ export default function Footer() {
                                 target="blank"
                                 href="https://www.facebook.com/profile.php?id=61555709288622&mibextid=ZbWKwL"
                             >
-                                <img
+                                <img loading="lazy"
                                     src={instagramLogo}
                                     className="instagram-link link-social-media-footer"
                                     alt="..."
@@ -128,7 +138,7 @@ export default function Footer() {
                                 target="blank"
                                 href="https://www.instagram.com/kinchitprayasfoundation?igsh=MmoybG14bGVmNmZk"
                             >
-                                <img
+                                <img loading="lazy"
                                     src={facebookLogo}
                                     className="facebook-link link-social-media-footer"
                                     alt="..."
@@ -139,7 +149,7 @@ export default function Footer() {
                                 target="blank"
                                 href="https://x.com/KinchitPrayas"
                             >
-                                <img
+                                <img loading="lazy"
                                     src={twitterLogo}
                                     className="twitter-link link-social-media-footer"
                                     alt="..."
@@ -150,7 +160,7 @@ export default function Footer() {
                                 target="blank"
                                 href="https://www.linkedin.com/in/kinchit-prayas-foundation-b063472b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                             >
-                                <img
+                                <img loading="lazy"
                                     src={linkedInLogo}
                                     className="linkedin-link link-social-media-footer"
                                     alt="..."
@@ -172,7 +182,7 @@ export default function Footer() {
                     </div>
                     <hr className="line-break-footer" />
                     <div className="footer-div-grid div4 footer-div4">
-                        <img
+                        <img loading="lazy"
                             className="footer-kinchit-image"
                             alt="kinchit logo"
                             src={KinchitLogo}

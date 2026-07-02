@@ -4,28 +4,28 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import SlidingPicture from "../FlagshipEventUtilities/SlidingPicture";
 import "react-multi-carousel/lib/styles.css";
-import BannerImage1 from "../../../../Image/Flagship/StudentCentricActivities/CentricActivities1.jpg";
-import BannerImage2 from "../../../../Image/Flagship/StudentCentricActivities/CentricActivities2.jpg";
-import BannerImage3 from "../../../../Image/Flagship/StudentCentricActivities/CentricActivities3.jpg";
-import NukkadNataak from "../../../../Image/Flagship/StudentCentricActivities/Nukkad_Nataak.jpg";
-import NukkadNataakCarouselImage1 from "../../../../Image/Flagship/StudentCentricActivities/Nukkad_Nataak1.1.jpg";
-import NukkadNataakCarouselImage2 from "../../../../Image/Flagship/StudentCentricActivities/Nukkad_Nataak1.2.jpg";
-import NukkadNataakCarouselImage3 from "../../../../Image/Flagship/StudentCentricActivities/Nukkad_Nataak1.3.jpg";
-import NukkadNataakCarouselImage4 from "../../../../Image/Flagship/StudentCentricActivities/NukkadNataakCarouselImage5.jpg";
-import NukkadNataakCarousel2Image1 from "../../../../Image/Flagship/StudentCentricActivities/Nukkad_Nataak2.1.jpg";
-import NukkadNataakCarousel2Image2 from "../../../../Image/Flagship/StudentCentricActivities/Nukkad_Nataak2.jpg";
-import NukkadNataakCarousel2Image3 from "../../../../Image/Flagship/StudentCentricActivities/Nukkad_Nataak2.2.jpg";
-import NukkadNataakCarousel2Image4 from "../../../../Image/Flagship/StudentCentricActivities/Nukkad_Nataak2.3.jpg";
-import NukkadNataakCarousel2Image5 from "../../../../Image/Flagship/StudentCentricActivities/Nukkad_Nataak2.4.jpg";
-import NukkadNataakCarousel2Image6 from "../../../../Image/Flagship/StudentCentricActivities/Nukkad_Nataak2.5.jpg";
-import NukkadNataakCarousel2Image7 from "../../../../Image/Flagship/StudentCentricActivities/Nukkad_Nataak2.6.jpg";
-import EssayImage1 from "../../../../Image/Flagship/StudentCentricActivities/Essay1.jpg";
-import EssayImage2 from "../../../../Image/Flagship/StudentCentricActivities/Essay2.jpg";
-import EssayImage3 from "../../../../Image/Flagship/StudentCentricActivities/Essay3.jpg";
-import EssayImage4 from "../../../../Image/Flagship/StudentCentricActivities/Essay4.jpg";
-import EssayImage5 from "../../../../Image/Flagship/StudentCentricActivities/Essay5.jpg";
-import EssayImage6 from "../../../../Image/Flagship/StudentCentricActivities/Essay6.jpg";
-import EssayImage7 from "../../../../Image/Flagship/StudentCentricActivities/Essay7.jpg";
+import BannerImage1 from "../../../../assets/images/Flagship/StudentCentricActivities/CentricActivities1.jpg";
+import BannerImage2 from "../../../../assets/images/Flagship/StudentCentricActivities/CentricActivities2.jpg";
+import BannerImage3 from "../../../../assets/images/Flagship/StudentCentricActivities/CentricActivities3.jpg";
+import NukkadNataak from "../../../../assets/images/Flagship/StudentCentricActivities/Nukkad_Nataak.jpg";
+import NukkadNataakCarouselImage1 from "../../../../assets/images/Flagship/StudentCentricActivities/Nukkad_Nataak1.1.jpg";
+import NukkadNataakCarouselImage2 from "../../../../assets/images/Flagship/StudentCentricActivities/Nukkad_Nataak1.2.jpg";
+import NukkadNataakCarouselImage3 from "../../../../assets/images/Flagship/StudentCentricActivities/Nukkad_Nataak1.3.jpg";
+import NukkadNataakCarouselImage4 from "../../../../assets/images/Flagship/StudentCentricActivities/NukkadNataakCarouselImage5.jpg";
+import NukkadNataakCarousel2Image1 from "../../../../assets/images/Flagship/StudentCentricActivities/Nukkad_Nataak2.1.jpg";
+import NukkadNataakCarousel2Image2 from "../../../../assets/images/Flagship/StudentCentricActivities/Nukkad_Nataak2.jpg";
+import NukkadNataakCarousel2Image3 from "../../../../assets/images/Flagship/StudentCentricActivities/Nukkad_Nataak2.2.jpg";
+import NukkadNataakCarousel2Image4 from "../../../../assets/images/Flagship/StudentCentricActivities/Nukkad_Nataak2.3.jpg";
+import NukkadNataakCarousel2Image5 from "../../../../assets/images/Flagship/StudentCentricActivities/Nukkad_Nataak2.4.jpg";
+import NukkadNataakCarousel2Image6 from "../../../../assets/images/Flagship/StudentCentricActivities/Nukkad_Nataak2.5.jpg";
+import NukkadNataakCarousel2Image7 from "../../../../assets/images/Flagship/StudentCentricActivities/Nukkad_Nataak2.6.jpg";
+import EssayImage1 from "../../../../assets/images/Flagship/StudentCentricActivities/Essay1.jpg";
+import EssayImage2 from "../../../../assets/images/Flagship/StudentCentricActivities/Essay2.jpg";
+import EssayImage3 from "../../../../assets/images/Flagship/StudentCentricActivities/Essay3.jpg";
+import EssayImage4 from "../../../../assets/images/Flagship/StudentCentricActivities/Essay4.jpg";
+import EssayImage5 from "../../../../assets/images/Flagship/StudentCentricActivities/Essay5.jpg";
+import EssayImage6 from "../../../../assets/images/Flagship/StudentCentricActivities/Essay6.jpg";
+import EssayImage7 from "../../../../assets/images/Flagship/StudentCentricActivities/Essay7.jpg";
 
 import "../../../css/FlagshipEventCss/StudentCentricActivities.css";
 
@@ -82,13 +82,13 @@ const StudentCentricActivities = () => {
                         itemClass="carousel-item-padding-40-px"
                     >
                         <div className="StudentCentirc-banner">
-                            <img src={BannerImage1} alt="not loaded" />
+                            <img loading="lazy" src={BannerImage1} alt="not loaded" />
                         </div>
                         <div className="StudentCentirc-banner">
-                            <img src={BannerImage2} alt="not loaded" />
+                            <img loading="lazy" src={BannerImage2} alt="not loaded" />
                         </div>
                         <div className="StudentCentirc-banner">
-                            <img src={BannerImage3} alt="not loaded" />
+                            <img loading="lazy" src={BannerImage3} alt="not loaded" />
                         </div>
                     </Carousel>
                 </div>
@@ -135,7 +135,7 @@ const StudentCentricActivities = () => {
                     </p>
                 </div>
                 <div className="Nukkad-Nataak-Image" data-aos="fade-left">
-                    <img src={NukkadNataak} alt="not loaded" />
+                    <img loading="lazy" src={NukkadNataak} alt="not loaded" />
                 </div>
             </div>
             <div className="Nukkad-Naatak-Section2">
@@ -196,7 +196,7 @@ const StudentCentricActivities = () => {
                 </div>
                 <div className="Essay-grid">
                     <div className="content-image image" data-aos="fade-right">
-                        <img src={EssayImage3} alt="not loaded" />
+                        <img loading="lazy" src={EssayImage3} alt="not loaded" />
                     </div>
 
                     <div className="Essay-description" data-aos="fade-left">
@@ -286,44 +286,44 @@ const StudentCentricActivities = () => {
                         </p>
                     </div>
                     <div className="content-image2 image" data-aos="fade-left">
-                        <img src={EssayImage2} alt="not loaded" />
+                        <img loading="lazy" src={EssayImage2} alt="not loaded" />
                     </div>
                 </div>
             </div>
             <div className="Flagship-page1-gallery">
                 <h2 data-aos="fade-right">Our future leaders</h2>
                 <div className="grid-col3-row2">
-                    <img
+                    <img loading="lazy"
                         src={EssayImage1}
                         alt="not loaded"
                         data-aos="fade-left"
                         data-aos-offset="100"
                     />
-                    <img
+                    <img loading="lazy"
                         src={BannerImage2}
                         alt="not loaded"
                         data-aos="fade-left"
                         data-aos-offset="100"
                     />
-                    <img
+                    <img loading="lazy"
                         src={EssayImage4}
                         alt="not loaded"
                         data-aos="fade-left"
                         data-aos-offset="100"
                     />
-                    <img
+                    <img loading="lazy"
                         src={EssayImage5}
                         alt="not loaded"
                         data-aos="fade-right"
                         data-aos-offset="100"
                     />
-                    <img
+                    <img loading="lazy"
                         src={EssayImage6}
                         alt="not loaded"
                         data-aos="fade-right"
                         data-aos-offset="100"
                     />
-                    <img
+                    <img loading="lazy"
                         src={EssayImage7}
                         alt="not loaded"
                         data-aos="fade-right"

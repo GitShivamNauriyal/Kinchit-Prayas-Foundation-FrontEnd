@@ -1,8 +1,8 @@
 import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Chairman from "../../../../Image/OurTeam/Chairman.jpg";
-import Director from "../../../../Image/OurTeam/Director.jpg";
+import Chairman from "../../../../assets/images/OurTeam/Chairman.jpg";
+import Director from "../../../../assets/images/OurTeam/Director.jpg";
 
 import "../../../css/TeamCss/Team.css";
 
@@ -18,7 +18,7 @@ const BoardDirector = () => {
             </div>
             <div className="founder1-content-1-wrapper">
                 <div className="founder-image" data-aos="fade-right">
-                    <img src={Chairman} alt="not loaded" />
+                    <img loading="lazy" src={Chairman} alt="not loaded" />
                 </div>
                 <div className="Founder-description" data-aos="fade-left">
                     <p>
@@ -78,7 +78,7 @@ const BoardDirector = () => {
                     </div>
                 </div>
                 <div className="Director-image" data-aos="fade-left">
-                    <img src={Director} alt="not loaded" />
+                    <img loading="lazy" src={Director} alt="not loaded" />
                 </div>
             </div>
         </div>

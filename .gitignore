@@ -1,2 +1,5 @@
 node_modules
 .unlighthouse
+compressed-ohotoos.zip
+*.md
+!README.md

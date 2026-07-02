@@ -1,40 +1,40 @@
 import React from "react";
 import "../../../css/GalleryCSS/gallery.css";
-import galleryImage1 from "../../../../Image/GalleryImage/gal1.jpg";
-import galleryImage2 from "../../../../Image/GalleryImage/gal2.jpg";
-import galleryImage3 from "../../../../Image/GalleryImage/gal3.jpg";
-import galleryImage4 from "../../../../Image/GalleryImage/gal4.jpg";
-import galleryImage5 from "../../../../Image/GalleryImage/gal5.jpg";
-import galleryImage6 from "../../../../Image/GalleryImage/gal6.jpg";
-import galleryImage7 from "../../../../Image/GalleryImage/gal7.jpg";
-import galleryImage8 from "../../../../Image/GalleryImage/gal8.jpg";
-import galleryImage9 from "../../../../Image/GalleryImage/gal9.jpg";
-import galleryImage10 from "../../../../Image/GalleryImage/gal10.jpg";
-import galleryImage11 from "../../../../Image/GalleryImage/gal11.jpg";
-import galleryImage13 from "../../../../Image/GalleryImage/gal13.jpg";
-import galleryImage14 from "../../../../Image/GalleryImage/gal14.jpg";
-import galleryImage15 from "../../../../Image/GalleryImage/gal15.jpg";
-import galleryImage16 from "../../../../Image/GalleryImage/gal16.jpg";
-import galleryImage17 from "../../../../Image/GalleryImage/gal17.jpg";
-import galleryImage18 from "../../../../Image/GalleryImage/gal18.jpg";
-import galleryImage19 from "../../../../Image/GalleryImage/gal19.jpg";
-import galleryImage20 from "../../../../Image/GalleryImage/gal20.jpg";
-import galleryImage21 from "../../../../Image/GalleryImage/gal21.jpg";
-import galleryImage22 from "../../../../Image/GalleryImage/gal22.jpg";
-import galleryImage23 from "../../../../Image/GalleryImage/gal23.jpg";
-import galleryImage24 from "../../../../Image/GalleryImage/gal24.jpg";
-import galleryImage25 from "../../../../Image/GalleryImage/gal25.jpg";
-import galleryImage26 from "../../../../Image/GalleryImage/gal26.jpg";
-import galleryImage27 from "../../../../Image/GalleryImage/gal27.jpg";
-import galleryImage28 from "../../../../Image/GalleryImage/gal28.jpg";
-import galleryImage29 from "../../../../Image/GalleryImage/gal29.jpg";
-import galleryImage30 from "../../../../Image/GalleryImage/gal30.jpg";
-import galleryImage31 from "../../../../Image/GalleryImage/gal31.jpg";
-import galleryImage32 from "../../../../Image/GalleryImage/gal32.jpg";
-import galleryImage33 from "../../../../Image/GalleryImage/gal33.jpg";
-import galleryImage34 from "../../../../Image/GalleryImage/gal34.jpg";
-import galleryImage35 from "../../../../Image/GalleryImage/gal35.jpg";
-import galleryImage36 from "../../../../Image/GalleryImage/gal36.jpg";
+import galleryImage1 from "../../../../assets/images/GalleryImage/gal1.jpg";
+import galleryImage2 from "../../../../assets/images/GalleryImage/gal2.jpg";
+import galleryImage3 from "../../../../assets/images/GalleryImage/gal3.jpg";
+import galleryImage4 from "../../../../assets/images/GalleryImage/gal4.jpg";
+import galleryImage5 from "../../../../assets/images/GalleryImage/gal5.jpg";
+import galleryImage6 from "../../../../assets/images/GalleryImage/gal6.jpg";
+import galleryImage7 from "../../../../assets/images/GalleryImage/gal7.jpg";
+import galleryImage8 from "../../../../assets/images/GalleryImage/gal8.jpg";
+import galleryImage9 from "../../../../assets/images/GalleryImage/gal9.jpg";
+import galleryImage10 from "../../../../assets/images/GalleryImage/gal10.jpg";
+import galleryImage11 from "../../../../assets/images/GalleryImage/gal11.jpg";
+import galleryImage13 from "../../../../assets/images/GalleryImage/gal13.jpg";
+import galleryImage14 from "../../../../assets/images/GalleryImage/gal14.jpg";
+import galleryImage15 from "../../../../assets/images/GalleryImage/gal15.jpg";
+import galleryImage16 from "../../../../assets/images/GalleryImage/gal16.jpg";
+import galleryImage17 from "../../../../assets/images/GalleryImage/gal17.jpg";
+import galleryImage18 from "../../../../assets/images/GalleryImage/gal18.jpg";
+import galleryImage19 from "../../../../assets/images/GalleryImage/gal19.jpg";
+import galleryImage20 from "../../../../assets/images/GalleryImage/gal20.jpg";
+import galleryImage21 from "../../../../assets/images/GalleryImage/gal21.jpg";
+import galleryImage22 from "../../../../assets/images/GalleryImage/gal22.jpg";
+import galleryImage23 from "../../../../assets/images/GalleryImage/gal23.jpg";
+import galleryImage24 from "../../../../assets/images/GalleryImage/gal24.jpg";
+import galleryImage25 from "../../../../assets/images/GalleryImage/gal25.jpg";
+import galleryImage26 from "../../../../assets/images/GalleryImage/gal26.jpg";
+import galleryImage27 from "../../../../assets/images/GalleryImage/gal27.jpg";
+import galleryImage28 from "../../../../assets/images/GalleryImage/gal28.jpg";
+import galleryImage29 from "../../../../assets/images/GalleryImage/gal29.jpg";
+import galleryImage30 from "../../../../assets/images/GalleryImage/gal30.jpg";
+import galleryImage31 from "../../../../assets/images/GalleryImage/gal31.jpg";
+import galleryImage32 from "../../../../assets/images/GalleryImage/gal32.jpg";
+import galleryImage33 from "../../../../assets/images/GalleryImage/gal33.jpg";
+import galleryImage34 from "../../../../assets/images/GalleryImage/gal34.jpg";
+import galleryImage35 from "../../../../assets/images/GalleryImage/gal35.jpg";
+import galleryImage36 from "../../../../assets/images/GalleryImage/gal36.jpg";
 
 const images = [
 	{ key: 1, src: galleryImage1 },
@@ -79,7 +79,7 @@ const ImageCard = () => {
 		<div className="Gallery-Container">
 			{images.map((img) => (
 				<div key={img.key} className="Gallery-image-Container">
-					<img
+					<img loading="lazy"
 						src={img.src}
 						alt={`Gallery image ${img.key}`}
 						className="Gallery-image"

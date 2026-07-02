@@ -13,6 +13,23 @@
     visibility: hidden;
 }
 
+/* Close button styles */
+.close-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+}
+
+.close-button:hover {
+    color: #068ac2;
+}
+
 .visible-Form-Container {
     z-index: 1000;
     visibility: visible;
@@ -114,7 +131,11 @@ input[type="number"]::-webkit-outer-spin-button {
     transform: translateY(-4px);
 }
 
-.blue {
+.blue a {
+    color: #068ac2;
+    cursor: pointer;
+}
+.blue a:visited {
     color: #068ac2;
     cursor: pointer;
 }
@@ -127,6 +148,7 @@ input[type="number"]::-webkit-outer-spin-button {
     bottom: 0;
     top: 0;
     background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
     z-index: 9;
 }
 

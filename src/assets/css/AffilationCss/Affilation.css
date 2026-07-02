@@ -9,7 +9,7 @@
     width: 100%;
     height: 28rem;
     background-image: linear-gradient(45deg, #3498dbc7, #8d44adad, #3498dbae),
-        url("../../../Image/Affilation/Affilation_banner.jpg");
+        url("../../../assets/images/Affilation/Affilation_banner.jpg");
     background-position: center center;
     background-size: cover;
     overflow: hidden;

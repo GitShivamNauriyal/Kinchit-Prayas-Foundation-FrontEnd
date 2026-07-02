@@ -2,19 +2,19 @@ import React from "react";
 import "../../../css/AffilationCss/Affilation.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Logo1 from "../../../../Image/Affilation/Logos/Affilation_Logo1.png";
-import Logo2 from "../../../../Image/Affilation/Logos/Affilation_Logo2.png";
-import Logo3 from "../../../../Image/Affilation/Logos/Affilation_Logo3.png";
-import Logo4 from "../../../../Image/Affilation/Logos/Affilation_Logo4.png";
-import Logo5 from "../../../../Image/Affilation/Logos/Affilation_Logo5.png";
-import Logo6 from "../../../../Image/Affilation/Logos/Affilation_Logo6.png";
-import Logo7 from "../../../../Image/Affilation/Logos/Affilation_Logo7.jpg";
-import Logo8 from "../../../../Image/Affilation/Logos/Affilation_Logo8.png";
-import Logo9 from "../../../../Image/Affilation/Logos/Affilation_Logo9.png";
-import Logo10 from "../../../../Image/Affilation/Logos/Affilation_Logo10.png";
-import Logo11 from "../../../../Image/Affilation/Logos/Affilation_Logo11.jpg";
+import Logo1 from "../../../../assets/images/Affilation/Logos/Affilation_Logo1.png";
+import Logo2 from "../../../../assets/images/Affilation/Logos/Affilation_Logo2.png";
+import Logo3 from "../../../../assets/images/Affilation/Logos/Affilation_Logo3.png";
+import Logo4 from "../../../../assets/images/Affilation/Logos/Affilation_Logo4.png";
+import Logo5 from "../../../../assets/images/Affilation/Logos/Affilation_Logo5.png";
+import Logo6 from "../../../../assets/images/Affilation/Logos/Affilation_Logo6.png";
+import Logo7 from "../../../../assets/images/Affilation/Logos/Affilation_Logo7.jpg";
+import Logo8 from "../../../../assets/images/Affilation/Logos/Affilation_Logo8.png";
+import Logo9 from "../../../../assets/images/Affilation/Logos/Affilation_Logo9.png";
+import Logo10 from "../../../../assets/images/Affilation/Logos/Affilation_Logo10.png";
+import Logo11 from "../../../../assets/images/Affilation/Logos/Affilation_Logo11.jpg";
 
-import ParaImage1 from "../../../../Image/Affilation/Affiliation_content_image.jpg";
+import ParaImage1 from "../../../../assets/images/Affilation/Affiliation_content_image.jpg";
 
 const Affliation = () => {
     AOS.init({ duration: 1500 });
@@ -31,7 +31,7 @@ const Affliation = () => {
                 </div>
             </div>
             <div className="content-description">
-                <img src={ParaImage1} alt="not loaded" data-aos="fade-right" />
+                <img loading="lazy" src={ParaImage1} alt="not loaded" data-aos="fade-right" />
                 <p className="para1" data-aos="fade-left">
                     The foundation has forged strong collaborations with
                     governmental departments and PSUs to leverage resources and
@@ -55,28 +55,28 @@ const Affliation = () => {
             <div className="Affilation-grid">
                 <div className="Affilation-grid-item" data-aos="fade-up">
                     <div className="logo-image">
-                        <img src={Logo1} alt="not loaded" />
+                        <img loading="lazy" src={Logo1} alt="not loaded" />
                     </div>
                     <p>Empanelled training partner</p>
                     <h3>Department of Panchayati Raj Uttarakhand</h3>
                 </div>
                 <div className="Affilation-grid-item" data-aos="fade-up">
                     <div className="logo-image">
-                        <img src={Logo2} alt="not loaded" />
+                        <img loading="lazy" src={Logo2} alt="not loaded" />
                     </div>
                     <p>Empanelled Training Partner</p>
                     <h3>Skill India</h3>
                 </div>
                 <div className="Affilation-grid-item" data-aos="fade-up">
                     <div className="logo-image" id="USDC-logo">
-                        <img src={Logo3} alt="not loaded" />
+                        <img loading="lazy" src={Logo3} alt="not loaded" />
                     </div>
                     <p>Empanelled Training Partner</p>
                     <h3>Uttarakhand Skill Development Corporation</h3>
                 </div>
                 <div className="Affilation-grid-item" data-aos="fade-up">
                     <div className="logo-image">
-                        <img src={Logo4} alt="not loaded" />
+                        <img loading="lazy" src={Logo4} alt="not loaded" />
                     </div>
                     <p>Empanelled Partner</p>
                     <h3>
@@ -87,14 +87,14 @@ const Affliation = () => {
                 </div>
                 <div className="Affilation-grid-item" data-aos="fade-up">
                     <div className="logo-image">
-                        <img src={Logo5} alt="not loaded" />
+                        <img loading="lazy" src={Logo5} alt="not loaded" />
                     </div>
                     <p></p>
                     <h3>National Council for Promotion of Urdu Language</h3>
                 </div>
                 <div className="Affilation-grid-item" data-aos="fade-up">
                     <div className="logo-image">
-                        <img src={Logo6} alt="not loaded" />
+                        <img loading="lazy" src={Logo6} alt="not loaded" />
                     </div>
                     <p>Implementation Support Agency</p>
                     <h3>
@@ -104,14 +104,14 @@ const Affliation = () => {
                 </div>
                 <div className="Affilation-grid-item" data-aos="fade-up">
                     <div className="logo-image">
-                        <img src={Logo7} alt="not loaded" />
+                        <img loading="lazy" src={Logo7} alt="not loaded" />
                     </div>
                     <p>Associate Partner</p>
                     <h3>SEWA-THDC for CSR activities</h3>
                 </div>
                 <div className="Affilation-grid-item" data-aos="fade-up">
                     <div className="logo-image">
-                        <img src={Logo8} alt="not loaded" />
+                        <img loading="lazy" src={Logo8} alt="not loaded" />
                     </div>
                     <p>Empanelled Training Partner</p>
                     <h3>Uttar Pradesh Electronics Corporation Limited</h3>
@@ -121,7 +121,7 @@ const Affliation = () => {
                     data-aos="fade-up"
                 >
                     <div className="logo-image">
-                        <img src={Logo9} alt="not loaded" />
+                        <img loading="lazy" src={Logo9} alt="not loaded" />
                     </div>
                     <p>Empanelled partner</p>
                     <h3> Uttarakhand Skill Development Society</h3>
@@ -131,7 +131,7 @@ const Affliation = () => {
                     data-aos="fade-up"
                 >
                     <div className="logo-image">
-                        <img src={Logo10} alt="not loaded" />
+                        <img loading="lazy" src={Logo10} alt="not loaded" />
                     </div>
                     <p>Implementation Support Agency</p>
                     <h3>Uttarakhand Pey Jal Nigam</h3>
@@ -141,7 +141,7 @@ const Affliation = () => {
                     data-aos="fade-up"
                 >
                     <div className="logo-image">
-                        <img src={Logo11} alt="not loaded" />
+                        <img loading="lazy" src={Logo11} alt="not loaded" />
                     </div>
                     <p>
                         Empanelled Partner for IGA promotion under CAT Plan

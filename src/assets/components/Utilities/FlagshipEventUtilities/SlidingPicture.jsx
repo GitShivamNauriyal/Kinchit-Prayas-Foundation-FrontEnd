@@ -37,44 +37,44 @@ const SlidingPicture = (props) => {
             >
                 <div className="SlidingCard-container-wrapper">
                     <div className="Sliding-Card">
-                        <img src={props.src1} alt="not loaded" />
+                        <img loading="lazy" src={props.src1} alt="not loaded" />
                     </div>
                 </div>
                 <div className="SlidingCard-container-wrapper">
                     <div className="Sliding-Card">
-                        <img src={props.src2} alt="not loaded" />
+                        <img loading="lazy" src={props.src2} alt="not loaded" />
                     </div>
                 </div>
                 <div className="SlidingCard-container-wrapper">
                     <div className="Sliding-Card">
-                        <img src={props.src3} alt="not loaded" />
+                        <img loading="lazy" src={props.src3} alt="not loaded" />
                     </div>
                 </div>
                 {props.src4 && (
                     <div className="SlidingCard-container-wrapper">
                         <div className="Sliding-Card">
-                            <img src={props.src4} alt="not loaded" />
+                            <img loading="lazy" src={props.src4} alt="not loaded" />
                         </div>
                     </div>
                 )}
                 {props.src5 && (
                     <div className="SlidingCard-container-wrapper">
                         <div className="Sliding-Card">
-                            <img src={props.src5} alt="not loaded" />
+                            <img loading="lazy" src={props.src5} alt="not loaded" />
                         </div>
                     </div>
                 )}
                 {props.src6 && (
                     <div className="SlidingCard-container-wrapper">
                         <div className="Sliding-Card">
-                            <img src={props.src6} alt="not loaded" />
+                            <img loading="lazy" src={props.src6} alt="not loaded" />
                         </div>
                     </div>
                 )}
                 {props.src7 && (
                     <div className="SlidingCard-container-wrapper">
                         <div className="Sliding-Card">
-                            <img src={props.src7} alt="not loaded" />
+                            <img loading="lazy" src={props.src7} alt="not loaded" />
                         </div>
                     </div>
                 )}

@@ -6,7 +6,7 @@ import CountUp from "react-countup";
 // import "../../../css/HomeCss/Impacts.css";
 import classes from "../../../css/HomeCss/Impacts.module.css";
 
-import map from "../../../../Image/homepage/map/Impact_map.png";
+import map from "../../../../assets/images/homepage/map/Impact_map.png";
 
 const Impacts = () => {
     AOS.init({ duration: 1500 });
@@ -206,14 +206,14 @@ const Impacts = () => {
                             // charset="utf-8"
                         ></script>
                         <noscript>
-                            <img
+                            <img loading="lazy"
                                 src="https://datawrapper.dwcdn.net/ruD1G/full.png"
                                 alt=""
                             />
                         </noscript>
                     </div> */}
                     <div className={classes.map}>
-                        <img src={map} alt="map not loaded" />
+                        <img loading="lazy" src={map} alt="map not loaded" />
                     </div>
                 </div>
             </div>

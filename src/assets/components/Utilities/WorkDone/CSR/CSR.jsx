@@ -2,12 +2,12 @@ import React from "react";
 import "../../../../css/WorkDoneCss/CSR.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Logo from "../../../../../Image/Affilation/Logos/Affilation_Logo7.jpg";
-import Image from "../../../../../Image/CSR/CSR_banner.jpg";
-import Image1 from "../../../../../Image/CSR/CSR_Image.jpg";
-import Image3 from "../../../../../Image/CSR/CRS_Image2.jpg";
-import Image4 from "../../../../../Image/CSR/CRS_Image3.jpg";
-import Image5 from "../../../../../Image/CSR/CRS_Image4.jpg";
+import Logo from "../../../../../assets/images/Affilation/Logos/Affilation_Logo7.jpg";
+import Image from "../../../../../assets/images/CSR/CSR_banner.jpg";
+import Image1 from "../../../../../assets/images/CSR/CSR_Image.jpg";
+import Image3 from "../../../../../assets/images/CSR/CRS_Image2.jpg";
+import Image4 from "../../../../../assets/images/CSR/CRS_Image3.jpg";
+import Image5 from "../../../../../assets/images/CSR/CRS_Image4.jpg";
 
 const CSR = () => {
     AOS.init({ duration: 1500 });
@@ -26,7 +26,7 @@ const CSR = () => {
 
             <div className="CRS-content-1-wrapper">
                 <div className="CRS-image" data-aos="fade-right">
-                    <img src={Image1} alt="not loaded" />
+                    <img loading="lazy" src={Image1} alt="not loaded" />
                 </div>
                 <div className="description" data-aos="fade-left">
                     <h2>CSR ACTIVITIES</h2>
@@ -48,14 +48,14 @@ const CSR = () => {
             </div>
 
             <div className="grid-Image-wrapper">
-                <img
+                <img loading="lazy"
                     src={Image5}
                     alt="not loaded"
                     className="grid-element-image"
                     data-aos="fade-down"
                     data-aos-duration="1500"
                 />
-                <img
+                <img loading="lazy"
                     src={Image}
                     alt="not loaded"
                     className="grid-element-image"
@@ -63,7 +63,7 @@ const CSR = () => {
                     data-aos-duration="2000"
                     data-aos-offset="200"
                 />
-                <img
+                <img loading="lazy"
                     src={Image3}
                     alt="not loaded"
                     className="grid-element-image"
@@ -71,7 +71,7 @@ const CSR = () => {
                     data-aos-duration="2500"
                     data-aos-offset="220"
                 />
-                <img
+                <img loading="lazy"
                     src={Image4}
                     alt="not loaded"
                     className="grid-element-image"
@@ -83,7 +83,7 @@ const CSR = () => {
 
             <div className="SEWA-wrapper">
                 <div className="SEWA-Logo" data-aos="fade-right">
-                    <img src={Logo} alt="Not loaded" />
+                    <img loading="lazy" src={Logo} alt="Not loaded" />
                     <h2>SEWA-THDC</h2>
                 </div>
                 <div className="SEWA-description" data-aos="fade-up">

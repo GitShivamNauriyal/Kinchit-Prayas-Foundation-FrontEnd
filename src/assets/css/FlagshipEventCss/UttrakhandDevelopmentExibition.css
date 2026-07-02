@@ -11,7 +11,7 @@
     width: 100%;
     height: 34rem;
     background-image: linear-gradient(45deg, #3498dbc7, #8d44adad, #3498dbae),
-        url("../../../Image/Flagship/UttrakhandDevelopmentExibition/Development3.jpg");
+        url("../../../assets/images/Flagship/UttrakhandDevelopmentExibition/Development3.jpg");
     background-position: top center;
     background-size: cover;
     overflow: hidden;
@@ -179,7 +179,7 @@
     width: 100%;
     min-height: 12rem;
     background-image: linear-gradient(45deg, #20b2f0c5, #ff02e1c5),
-        url("../../../Image/Flagship/UttarakhandMahotsav/UttrakhandMahotsav_Banner.jpg");
+        url("../../../assets/images/Flagship/UttarakhandMahotsav/UttrakhandMahotsav_Banner.jpg");
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;

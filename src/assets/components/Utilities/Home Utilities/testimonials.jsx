@@ -3,7 +3,7 @@ import React from "react";
 // import "react-multi-carousel/lib/styles.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import covidCertificate from "../../../../Image/homepage/covid_images/covid_relief_certificate.jpg";
+import covidCertificate from "../../../../assets/images/homepage/covid_images/covid_relief_certificate.jpg";
 import "../../../css/HomeCss/testimonials.css";
 
 // const responsive = {
@@ -40,7 +40,7 @@ const Testimonials = (props) => {
             </div>
             <div className="testimonial-content" data-aos="fade-up">
                 <div className="testimonial-carousel-section">
-                    <img src={covidCertificate} alt="Covid Certificate" />
+                    <img loading="lazy" src={covidCertificate} alt="Covid Certificate" />
                     {/* <Carousel
                         swipeable={false}
                         draggable={false}
@@ -64,7 +64,7 @@ const Testimonials = (props) => {
                     >
                         <div className="testimonial-carousel-card">
                             <div className="testimonial-image">
-                                <img
+                                <img loading="lazy"
                                     className="test-front"
                                     src={props.image1}
                                     alt="Image_1 Loading..."
@@ -79,7 +79,7 @@ const Testimonials = (props) => {
                         </div>
                         <div className="testimonial-carousel-card">
                             <div className="testimonial-image">
-                                <img
+                                <img loading="lazy"
                                     className="test-front"
                                     src={props.image2}
                                     alt="Image_2 Loading..."
@@ -94,7 +94,7 @@ const Testimonials = (props) => {
                         </div>
                         <div className="testimonial-carousel-card">
                             <div className="testimonial-image">
-                                <img
+                                <img loading="lazy"
                                     className="test-front"
                                     src={props.image3}
                                     alt="Image_3 Loading..."
@@ -109,7 +109,7 @@ const Testimonials = (props) => {
                         </div>
                         <div className="testimonial-carousel-card">
                             <div className="testimonial-image">
-                                <img
+                                <img loading="lazy"
                                     className="test-front"
                                     src={props.image4}
                                     alt="Image_4 Loading..."
@@ -124,7 +124,7 @@ const Testimonials = (props) => {
                         </div>
                         <div className="testimonial-carousel-card">
                             <div className="testimonial-image">
-                                <img
+                                <img loading="lazy"
                                     className="test-front"
                                     src={props.image5}
                                     alt="Image_4 Loading..."
@@ -139,7 +139,7 @@ const Testimonials = (props) => {
                         </div>
                         <div className="testimonial-carousel-card">
                             <div className="testimonial-image">
-                                <img
+                                <img loading="lazy"
                                     className="test-front"
                                     src={props.image6}
                                     alt="Image_4 Loading..."

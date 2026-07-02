@@ -2,14 +2,14 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../../../css/FlagshipEventCss/UttarakhandMahotsav.css";
-import ContentImage1 from "../../../../Image/Flagship/UttarakhandMahotsav/UttrakhandMahotsav_2.jpg";
-import ContentImage2 from "../../../../Image/Flagship/UttarakhandMahotsav/UttrakhandMahotsav_3.jpg";
-import ContentImage3 from "../../../../Image/Flagship/UttarakhandMahotsav/UttrakhandMahotsav_5.jpg";
-import ContentImage4 from "../../../../Image/Flagship/UttarakhandMahotsav/UttrakhandMahotsav_6.jpg";
-import ContentImage5 from "../../../../Image/Flagship/UttarakhandMahotsav/UttrakhandMahotsav_Banner.jpg";
-import ContentImage6 from "../../../../Image/Flagship/UttarakhandMahotsav/UttarakhandMahotsav_5.jpg";
-import ContentImage7 from "../../../../Image/Flagship/UttarakhandMahotsav/UttrakhandMahotsav_7.jpg";
-import ContentImage8 from "../../../../Image/Flagship/UttarakhandMahotsav/UttrakhandMahotsav_8.jpg";
+import ContentImage1 from "../../../../assets/images/Flagship/UttarakhandMahotsav/UttrakhandMahotsav_2.jpg";
+import ContentImage2 from "../../../../assets/images/Flagship/UttarakhandMahotsav/UttrakhandMahotsav_3.jpg";
+import ContentImage3 from "../../../../assets/images/Flagship/UttarakhandMahotsav/UttrakhandMahotsav_5.jpg";
+import ContentImage4 from "../../../../assets/images/Flagship/UttarakhandMahotsav/UttrakhandMahotsav_6.jpg";
+import ContentImage5 from "../../../../assets/images/Flagship/UttarakhandMahotsav/UttrakhandMahotsav_Banner.jpg";
+import ContentImage6 from "../../../../assets/images/Flagship/UttarakhandMahotsav/UttarakhandMahotsav_5.jpg";
+import ContentImage7 from "../../../../assets/images/Flagship/UttarakhandMahotsav/UttrakhandMahotsav_7.jpg";
+import ContentImage8 from "../../../../assets/images/Flagship/UttarakhandMahotsav/UttrakhandMahotsav_8.jpg";
 import SlidingPicture from "./SlidingPicture";
 
 const UttarakhandMahotsav = () => {
@@ -29,8 +29,8 @@ const UttarakhandMahotsav = () => {
                     className="grid-col1-image Flagship-grid-element"
                     data-aos="fade-right"
                 >
-                    <img src={ContentImage1} alt="not loaded" />
-                    <img src={ContentImage2} alt="not loaded" />
+                    <img loading="lazy" src={ContentImage1} alt="not loaded" />
+                    <img loading="lazy" src={ContentImage2} alt="not loaded" />
                 </div>
                 <div
                     className="grid-col2-paragraph1 Flagship-grid-para-element"
@@ -99,8 +99,8 @@ const UttarakhandMahotsav = () => {
                     className="grid-col2-image Flagship-grid-element"
                     data-aos="fade-left"
                 >
-                    <img src={ContentImage3} alt="not loaded" />
-                    <img src={ContentImage4} alt="not loaded" />
+                    <img loading="lazy" src={ContentImage3} alt="not loaded" />
+                    <img loading="lazy" src={ContentImage4} alt="not loaded" />
                 </div>
             </div>
             <div className="Carsouel-heading" data-aos="fade-right">

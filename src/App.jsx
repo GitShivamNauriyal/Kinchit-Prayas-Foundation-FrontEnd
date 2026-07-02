@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
+import MainLayout from "./layouts/MainLayout";
 import Error from "./assets/components/Utilities/Error";
 import Home from "./assets/components/Route Components/HomeRoute/HomeRoute";
 import StudentRegistrationForm from "./assets/components/Utilities/Form/Internshipform";
@@ -25,7 +26,8 @@ const App = () => {
         <>
             <ScrollToTop />
             <Routes>
-                <Route path="/" element={<Home />} />
+                <Route element={<MainLayout />}>
+                    <Route path="/" element={<Home />} />
                 <Route path="/GetInvolved" element={<GetInvolved />} />
                 <Route path="/workdone/washSector" element={<WashSector />} />
                 <Route path="/gallery" element={<Gallery />} />
@@ -70,6 +72,7 @@ const App = () => {
                     path="/GetInvolved/Internship"
                     element={<StudentRegistrationForm />}
                 />
+                </Route>
             </Routes>
         </>
     );

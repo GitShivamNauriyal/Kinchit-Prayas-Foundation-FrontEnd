@@ -5,10 +5,8 @@ import Footer from '../../Utilities/Common Utilities/Footer'
 const EqualityAwarenessRoute = () => {
   return (
     <>
-    <Navbar/>
-    <EqualityAwareness/>
-    <Footer/>
-    </>
+        <EqualityAwareness/>
+        </>
   )
 }
 

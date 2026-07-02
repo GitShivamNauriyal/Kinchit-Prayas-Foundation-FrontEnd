@@ -1,24 +1,24 @@
 import React from "react";
 import "../../../css/FlagshipEventCss/EqualityAwareness.css";
 import "react-multi-carousel/lib/styles.css";
-import BannerImage2 from "../../../../Image/Flagship/EqualityAwareness/Carousel1.jpg";
-import BannerImage5 from "../../../../Image/Flagship/EqualityAwareness/Carousel2.jpg";
-import BannerImage3 from "../../../../Image/Flagship/EqualityAwareness/Carousel3.jpg";
-import BannerImage4 from "../../../../Image/Flagship/EqualityAwareness/Carousel4.jpg";
-import BannerImage1 from "../../../../Image/Flagship/EqualityAwareness/Equality1.jpg";
-import Section3Image from "../../../../Image/Flagship/EqualityAwareness/Section3.jpg";
-import Section3Image1 from "../../../../Image/Flagship/EqualityAwareness/Section3.1.jpg";
-import Section3Image2 from "../../../../Image/Flagship/EqualityAwareness/Section3.2.jpg";
-import Section5Image from "../../../../Image/Flagship/EqualityAwareness/Section5.jpg";
-import Section6Image1 from "../../../../Image/Flagship/EqualityAwareness/Section6.1.jpg";
-import Section6Image2 from "../../../../Image/Flagship/EqualityAwareness/Section6.2.jpg";
-import Section6Image3 from "../../../../Image/Flagship/EqualityAwareness/Section6.3.jpg";
-import Section7Image1 from "../../../../Image/Flagship/EqualityAwareness/Section7.1.jpg";
-import Section7Image2 from "../../../../Image/Flagship/EqualityAwareness/Section7.2.jpg";
-import Section7Image3 from "../../../../Image/Flagship/EqualityAwareness/Section7.3.jpg";
-import Section7Image4 from "../../../../Image/Flagship/EqualityAwareness/Section7.4.jpg";
-import Section7Image5 from "../../../../Image/Flagship/EqualityAwareness/Section7.5.jpg";
-import Section7Image6 from "../../../../Image/Flagship/EqualityAwareness/Section7.6.jpg";
+import BannerImage2 from "../../../../assets/images/Flagship/EqualityAwareness/Carousel1.jpg";
+import BannerImage5 from "../../../../assets/images/Flagship/EqualityAwareness/Carousel2.jpg";
+import BannerImage3 from "../../../../assets/images/Flagship/EqualityAwareness/Carousel3.jpg";
+import BannerImage4 from "../../../../assets/images/Flagship/EqualityAwareness/Carousel4.jpg";
+import BannerImage1 from "../../../../assets/images/Flagship/EqualityAwareness/Equality1.jpg";
+import Section3Image from "../../../../assets/images/Flagship/EqualityAwareness/Section3.jpg";
+import Section3Image1 from "../../../../assets/images/Flagship/EqualityAwareness/Section3.1.jpg";
+import Section3Image2 from "../../../../assets/images/Flagship/EqualityAwareness/Section3.2.jpg";
+import Section5Image from "../../../../assets/images/Flagship/EqualityAwareness/Section5.jpg";
+import Section6Image1 from "../../../../assets/images/Flagship/EqualityAwareness/Section6.1.jpg";
+import Section6Image2 from "../../../../assets/images/Flagship/EqualityAwareness/Section6.2.jpg";
+import Section6Image3 from "../../../../assets/images/Flagship/EqualityAwareness/Section6.3.jpg";
+import Section7Image1 from "../../../../assets/images/Flagship/EqualityAwareness/Section7.1.jpg";
+import Section7Image2 from "../../../../assets/images/Flagship/EqualityAwareness/Section7.2.jpg";
+import Section7Image3 from "../../../../assets/images/Flagship/EqualityAwareness/Section7.3.jpg";
+import Section7Image4 from "../../../../assets/images/Flagship/EqualityAwareness/Section7.4.jpg";
+import Section7Image5 from "../../../../assets/images/Flagship/EqualityAwareness/Section7.5.jpg";
+import Section7Image6 from "../../../../assets/images/Flagship/EqualityAwareness/Section7.6.jpg";
 
 import Carousel from "react-multi-carousel";
 import AOS from "aos";
@@ -70,19 +70,19 @@ const EqualityAwareness = () => {
                     // itemClass="carousel-item-padding-40-px"
                 >
                     <div className="Seminars-banner">
-                        <img src={BannerImage1} alt="not loaded" />
+                        <img loading="lazy" src={BannerImage1} alt="not loaded" />
                     </div>
                     <div className="Seminars-banner">
-                        <img src={BannerImage2} alt="not loaded" />
+                        <img loading="lazy" src={BannerImage2} alt="not loaded" />
                     </div>
                     <div className="Seminars-banner">
-                        <img src={BannerImage3} alt="not loaded" />
+                        <img loading="lazy" src={BannerImage3} alt="not loaded" />
                     </div>
                     <div className="Seminars-banner">
-                        <img src={BannerImage4} alt="not loaded" />
+                        <img loading="lazy" src={BannerImage4} alt="not loaded" />
                     </div>
                     <div className="Seminars-banner">
-                        <img src={BannerImage5} alt="not loaded" />
+                        <img loading="lazy" src={BannerImage5} alt="not loaded" />
                     </div>
                 </Carousel>
             </div>
@@ -106,7 +106,7 @@ const EqualityAwareness = () => {
                     className="seminars-page-section5-image"
                     data-aos="fade-left"
                 >
-                    <img src={Section5Image} alt="not loaded" />
+                    <img loading="lazy" src={Section5Image} alt="not loaded" />
                 </div>
                 <div
                     className="seminars-page-section-description"
@@ -138,7 +138,7 @@ const EqualityAwareness = () => {
                         className="seminars-page-grid-content"
                         data-aos="fade-right"
                     >
-                        <img src={Section6Image1} alt="not loaded" />
+                        <img loading="lazy" src={Section6Image1} alt="not loaded" />
                         <p>
                             Panel discussions and keynote speeches centered on
                             the theme of gender equality, highlighting the
@@ -150,7 +150,7 @@ const EqualityAwareness = () => {
                         className="seminars-page-grid-content"
                         data-aos="fade-up"
                     >
-                        <img src={Section6Image2} alt="not loaded" />
+                        <img loading="lazy" src={Section6Image2} alt="not loaded" />
                         <p>
                             Women change-makers shared their inspiring journeys
                             and experiences, underscoring the importance of
@@ -162,7 +162,7 @@ const EqualityAwareness = () => {
                         className="seminars-page-grid-content"
                         data-aos="fade-left"
                     >
-                        <img src={Section6Image3} alt="not loaded" />
+                        <img loading="lazy" src={Section6Image3} alt="not loaded" />
                         <p>
                             Notable women leaders and activists were recognized
                             and appreciated for their significant contributions
@@ -204,14 +204,14 @@ const EqualityAwareness = () => {
                     className="seminars-page-section3-image"
                     data-aos="fade-left"
                 >
-                    <img src={Section3Image} alt="not loaded" />
+                    <img loading="lazy" src={Section3Image} alt="not loaded" />
                 </div>
                 <div className="seminars-page-section-description">
                     <div
                         className="seminars-page-section3-image"
                         data-aos="fade-left"
                     >
-                        <img src={Section3Image1} alt="not loaded" />
+                        <img loading="lazy" src={Section3Image1} alt="not loaded" />
                     </div>
                 </div>
                 <div className="seminars-page-paragraph" data-aos="fade-right">
@@ -243,7 +243,7 @@ const EqualityAwareness = () => {
                     className="seminars-page-Section3-LogoImage"
                     data-aos="fade-left"
                 >
-                    <img src={Section3Image2} alt="not loaded" />
+                    <img loading="lazy" src={Section3Image2} alt="not loaded" />
                 </div>
             </div>
 
@@ -276,37 +276,37 @@ const EqualityAwareness = () => {
                     A Quick Glance
                 </h2>
                 <div className="seminars-page-grid-gallery">
-                    <img
+                    <img loading="lazy"
                         src={Section7Image1}
                         alt="not loaded"
                         data-aos="fade-up"
                         data-aos-duration="2500"
                     />
-                    <img
+                    <img loading="lazy"
                         src={Section7Image2}
                         alt="not loaded"
                         data-aos="fade-up"
                         data-aos-duration="2500"
                     />
-                    <img
+                    <img loading="lazy"
                         src={Section7Image3}
                         alt="not loaded"
                         data-aos="fade-up"
                         data-aos-duration="2500"
                     />
-                    <img
+                    <img loading="lazy"
                         src={Section7Image4}
                         alt="not loaded"
                         data-aos="fade-up"
                         data-aos-duration="2500"
                     />
-                    <img
+                    <img loading="lazy"
                         src={Section7Image5}
                         alt="not loaded"
                         data-aos="fade-up"
                         data-aos-duration="2500"
                     />
-                    <img
+                    <img loading="lazy"
                         src={Section7Image6}
                         alt="not loaded"
                         data-aos="fade-up"

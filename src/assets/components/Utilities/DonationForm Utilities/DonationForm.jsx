@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "../../../css/DonationFormCss/DonationForm.css";
 import axios from "axios";
-import KinchitLogo from "../../../../Image/kinchitLogo.png";
+import KinchitLogo from "../../../../assets/images/kinchitLogo.png";
+import termsAndConditions from "../../../pdfs/Term&ConditionsKPF.pdf";
+import refundPolicy from "../../../pdfs/CancellationandRefundPolicyKPF.pdf";
 import { PulseLoader } from "react-spinners";
 
 const DonationForm = ({ closeOpen }) => {
@@ -68,7 +70,7 @@ const DonationForm = ({ closeOpen }) => {
     const DonationData = async () => {
         try {
             const response = await axios.post(
-                "https://api.kinchitprayas.org/api/",
+                "https://api.kinchitprayas.org/api/donations/store",
                 {
                     FirstName: formInputs.fName,
                     LastName: formInputs.lName,
@@ -100,7 +102,7 @@ const DonationForm = ({ closeOpen }) => {
 
         try {
             const orderResponse = await axios.post(
-                "https://api.kinchitprayas.org/api/",
+                "https://api.kinchitprayas.org/api/payment/order",
                 {
                     amount,
                     currency,
@@ -123,7 +125,7 @@ const DonationForm = ({ closeOpen }) => {
 
                     try {
                         const validateResponse = await axios.post(
-                            "https://api.kinchitprayas.org/api/",
+                            "https://api.kinchitprayas.org/api/donations/store",
                             body
                         );
 
@@ -194,6 +196,9 @@ const DonationForm = ({ closeOpen }) => {
                                 : "non-visible-Form-Container"
                         }
                     >
+                        <button className="close-button" onClick={closeOpen}>
+                            &times;
+                        </button>
                         <div className="heading-container">
                             <h2>Donation Form</h2>
                             <p>Donating small amount can make someone happy</p>
@@ -277,8 +282,25 @@ const DonationForm = ({ closeOpen }) => {
                             </div>
                             <p>
                                 By donating, you agree to our{" "}
-                                <span className="blue">terms of service</span>{" "}
-                                and <span className="blue">privacy policy</span>
+                                <span className="blue">
+                                    <a
+                                        href={termsAndConditions}
+                                        target="blank"
+                                        alt="terms and conditions link"
+                                    >
+                                        terms and conditions
+                                    </a>
+                                </span>{" "}
+                                and{" "}
+                                <span className="blue">
+                                    <a
+                                        href={refundPolicy}
+                                        target="blank"
+                                        alt="policy link"
+                                    >
+                                        refund policy.
+                                    </a>
+                                </span>
                             </p>
                         </form>
                     </div>
