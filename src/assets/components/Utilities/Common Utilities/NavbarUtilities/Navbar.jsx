@@ -126,153 +126,151 @@ const Navbar = () => {
                             animate={isMobile ? { height: "auto", opacity: 1 } : false}
                             exit={isMobile ? { height: 0, opacity: 0 } : false}
                             transition={{ duration: 0.3, ease: "easeInOut" }}
-                            style={{ overflow: "hidden" }}
+                            style={{ overflow: isMobile ? "hidden" : "visible" }}
                         >
                             <ul className="nav-links" onClick={closeMobileMenu}>
-                        <li className="nav-link-item">
-                            <Link to="/">Home</Link>
-                        </li>
+                                <li className="nav-link-item">
+                                    <Link to="/">Home</Link>
+                                </li>
 
-                        <li className="nav-link-item a-elements-navbar">
-                            <Link to="/Affilation">Affiliations</Link>
-                        </li>
-                        <li
-                            className="nav-link-item a-elements-navbar"
-                            onMouseEnter={() => handleMouseEnter("ourWorks")}
-                            onMouseLeave={() => handleMouseLeave("ourWorks")}
-                            onClick={(e) => handleDropdownClick("ourWorks", e)}
-                        >
-                            <Link to="">
-                                Our Works
-                                <MdExpandMore
-                                    className={`arrow-button-icon ${
-                                        dropdowns.ourWorks ? "rotate-btn-icon" : ""
-                                    }`}
-                                />
-                            </Link>
-                            <AnimatePresence>
-                                {dropdowns.ourWorks && (
-                                    <motion.ul 
-                                        className="dropdown" 
-                                        onClick={(e) => { e.stopPropagation(); closeMobileMenu(); }}
-                                        initial={{ opacity: 0, height: 0 }}
-                                        animate={{ opacity: 1, height: "auto" }}
-                                        exit={{ opacity: 0, height: 0 }}
-                                        transition={{ duration: 0.25, ease: "easeInOut" }}
-                                        style={{ overflow: "hidden" }}
-                                    >
-                                        <li className="element-dropdown">
-                                            <Link to="/workdone/skillingCommunity">
-                                                Skilling Community
-                                            </Link>
-                                        </li>
-                                        <li className="element-dropdown">
-                                            <Link to="/workdone/washSector">
-                                                Wash Sector
-                                            </Link>
-                                        </li>
-                                        <li className="element-dropdown">
-                                            <Link to="/work/CSR">
-                                                CSR Activities
-                                            </Link>
-                                        </li>
-                                        <li className="element-dropdown">
-                                            <Link to="/work/ConservationandCulture">
-                                                Conservation and Culture
-                                            </Link>
-                                        </li>
-                                        <li className="element-dropdown">
-                                            <Link to="/work/Grampanchayat">
-                                                SDGs Localisation
-                                            </Link>
-                                        </li>
-                                    </motion.ul>
-                                )}
-                            </AnimatePresence>
-                        </li>
-                        <li
-                            className="nav-link-item a-elements-navbar"
-                            onMouseEnter={() =>
-                                handleMouseEnter("flagshipEvents")
-                            }
-                            onMouseLeave={() =>
-                                handleMouseLeave("flagshipEvents")
-                            }
-                            onClick={(e) =>
-                                handleDropdownClick("flagshipEvents", e)
-                            }
-                        >
-                            <Link to="">
-                                Flagship Events
-                                <MdExpandMore
-                                    className={`arrow-button-icon ${
-                                        dropdowns.flagshipEvents ? "rotate-btn-icon" : ""
-                                    }`}
-                                />
-                            </Link>
-                            <AnimatePresence>
-                                {dropdowns.flagshipEvents && (
-                                    <motion.ul 
-                                        className="dropdown" 
-                                        onClick={(e) => { e.stopPropagation(); closeMobileMenu(); }}
-                                        initial={{ opacity: 0, height: 0 }}
-                                        animate={{ opacity: 1, height: "auto" }}
-                                        exit={{ opacity: 0, height: 0 }}
-                                        transition={{ duration: 0.25, ease: "easeInOut" }}
-                                        style={{ overflow: "hidden" }}
-                                    >
-                                        <li className="element-dropdown">
-                                            <Link to="/FlagShipEvents/UttarakhandMahotsav">
-                                                Uttarakhand Mahotsav
-                                            </Link>
-                                        </li>
-                                        <li className="element-dropdown">
-                                            <Link to="/FlagShipEvents/UttrakhandDevelopmentExibition">
-                                                Uttrakhand Development Exhibition
-                                            </Link>
-                                        </li>
-                                        <li className="element-dropdown">
-                                            <Link to="/FlagShipEvents/EqualityAwareness">
-                                                Seminars and Workshops
-                                            </Link>
-                                        </li>
-                                        <li className="element-dropdown">
-                                            <Link to="/FlagShipEvents/StudentCentricActivities">
-                                                Student Centric Activities
-                                            </Link>
-                                        </li>
-                                        <li className="element-dropdown">
-                                            <Link to="/FlagShipEvents/EarthDay">
-                                                Earth Day
-                                            </Link>
-                                        </li>
-                                    </motion.ul>
-                                )}
-                            </AnimatePresence>
-                        </li>
-                        <li className="nav-link-item">
-                            <Link to="/GetInvolved">Get Involved</Link>
-                        </li>
-                        <li className="nav-link-item">
-                            <Link to="/Team/OurFounder">Our Founder</Link>
-                        </li>
-                        <li className="nav-link-item a-elements-navbar">
-                            <Link to="/JABRAC">JBARC</Link>
-                        </li>
-                        <li className="nav-link-item a-elements-navbar">
-                            <Link to="/gallery">Gallery</Link>
-                        </li>
-                        <li className="nav-link-item a-elements-navbar ">
-                            <div className="mobile-support-button">
-                                <div
-                                    className="supportbar"
-                                    onClick={toggleFormVisibility}
+                                <li className="nav-link-item a-elements-navbar">
+                                    <Link to="/Affilation">Affiliations</Link>
+                                </li>
+                                <li
+                                    className="nav-link-item a-elements-navbar"
+                                    onMouseEnter={() => handleMouseEnter("ourWorks")}
+                                    onMouseLeave={() => handleMouseLeave("ourWorks")}
+                                    onClick={(e) => handleDropdownClick("ourWorks", e)}
                                 >
-                                    <Link to="">Support Us</Link>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+                                    <Link to="">
+                                        Our Works
+                                        <MdExpandMore
+                                            className={`arrow-button-icon ${dropdowns.ourWorks ? "rotate-btn-icon" : ""
+                                                }`}
+                                        />
+                                    </Link>
+                                    <AnimatePresence>
+                                        {dropdowns.ourWorks && (
+                                            <motion.ul
+                                                className="dropdown"
+                                                onClick={(e) => { e.stopPropagation(); closeMobileMenu(); }}
+                                                initial={{ opacity: 0, height: 0 }}
+                                                animate={{ opacity: 1, height: "auto" }}
+                                                exit={{ opacity: 0, height: 0 }}
+                                                transition={{ duration: 0.25, ease: "easeInOut" }}
+                                                style={{ overflow: "hidden" }}
+                                            >
+                                                <li className="element-dropdown">
+                                                    <Link to="/workdone/skillingCommunity">
+                                                        Skilling Community
+                                                    </Link>
+                                                </li>
+                                                <li className="element-dropdown">
+                                                    <Link to="/workdone/washSector">
+                                                        Wash Sector
+                                                    </Link>
+                                                </li>
+                                                <li className="element-dropdown">
+                                                    <Link to="/work/CSR">
+                                                        CSR Activities
+                                                    </Link>
+                                                </li>
+                                                <li className="element-dropdown">
+                                                    <Link to="/work/ConservationandCulture">
+                                                        Conservation and Culture
+                                                    </Link>
+                                                </li>
+                                                <li className="element-dropdown">
+                                                    <Link to="/work/Grampanchayat">
+                                                        SDGs Localisation
+                                                    </Link>
+                                                </li>
+                                            </motion.ul>
+                                        )}
+                                    </AnimatePresence>
+                                </li>
+                                <li
+                                    className="nav-link-item a-elements-navbar"
+                                    onMouseEnter={() =>
+                                        handleMouseEnter("flagshipEvents")
+                                    }
+                                    onMouseLeave={() =>
+                                        handleMouseLeave("flagshipEvents")
+                                    }
+                                    onClick={(e) =>
+                                        handleDropdownClick("flagshipEvents", e)
+                                    }
+                                >
+                                    <Link to="">
+                                        Flagship Events
+                                        <MdExpandMore
+                                            className={`arrow-button-icon ${dropdowns.flagshipEvents ? "rotate-btn-icon" : ""
+                                                }`}
+                                        />
+                                    </Link>
+                                    <AnimatePresence>
+                                        {dropdowns.flagshipEvents && (
+                                            <motion.ul
+                                                className="dropdown"
+                                                onClick={(e) => { e.stopPropagation(); closeMobileMenu(); }}
+                                                initial={{ opacity: 0, height: 0 }}
+                                                animate={{ opacity: 1, height: "auto" }}
+                                                exit={{ opacity: 0, height: 0 }}
+                                                transition={{ duration: 0.25, ease: "easeInOut" }}
+                                                style={{ overflow: "hidden" }}
+                                            >
+                                                <li className="element-dropdown">
+                                                    <Link to="/FlagShipEvents/UttarakhandMahotsav">
+                                                        Uttarakhand Mahotsav
+                                                    </Link>
+                                                </li>
+                                                <li className="element-dropdown">
+                                                    <Link to="/FlagShipEvents/UttrakhandDevelopmentExibition">
+                                                        Uttrakhand Development Exhibition
+                                                    </Link>
+                                                </li>
+                                                <li className="element-dropdown">
+                                                    <Link to="/FlagShipEvents/EqualityAwareness">
+                                                        Seminars and Workshops
+                                                    </Link>
+                                                </li>
+                                                <li className="element-dropdown">
+                                                    <Link to="/FlagShipEvents/StudentCentricActivities">
+                                                        Student Centric Activities
+                                                    </Link>
+                                                </li>
+                                                <li className="element-dropdown">
+                                                    <Link to="/FlagShipEvents/EarthDay">
+                                                        Earth Day
+                                                    </Link>
+                                                </li>
+                                            </motion.ul>
+                                        )}
+                                    </AnimatePresence>
+                                </li>
+                                <li className="nav-link-item">
+                                    <Link to="/GetInvolved">Get Involved</Link>
+                                </li>
+                                <li className="nav-link-item">
+                                    <Link to="/Team/OurFounder">Our Founder</Link>
+                                </li>
+                                <li className="nav-link-item a-elements-navbar">
+                                    <Link to="/JABRAC">JBARC</Link>
+                                </li>
+                                <li className="nav-link-item a-elements-navbar">
+                                    <Link to="/gallery">Gallery</Link>
+                                </li>
+                                <li className="nav-link-item a-elements-navbar ">
+                                    <div className="mobile-support-button">
+                                        <div
+                                            className="supportbar"
+                                            onClick={toggleFormVisibility}
+                                        >
+                                            <Link to="">Support Us</Link>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
                         </motion.div>
                     )}
                 </AnimatePresence>
