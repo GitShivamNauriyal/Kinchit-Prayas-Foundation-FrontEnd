@@ -130,7 +130,7 @@ const Navbar = () => {
                                 />
                             </Link>
                             {dropdowns.ourWorks && (
-                                <ul className="dropdown">
+                                <ul className="dropdown" onClick={(e) => { e.stopPropagation(); closeMobileMenu(); }}>
                                     <li className="element-dropdown">
                                         <Link to="/workdone/skillingCommunity">
                                             Skilling Community
@@ -180,7 +180,7 @@ const Navbar = () => {
                                 />
                             </Link>
                             {dropdowns.flagshipEvents && (
-                                <ul className="dropdown">
+                                <ul className="dropdown" onClick={(e) => { e.stopPropagation(); closeMobileMenu(); }}>
                                     <li className="element-dropdown">
                                         <Link to="/FlagShipEvents/UttarakhandMahotsav">
                                             Uttarakhand Mahotsav
