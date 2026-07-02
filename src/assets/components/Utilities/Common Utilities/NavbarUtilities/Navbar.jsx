@@ -142,13 +142,13 @@ const Navbar = () => {
                                     onMouseLeave={() => handleMouseLeave("ourWorks")}
                                     onClick={(e) => handleDropdownClick("ourWorks", e)}
                                 >
-                                    <Link to="">
+                                    <a style={{ cursor: 'pointer' }} onClick={(e) => e.preventDefault()}>
                                         Our Works
                                         <MdExpandMore
                                             className={`arrow-button-icon ${dropdowns.ourWorks ? "rotate-btn-icon" : ""
                                                 }`}
                                         />
-                                    </Link>
+                                    </a>
                                     <AnimatePresence>
                                         {dropdowns.ourWorks && (
                                             <motion.ul
@@ -201,13 +201,13 @@ const Navbar = () => {
                                         handleDropdownClick("flagshipEvents", e)
                                     }
                                 >
-                                    <Link to="">
+                                    <a style={{ cursor: 'pointer' }} onClick={(e) => e.preventDefault()}>
                                         Flagship Events
                                         <MdExpandMore
                                             className={`arrow-button-icon ${dropdowns.flagshipEvents ? "rotate-btn-icon" : ""
                                                 }`}
                                         />
-                                    </Link>
+                                    </a>
                                     <AnimatePresence>
                                         {dropdowns.flagshipEvents && (
                                             <motion.ul
