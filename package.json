@@ -16,6 +16,7 @@
     "@tailwindcss/vite": "^4.3.2",
     "aos": "^2.3.4",
     "axios": "^1.6.8",
+    "motion": "^12.42.2",
     "razorpay": "^2.9.4",
     "react": "^18.2.0",
     "react-awesome-slider": "^4.1.0",

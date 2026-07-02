@@ -204,7 +204,7 @@ a:hover {
     .main-nav {
         padding: 0;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
     }
     .onhamClick {
         width: 100%;
@@ -295,15 +295,13 @@ a:hover {
 }
 
 @media screen and (max-width: 550px) {
-    .main-nav {
-        height: 5.5rem;
-    }
     .onhamClick {
-        padding: 0.5rem 0 0 0;
+        padding: 0;
     }
     .logo-hamburger {
         display: grid;
         width: 100%;
+        height: 5.5rem;
         grid-template-columns: 5rem 1fr 4rem;
         place-items: center;
     }
